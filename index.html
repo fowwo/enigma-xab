@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X, A, or B?</title>
+	<meta name="author" content="fowwo">
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script type="text/javascript" src="index.js"></script>
+<body>
+	<div class="background"></div>
+	<h1 id="heading"><span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span>?</h1>
+	<table id="leaderboard" class="center">
+		<tr>
+			<th>#</th>
+			<th>Name</th>
+			<th class="clickable" onclick="sort(scores, 'wins')">Wins</th>
+			<th class="clickable" onclick="sort(scores, 'total')">Total</th>
+			<th class="clickable" onclick="sort(scores, 'percentage', false, true)">Accuracy</th>
+			<th class="clickable" onclick="sort(scores, 'x')" style="color: #acf">X</th>
+			<th class="clickable" onclick="sort(scores, 'a')" style="color: #afa">A</th>
+			<th class="clickable" onclick="sort(scores, 'b')" style="color: #faa">B</th>
+		</tr>
+		<tr>
+			<th style="color: #cdf5;">-</th>
+			<th style="color: #cdf5;">--------------------</th>
+			<th style="text-align: center; color: #cdf5;">----</th>
+			<th style="text-align: center; color: #cdf5;">----</th>
+			<th style="text-align: center; color: #cdf5;">------</th>
+			<th style="text-align: center; color: #cdf5;">--</th>
+			<th style="text-align: center; color: #cdf5;">--</th>
+			<th style="text-align: center; color: #cdf5;">--</th>
+		</tr>
+	</table>
+</body>
+</html>
