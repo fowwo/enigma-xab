@@ -11,28 +11,34 @@
 <script type="text/javascript" src="index.js"></script>
 <body>
 	<div class="background"></div>
-	<h1 id="heading"><span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span>?</h1>
-	<table id="leaderboard" class="center">
-		<tr>
-			<th>#</th>
-			<th>Name</th>
-			<th class="clickable" onclick="sort(scores, 'wins')">Wins</th>
-			<th class="clickable" onclick="sort(scores, 'total')">Total</th>
-			<th class="clickable" onclick="sort(scores, 'percentage', false, true)">Accuracy</th>
-			<th class="clickable" onclick="sort(scores, 'x')" style="color: #acf">X</th>
-			<th class="clickable" onclick="sort(scores, 'a')" style="color: #afa">A</th>
-			<th class="clickable" onclick="sort(scores, 'b')" style="color: #faa">B</th>
-		</tr>
-		<tr>
-			<th style="color: #cdf5;">-</th>
-			<th style="color: #cdf5;">--------------------</th>
-			<th style="text-align: center; color: #cdf5;">----</th>
-			<th style="text-align: center; color: #cdf5;">----</th>
-			<th style="text-align: center; color: #cdf5;">------</th>
-			<th style="text-align: center; color: #cdf5;">--</th>
-			<th style="text-align: center; color: #cdf5;">--</th>
-			<th style="text-align: center; color: #cdf5;">--</th>
-		</tr>
-	</table>
+	<div style="display: flex; padding: 0 10px">
+		<div class="sidebox" style="visibility: hidden;"></div>
+		<div style="flex-grow: 1;">
+			<h1 id="heading"><span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span>?</h1>
+			<table id="leaderboard" class="center">
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th class="clickable" onclick="sort(scores, 'wins')">Wins</th>
+					<th class="clickable" onclick="sort(scores, 'total')">Total</th>
+					<th class="clickable" onclick="sort(scores, 'percentage', false, true)">Accuracy</th>
+					<th class="clickable" onclick="sort(scores, 'x')" style="color: #acf">X</th>
+					<th class="clickable" onclick="sort(scores, 'a')" style="color: #afa">A</th>
+					<th class="clickable" onclick="sort(scores, 'b')" style="color: #faa">B</th>
+				</tr>
+				<tr>
+					<th style="color: #cdf5;">-</th>
+					<th style="color: #cdf5;">--------------------</th>
+					<th style="text-align: center; color: #cdf5;">----</th>
+					<th style="text-align: center; color: #cdf5;">----</th>
+					<th style="text-align: center; color: #cdf5;">------</th>
+					<th style="text-align: center; color: #cdf5;">--</th>
+					<th style="text-align: center; color: #cdf5;">--</th>
+					<th style="text-align: center; color: #cdf5;">--</th>
+				</tr>
+			</table>
+		</div>
+		<div class="sidebox" style="visibility: hidden;"></div>
+	</div>
 </body>
 </html>
