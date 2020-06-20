@@ -30,7 +30,7 @@ table#leaderboard:hover {
 }
 table#leaderboard tr:hover td {
 	color: #fff;
-	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
+	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 }
 table#leaderboard tr:nth-child(odd) {
 	background-color: #0003;
