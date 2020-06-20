@@ -62,7 +62,18 @@ function sort(list, type, reverse = false, filter = false) {
 			rank = i + 1;
 		}
 		cell.innerHTML = rank;
-		cell.style = "text-align: center;";
+		if (rank === 1) {
+			cell.style = "text-align: center; color: #fc0; text-shadow: 0 0 10px #fc0, 0 0 10px #fc0, 0 0 10px #fc0;";
+			row.style = "background-color: #fc04;";
+		} else if (rank === 2) {
+			cell.style = "text-align: center; color: #ddd; text-shadow: 0 0 10px #ddd, 0 0 10px #ddd, 0 0 10px #ddd;";
+			row.style = "background-color: #ddd3;";
+		} else if (rank === 3) {
+			cell.style = "text-align: center; color: #d70; text-shadow: 0 0 10px #d70, 0 0 10px #d70, 0 0 10px #d70;";
+			row.style = "background-color: #d702;";
+		} else {
+			cell.style = "text-align: center;";
+		}
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
