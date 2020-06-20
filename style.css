@@ -25,6 +25,14 @@ div.sidebox {
 	background-color: #0006;
 	box-shadow: 0 0 100px var(--enigma-purple);
 }
+h1 {
+	font-family: 'Covered By Your Grace', cursive;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100px;
+	margin: 20px;
+}
 table.center {
 	margin-left: auto; 
 	margin-right: auto;
@@ -46,19 +54,11 @@ table#leaderboard tr:nth-child(odd) {
 table#leaderboard tr:nth-child(even) {
 	background-color: #0008;
 }
-th {
-	padding: 15px;
-}
 td {
 	padding: 0 15px;
 }
-h1 {
-	font-family: 'Covered By Your Grace', cursive;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	font-size: 100px;
-	margin: 20px;
+th {
+	padding: 15px;
 }
 .clickable:hover {
 	cursor: pointer;
