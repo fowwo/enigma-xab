@@ -33,6 +33,14 @@ h1 {
 	font-size: 100px;
 	margin: 20px;
 }
+h2 {
+	font-family: 'Covered By Your Grace', cursive;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 50px;
+	margin: 0;
+}
 table.center {
 	margin-left: auto; 
 	margin-right: auto;
