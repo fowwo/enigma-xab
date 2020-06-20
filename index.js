@@ -26,21 +26,19 @@ function sort(list, type, reverse = false, filter = false) {
 
 	if (filter) list = list.filter((a) => { return a.guesses.x + a.guesses.a + a.guesses.b >= 10; });
 
+	var comparator;
 	if (type == "percentage") {
-		list.sort((a, b) => (compareByPercentage(a, b) === 0 ? compareByName(a, b) : compareByPercentage(a, b)) * (reverse ? -1 : 1));
+		comparator = compareByPercentage;
 	} else if (type == "wins") {
-		list.sort((a, b) => (compareByWins(a, b) === 0 ? compareByName(a, b) : compareByWins(a, b)) * (reverse ? -1 : 1));
+		comparator = compareByWins;
 	} else if (type == "total") {
-		list.sort((a, b) => (compareByTotal(a, b) === 0 ? compareByName(a, b) : compareByTotal(a, b)) * (reverse ? -1 : 1));
-	} else if (type == "x") {
-		list.sort((a, b) => (compareByGuess("x", a, b) === 0 ? compareByName(a, b) : compareByGuess("x", a, b)) * (reverse ? -1 : 1));
-	} else if (type == "a") {
-		list.sort((a, b) => (compareByGuess("a", a, b) === 0 ? compareByName(a, b) : compareByGuess("a", a, b)) * (reverse ? -1 : 1));
-	} else if (type == "b") {
-		list.sort((a, b) => (compareByGuess("b", a, b) === 0 ? compareByName(a, b) : compareByGuess("b", a, b)) * (reverse ? -1 : 1));
+		comparator = compareByTotal;
+	} else if (type == "x" || type == "a" || type == "b") {
+		comparator = compareByGuess;
 	} else {
-		list.sort((a, b) => compareByName(a, b) * (reverse ? -1 : 1));
+		comparator = compareByName;
 	}
+	list.sort((a, b) => (comparator(a, b, type) === 0 ? compareByName(a, b) : comparator(a, b, type)) * (reverse ? -1 : 1));
 
 	const table = document.getElementById("leaderboard");
 
