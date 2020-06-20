@@ -65,10 +65,8 @@ function sort(list, type, reverse = false, filter = false) {
 
 		cell = document.createElement("td");
 		cell.innerHTML = a.username;
-		if (a.guesses.x > a.guesses.a && a.guesses.x > a.guesses.b) cell.style = "text-align: left; color: var(--light-blue);";
-		else if (a.guesses.a > a.guesses.x && a.guesses.a > a.guesses.b) cell.style = "text-align: left; color: var(--light-green);";
-		else if (a.guesses.b > a.guesses.x && a.guesses.b > a.guesses.a) cell.style = "text-align: left; color: var(--light-red);";
-		else cell.style = "text-align: left; color: #ddd;";
+		let maxGuess = Math.max(a.guesses.x, a.guesses.a, a.guesses.b);
+		cell.style = `text-align: left; color: rgb(${Math.round(155 * a.guesses.b / maxGuess) + 100}, ${Math.round(155 * a.guesses.a / maxGuess) + 100}, ${Math.round(155 * a.guesses.x / maxGuess) + 100})`
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
