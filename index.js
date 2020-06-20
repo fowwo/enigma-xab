@@ -49,6 +49,7 @@ function sort(list, type, reverse = false, filter = false) {
 	var row;
 	var cell;
 
+	var rank = 1;
 	for (var i = 0; i < list.length; i++) {
 		let a = list[i];
 		let totalWins = a.wins.x + a.wins.a + a.wins.b;
@@ -57,7 +58,10 @@ function sort(list, type, reverse = false, filter = false) {
 		row = document.createElement("tr");
 
 		cell = document.createElement("td");
-		cell.innerHTML = i + 1;
+		if (i > 0 && comparator(list[i], list[i - 1], type) !== 0) {
+			rank = i + 1;
+		}
+		cell.innerHTML = rank;
 		cell.style = "text-align: center;";
 		row.appendChild(cell);
 
