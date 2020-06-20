@@ -27,17 +27,17 @@ function sort(list, type, reverse = false, filter = false) {
 	if (filter) list = list.filter((a) => { return a.guesses.x + a.guesses.a + a.guesses.b >= 10; });
 
 	if (type == "percentage") {
-		list.sort((a, b) => compareByPercentage(a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByPercentage(a, b) === 0 ? compareByName(a, b) : compareByPercentage(a, b)) * (reverse ? -1 : 1));
 	} else if (type == "wins") {
-		list.sort((a, b) => compareByWins(a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByWins(a, b) === 0 ? compareByName(a, b) : compareByWins(a, b)) * (reverse ? -1 : 1));
 	} else if (type == "total") {
-		list.sort((a, b) => compareByTotal(a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByTotal(a, b) === 0 ? compareByName(a, b) : compareByTotal(a, b)) * (reverse ? -1 : 1));
 	} else if (type == "x") {
-		list.sort((a, b) => compareByGuess("x", a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByGuess("x", a, b) === 0 ? compareByName(a, b) : compareByGuess("x", a, b)) * (reverse ? -1 : 1));
 	} else if (type == "a") {
-		list.sort((a, b) => compareByGuess("a", a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByGuess("a", a, b) === 0 ? compareByName(a, b) : compareByGuess("a", a, b)) * (reverse ? -1 : 1));
 	} else if (type == "b") {
-		list.sort((a, b) => compareByGuess("b", a, b) * (reverse ? -1 : 1));
+		list.sort((a, b) => (compareByGuess("b", a, b) === 0 ? compareByName(a, b) : compareByGuess("b", a, b)) * (reverse ? -1 : 1));
 	} else {
 		list.sort((a, b) => compareByName(a, b) * (reverse ? -1 : 1));
 	}
@@ -147,7 +147,7 @@ function compareByName(a, b) {
 function compareByWins(a, b) {
 	var x = a.wins.x + a.wins.a + a.wins.b;
 	var y = b.wins.x + b.wins.a + b.wins.b;
- 	return x > y ? -1 : x === y ? compareByName(a, b) : 1;
+ 	return x > y ? -1 : x === y ? 0 : 1;
 }
 
 /**
@@ -160,7 +160,7 @@ function compareByWins(a, b) {
 function compareByTotal(a, b) {
 	var x = a.guesses.x + a.guesses.a + a.guesses.b;
 	var y = b.guesses.x + b.guesses.a + b.guesses.b;
-	return x > y ? -1 : x === y ? compareByName(a, b) : 1;
+	return x > y ? -1 : x === y ? 0 : 1;
 }
 
 /**
@@ -171,5 +171,5 @@ function compareByTotal(a, b) {
  * @returns -1, 0, or 1.
  */
 function compareByGuess(guess, a, b) {
-	return a.guesses[guess] > b.guesses[guess] ? -1 : a.guesses[guess] === b.guesses[guess] ? compareByName(a, b) : 1;
+	return a.guesses[guess] > b.guesses[guess] ? -1 : a.guesses[guess] === b.guesses[guess] ? 0 : 1;
 }
