@@ -44,15 +44,6 @@ th {
 td {
 	padding: 0 15px;
 }
-header {
-	background: var(--enigma-purple);
-	box-shadow: 0 0 50px #000;
-}
-header::after {
-	content: "";
-	display: table;
-	clear: both;
-}
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
