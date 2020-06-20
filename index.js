@@ -168,8 +168,9 @@ function compareByTotal(a, b) {
  * 
  * @param a The score being compared from.
  * @param b The score being compared to.
+ * @param guess The guess to compare by (x, a, or b).
  * @returns -1, 0, or 1.
  */
-function compareByGuess(guess, a, b) {
+function compareByGuess(a, b, guess) {
 	return a.guesses[guess] > b.guesses[guess] ? -1 : a.guesses[guess] === b.guesses[guess] ? 0 : 1;
 }
