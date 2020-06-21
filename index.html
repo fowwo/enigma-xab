@@ -14,6 +14,22 @@
 	<div style="display: flex; padding: 0 10px">
 		<div class="sidebox">
 			<h2>stats</h2>
+			<ul style="list-style: none; margin: 0; padding: 0;">
+				<li>Rounds played: <span id="rounds-played">...</span></li>
+				<li>Total guesses: <span id="total-guesses">...</span></li>
+				<li><ul style="list-style: none; padding: 0 0 0 30px;">
+					<li><span style="color: var(--light-blue);">X</span> guesses: <span id="x-guesses" style="color: var(--light-blue);">...</span></li>
+					<li><span style="color: var(--light-green);">A</span> guesses: <span id="a-guesses" style="color: var(--light-green);">...</span></li>
+					<li><span style="color: var(--light-red);">B</span> guesses: <span id="b-guesses" style="color: var(--light-red);">...</span></li>
+				</ul>
+				<li>Total wins: <span id="total-wins">...</span></li>
+				<li>Longest <span style="color: var(--light-blue);">X</span> streak: <span id="x-streak" style="color: var(--light-blue);">...</span></li>
+				<li>Longest <span style="color: var(--light-green);">A</span> streak: <span id="a-streak" style="color: var(--light-green);">...</span></li>
+				<li>Longest <span style="color: var(--light-red);">B</span> streak: <span id="b-streak" style="color: var(--light-red);">...</span></li>
+				<li>Unique users: <span id="unique-users">...</span></li>
+				<li>Average accuracy: <span id="average-accuracy">...</span></li>
+				<li>Cumulative accuracy: <span id="cumulative-accuracy">...</span></li>
+			</ul>
 		</div>
 		<div style="flex-grow: 1;">
 			<h1 id="heading"><span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span>?</h1>
