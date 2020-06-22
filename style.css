@@ -41,6 +41,13 @@ h2 {
 	font-size: 50px;
 	margin: 0;
 }
+h3 {
+	font-family: 'Covered By Your Grace', cursive;
+	color: #fff;
+	text-decoration: none;
+	font-size: 35px;
+	margin: 0;
+}
 table.center {
 	margin-left: auto; 
 	margin-right: auto;
