@@ -5,6 +5,10 @@
 	--light-green: #afa;
 	--light-red: #faa;
 }
+b {
+	color: #fff;
+	text-shadow: 0 0 10px var(--enigma-purple);
+}
 body {
 	margin: 0;
 	color: var(--text-color);
