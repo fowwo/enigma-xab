@@ -53,6 +53,11 @@ h3 {
 	font-size: 35px;
 	margin: 0;
 }
+hr {
+	border-top: 2px solid #fff;
+	border-radius: 1px;
+	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
+}
 p {
 	margin: 0;
 	padding-left: 20px;
