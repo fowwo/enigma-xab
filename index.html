@@ -95,7 +95,7 @@
 		<div class="sidebox">
 			<h2>info</h2>
 			<ul style="list-style: none; margin: 0; padding: 0;">
-				<li><button class="dropdown clickable"><b>What the heck is this?</b></button>
+				<li><button class="dropdown clickable" id="description"><b>What the heck is this?</b></button>
 					<div class="dropdown-content"><p>This is a leaderboard for AnEternalEnigma's <span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span> game.
 					When Enigma runs Silent Hill: Homecoming, there is a point in the run where he must mash either <span style="color: var(--light-blue);">X</span>, <span style="color: var(--light-green);">A</span>, or <span style="color: var(--light-red);">B</span>, and the button is random each time so people in the chat make guesses on what the button will be.
 					Unless you are clairvoyant, there is no way to know what the button will be each time, so this leaderboard is mostly for jokes and for people to see how well (or bad) they've done.</p></div></li>
@@ -140,9 +140,9 @@
 		</div>
 	</div>
 	<script>
-		var acc = document.getElementsByClassName("dropdown");
-		for (var i = 0; i < acc.length; i++) {
-			acc[i].addEventListener("click", function() {
+		var dropdown = document.getElementsByClassName("dropdown");
+		for (var i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function() {
 				this.classList.toggle("dropdown-active");
 				let content = this.nextElementSibling;
 				let parent = this.parentElement;
@@ -161,6 +161,9 @@
 				} 
 			});
 		}
+		let description = document.getElementById("description");
+		description.classList.add("dropdown-active");
+		description.nextElementSibling.style.maxHeight = `${description.nextElementSibling.scrollHeight}px`;
 	</script>
 </body>
 </html>
