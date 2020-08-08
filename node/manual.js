@@ -17,7 +17,12 @@ const fetch = require("node-fetch");
 const twitchInfo = JSON.parse(fs.readFileSync("info.json"));
 var data = JSON.parse(fs.readFileSync("../data.json"));
 var temp = {};
-var manual = fs.readFileSync("manual.txt", "utf-8").split(/\r?\n/);
+
+if (process.argv.length !== 3) {
+	console.log("Missing file argument: node .\\manual.js <file>");
+	process.exit(0);
+}
+var manual = fs.readFileSync(process.argv[2], "utf-8").split(/\r?\n/);
 
 function mapUsersToID(users) {
 	const url = "https://api.twitch.tv/helix/users?";
