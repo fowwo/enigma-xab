@@ -62,18 +62,29 @@ function sort(list, type, reverse = false, filter = false) {
 	if (filter) list = list.filter((a) => { return a.guesses.x + a.guesses.a + a.guesses.b >= 10; });
 
 	var comparator;
-	if (type == "percentage") {
-		comparator = compareByPercentage;
-	} else if (type == "wins") {
-		comparator = compareByWins;
-	} else if (type == "total") {
-		comparator = compareByTotal;
-	} else if (type == "x" || type == "a" || type == "b") {
-		comparator = compareByGuess;
-	} else {
-		comparator = compareByName;
+	switch (type) {
+		case "wins":
+			comparator = compareByWins;
+			break;
+		case "total":
+			comparator = compareByTotal;
+			break;
+		case "percentage":
+			comparator = compareByPercentage;
+			break;
+		case "x":
+			comparator = compareByTotalX;
+			break;
+		case "a":
+			comparator = compareByTotalA;
+			break;
+		case "b":
+			comparator = compareByTotalB;
+			break;
+		default:
+			comparator = compareByName;
 	}
-	list.sort((a, b) => (comparator(a, b, type) === 0 ? compareByName(a, b) : comparator(a, b, type)) * (reverse ? -1 : 1));
+	list.sort((a, b) => (comparator(a, b) === 0 ? compareByName(a, b) : comparator(a, b)) * (reverse ? -1 : 1));
 
 	const table = document.getElementById("leaderboard");
 
@@ -220,13 +231,34 @@ function compareByTotal(a, b) {
 }
 
 /**
- * Compares scores by total number of a certain guess.
+ * Compares scores by total number of 'X' guesses.
  * 
  * @param a The score being compared from.
  * @param b The score being compared to.
- * @param guess The guess to compare by (x, a, or b).
  * @returns -1, 0, or 1.
  */
-function compareByGuess(a, b, guess) {
-	return a.guesses[guess] > b.guesses[guess] ? -1 : a.guesses[guess] === b.guesses[guess] ? 0 : 1;
+function compareByTotalX(a, b) {
+	return a.guesses.x > b.guesses.x ? -1 : a.guesses.x === b.guesses.x ? 0 : 1;
+}
+
+/**
+ * Compares scores by total number of 'A' guesses.
+ * 
+ * @param a The score being compared from.
+ * @param b The score being compared to.
+ * @returns -1, 0, or 1.
+ */
+function compareByTotalA(a, b) {
+	return a.guesses.a > b.guesses.a ? -1 : a.guesses.a === b.guesses.a ? 0 : 1;
+}
+
+/**
+ * Compares scores by total number of 'B' guesses.
+ * 
+ * @param a The score being compared from.
+ * @param b The score being compared to.
+ * @returns -1, 0, or 1.
+ */
+function compareByTotalB(a, b) {
+	return a.guesses.b > b.guesses.b ? -1 : a.guesses.b === b.guesses.b ? 0 : 1;
 }
