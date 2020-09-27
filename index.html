@@ -28,8 +28,36 @@
 				<li>Cumulative accuracy: <span id="cumulative-accuracy">...</span></li>
 			</ul>
 			<hr>
+			<h2>search</h2>
+			<form id="search-form" autocomplete="off" spellcheck="false">
+				<input id="search-input" placeholder="Type a username...">
+			</form>
+			<table id="search-table" class="center">
+				<tr>
+					<th>Name</th>
+					<th class="clickable" onclick="sort(scores, compareByWins)">Wins</th>
+					<th class="clickable" onclick="sort(scores, compareByTotal)">Total</th>
+					<th class="clickable" onclick="sort(scores, compareByPercentage, false, true)">Accuracy</th>
+					<th class="clickable" onclick="sort(scores, compareByTotalX)" style="color: var(--light-blue)">X</th>
+					<th class="clickable" onclick="sort(scores, compareByTotalA)" style="color: var(--light-green)">A</th>
+					<th class="clickable" onclick="sort(scores, compareByTotalB)" style="color: var(--light-red)">B</th>
+				</tr>
+				<tr id="search-results" style="text-align: center; opacity: 50%;">
+					<td id="search-name" style="text-align: left">-</td>
+					<td id="search-wins">-</td>
+					<td id="search-guesses">-</td>
+					<td id="search-accuracy">-</td>
+					<td id="search-guesses-x" style="color: var(--light-blue)">-</td>
+					<td id="search-guesses-a" style="color: var(--light-green)">-</td>
+					<td id="search-guesses-b" style="color: var(--light-red)">-</td>
+				</tr>
+			</table>
+			<hr>
 			<h2>changes</h2>
 			<ul style="list-style: none; margin: 0; padding: 0;">
+				<li><b>September 27th, 2020</b></li>
+				<li><ul style="list-style: none; padding-left: 1vw; font-size: 1vw;">
+					<li><span style="color: var(--light-green); padding-right: 0.25vw;">+</span>Added a search bar to easily find your own stats.</li></ul></li>
 				<li><b>June 26th, 2020</b></li>
 				<li><ul style="list-style: none; padding-left: 1vw; font-size: 1vw;">
 					<li><span style="color: var(--light-green); padding-right: 0.25vw;">+</span>Added a stream list.</li>
@@ -142,6 +170,7 @@
 			</ul>
 		</div>
 	</div>
+	<script src="search.js"></script>
 	<script src="dropdown.js"></script>
 </body>
 </html>
