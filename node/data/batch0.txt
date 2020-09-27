@@ -141,7 +141,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	124927424:x
 	123346187:x
 	121876364:X
-*   2mainz:b (name changed)
+	253176452:b
 	20717545:B
 	406515343:B
 	108005080:x
@@ -156,7 +156,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	125448412:b
 	52222489:B
 	28066875:B
-*   Ren3gade1672:X (name changed)
+	162101154:X
 	36471665:A
 	24057646:a
 	87450547:b
@@ -174,7 +174,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	32824754:a
 	104538958:B
 		A is the winner
-*   TrissMerigoldofMaribor:A (name changed)
+	99235398:A
 	44690546:X
 	73133253:A
 	24057646:b
@@ -213,7 +213,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	67860820:A
 	47142499:B
 	31619385:A
-*   battlextendency:X (name changed)
+	268194795:X
 	473939124:a
 	24057646:a
 	87450547:x
@@ -221,7 +221,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	46714809:B
 	39374924:A
 	44690546:X
-*   nosoyelwositoxd:B (name changed)
+	198457275:B
 	77617402:a
 	136295251:X
 	51198247:A
@@ -242,7 +242,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	37381615:x
 	490781967:B
 	26333485:X
-*   ksb361:x (name changed)
+	272118769:x
 		X is the winner
 	406515343:A
 	73261462:B
@@ -322,7 +322,7 @@ April 27th - *continuation of last stream after stream maintenance
 	36471665:X
 	103716231:B
 	144550422:B
-*   TrissMerigoldofMaribor:B (name changed)
+	99235398:B
 	144854911:x
 	39782104:x
 	39390330:B
@@ -386,7 +386,7 @@ April 27th - *continuation of last stream after stream maintenance
 	58520430:B
 	52779637:x
 	99101092:b
-*   KDragonPlays:A (name changed)
+	65652550:A
 	222815855:A
 	109553246:B
 	39782104:b
@@ -479,7 +479,7 @@ May 1st - SILENT HILL SPEEDRUNNING MINI-MARATHON! (Downpour, SH4, Homecoming
 	91132602:X
 	197433253:X
 	88521508:X
-*   JackiEilonwySpicer:x (name changed)
+	143346388:x
 	423831063:B
 	189540601:A
 	65631164:b
@@ -668,9 +668,9 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	59142911:B
 	85209437:B
 	44037806:x
-*   YeahBoi1969:A (name changed)
+	137889020:A
 	517948708:b
-*   JackiEilonwySpicer:b (name changed)
+	143346388:b
 	86111217:A
 	241746773:b
 	47988224:B
@@ -693,12 +693,12 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	37592131:x
 	441217186:X
 	87450547:x
-*   battlextendency:B (name changed)
+	268194795:B
 	198677757:A
 	133700340:B
 	509595348:A
 	44690546:B
-*   JackiEilonwySpicer:b (name changed)
+	143346388:b
 	106240515:X
 	85209437:B
 	59307983:B
@@ -780,7 +780,7 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	227194170:X
 	82885855:X
 	87450547:x
-*   LonelyBlueHerb:B (name changed)
+	523306045:B
 	12725777:X
 	91351836:a
 	441217186:X
@@ -790,10 +790,10 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 		A is the winner
 	7099399:X
 	110811020:B
-*   LonelyBlueHerb:X (name changed)
+	523306045:X
 	423906828:X
 	64651711:X
-*   RigidDesignator:X (name changed)
+	46255376:X
 	128504980:x
 	136442588:X
 	238533007:B
@@ -860,13 +860,13 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	177115316:X
 	105191150:B
 	156072538:X
-*   8bitwiseman:b (name changed)
+	38446956:b
 	43393725:X
 	456115110:X
 		X is the winner
 	20717545:B
 	470208104:X
-*   LonelyBlueHerb:A (name changed)
+	523306045:A
 	43047136:A
 	137602354:B
 	500199136:X
@@ -879,7 +879,7 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	244208420:X
 	238533007:B
 	473939124:A
-*   battlextendency:A (name changed)
+	268194795:A
 	67710718:B
 	415577780:X
 	44876744:X
@@ -899,7 +899,7 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	109462556:B
 	43674270:X
 	51336030:A
-*   LonelyBlueHerb:A (name changed)
+	523306045:A
 	51198247:X
 		A is the winner
 May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 20 antics, BROTHER
@@ -916,7 +916,7 @@ May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 2
 	89629185:X
 	252508169:x
 	75379675:B
-*   JackiEilonwySpicer:x (name changed)
+	143346388:x
 	85193619:A
 	41220892:B
 	49405044:x
@@ -935,7 +935,7 @@ May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 2
 	61250685:B
 	38850818:X
 *   tua___:x (name changed)
-*   JackiEilonwySpicer:A (name changed)
+	143346388:A
 	222815855:x
 	52779637:B
 	22740504:X
@@ -1012,7 +1012,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	136174273:A
 *   SavageGardenCitizen:b (name changed)
 	97168525:B
-*   YeahBoi1969:x (name changed)
+	137889020:x
 		B is the winner
 	20717545:A
 	154417317:B
@@ -1030,7 +1030,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	220198962:A
 	59307983:B
 	54174445:b
-*   YeahBoi1969:B (name changed)
+	137889020:B
 	139751009:A
 	46287653:a
 	136174273:A
@@ -1266,7 +1266,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	252508169:x
 	55348430:X
 	122734140:X
-*   CosmicYuki_:b (name changed)
+	460920989:b
 	60683922:B
 		A is the winner
 	57516227:A
@@ -1334,7 +1334,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	158488866:b
 	102669518:x
 	90788798:b
-*   JackiEilonwySpicer:X (name changed)
+	143346388:X
 	80453166:B
 	40530619:B
 	408885648:x
@@ -1356,7 +1356,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	423906828:X
 	164875513:b
 	87846335:B
-*   2mainz:a (name changed)
+	253176452:a
 	22883596:b
 	82597456:A
 	36096754:X
@@ -1414,7 +1414,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	61686902:A
 	61250685:B
 	64382036:A
-*   88BitCasual:b (name changed)
+	105240738:b
 *   leavemealonenowplease:A (name changed)
 	94294266:x
 	46428668:X
@@ -1427,7 +1427,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	169294710:B
 	32829865:X
 	406515343:B
-*   battlextendency:B (name changed)
+	268194795:B
 	423906828:X
 	44690546:X
 *   leavemealonenowplease:X (name changed)
@@ -1444,7 +1444,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	406645586:x
 	61686902:A
 	30422896:B
-*   88BitCasual:a (name changed)
+	105240738:a
 	118460609:A
 	136122507:A
 	252508169:b
@@ -1465,7 +1465,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	222815855:B
 	103434504:B
 	473939124:B
-*   battlextendency:B (name changed)
+	268194795:B
 	61425502:A
 	61250685:x
 	73062001:B
@@ -1518,7 +1518,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	423906828:X
 	144550422:A
 	44876744:X
-*   88BitCasual:b (name changed)
+	105240738:b
 	83003743:B
 	436234538:B
 	448404035:B
@@ -1601,7 +1601,7 @@ June 3rd - It's FHAEDAY. Dead Space 3 with FhaeLin! !blind
 	199075649:A
 	118460609:A
 	423831063:B
-*   YeahBoi1969:x (name changed)
+	137889020:x
 		A is the winner
 	61220092:A
 	7099399:A
@@ -1628,7 +1628,7 @@ June 3rd - It's FHAEDAY. Dead Space 3 with FhaeLin! !blind
 	39390330:X
 	44876744:X
 	32829865:B
-*   Pure_Pking97:B (name changed)
+	93120154:B
 	143568388:a
 	30647400:X
 	77832132:B
@@ -1737,7 +1737,7 @@ June 12th - SILENT HILL SPEEDRUN MARATHON NIGHT! The order: Homecoming any% NG+,
 	73261462:X
 	25317128:X
 	21431638:X
-*   lllshogunlll:X (name changed)
+	69694858:X
 	159124420:X
 	123346187:X
 	538590679:X
@@ -1758,7 +1758,7 @@ June 12th - SILENT HILL SPEEDRUN MARATHON NIGHT! The order: Homecoming any% NG+,
 	233075733:X
 	52274469:B
 	91351836:A
-*   NightingaleShadow:X (name changed)
+	128397972:X
 	423196430:A
 	32012245:b
 	124826909:X
@@ -1817,7 +1817,7 @@ June 16th - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD
 	40202219:A
 	26333485:B
 	78258985:x
-*   2mainz:a (name changed)
+	253176452:a
 	14108398:b
 	465657301:B
 	22781941:B
@@ -1872,7 +1872,7 @@ June 16th - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD
 	83500685:B
 	116178027:a
 	255088702:b
-*   gojira_okai:B (name changed)
+	219016500:B
 	470208104:X
 	101019545:X
 	88065793:A
@@ -1987,7 +1987,7 @@ June 16th - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD
 	73261462:X
 	73133253:X
 	145989855:X
-*   captainprettytitties:x (name changed)
+	461925120:x
 	85215919:b
 	44069504:B
 	276253477:X
@@ -2010,7 +2010,7 @@ June 16th - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD
 	48817880:x
 		B is the winner
 	27538805:b
-*   captainprettytitties:x (name changed)
+	461925120:x
 	73261462:B
 	423831063:b
 	108833597:A
