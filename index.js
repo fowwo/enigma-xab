@@ -57,33 +57,10 @@ fetch("data.json")
  * @param {Boolean} reverse Whether or not the order should be reversed; defaults to false.
  * @param {Boolean} filter Whether or not people will less than 10 guesses should be filtered out; defaults to false.
  */
-function sort(list, type, reverse = false, filter = false) {
+function sort(list, comparator, reverse = false, filter = false) {
 
 	if (filter) list = list.filter((a) => { return a.guesses.x + a.guesses.a + a.guesses.b >= 10; });
 
-	var comparator;
-	switch (type) {
-		case "wins":
-			comparator = compareByWins;
-			break;
-		case "total":
-			comparator = compareByTotal;
-			break;
-		case "percentage":
-			comparator = compareByPercentage;
-			break;
-		case "x":
-			comparator = compareByTotalX;
-			break;
-		case "a":
-			comparator = compareByTotalA;
-			break;
-		case "b":
-			comparator = compareByTotalB;
-			break;
-		default:
-			comparator = compareByName;
-	}
 	list.sort((a, b) => (comparator(a, b) === 0 ? compareByName(a, b) : comparator(a, b)) * (reverse ? -1 : 1));
 
 	const table = document.getElementById("leaderboard");
@@ -104,7 +81,7 @@ function sort(list, type, reverse = false, filter = false) {
 		row = document.createElement("tr");
 
 		cell = document.createElement("td");
-		if (i > 0 && comparator(list[i], list[i - 1], type) !== 0) {
+		if (i > 0 && comparator(list[i], list[i - 1]) !== 0) {
 			rank = i + 1;
 		}
 		cell.innerHTML = rank;
