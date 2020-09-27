@@ -102,7 +102,7 @@ function sort(list, comparator, reverse = false, filter = false) {
 		cell = document.createElement("td");
 		cell.innerHTML = a.username;
 		let maxGuess = Math.max(a.guesses.x, a.guesses.a, a.guesses.b);
-		cell.style = `text-align: left; color: rgb(${Math.round(155 * a.guesses.b / maxGuess) + 100}, ${Math.round(155 * a.guesses.a / maxGuess) + 100}, ${Math.round(155 * a.guesses.x / maxGuess) + 100})`
+		cell.style = `text-align: left; color: rgb(${Math.round(155 * a.guesses.b / maxGuess) + 100}, ${Math.round(155 * a.guesses.a / maxGuess) + 100}, ${Math.round(155 * a.guesses.x / maxGuess) + 100})`;
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
@@ -134,17 +134,17 @@ function sort(list, comparator, reverse = false, filter = false) {
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
-		cell.innerHTML = a.guesses.x
+		cell.innerHTML = a.guesses.x;
 		cell.style = "text-align: center; color: var(--light-blue);";
 		row.appendChild(cell);
 		
 		cell = document.createElement("td");
-		cell.innerHTML = a.guesses.a
+		cell.innerHTML = a.guesses.a;
 		cell.style = "text-align: center; color: var(--light-green);";
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
-		cell.innerHTML = a.guesses.b
+		cell.innerHTML = a.guesses.b;
 		cell.style = "text-align: center; color: var(--light-red);";
 		row.appendChild(cell);
 
