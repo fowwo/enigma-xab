@@ -23,8 +23,8 @@ body {
 	background-repeat: no-repeat;
 }
 div.sidebox {
-	margin: 8.75vw 0 0 0;
 	padding: 0.5vw;
+	margin: 0;
 	width: 25%;
 	height: 100%;
 	background-color: #0006;
