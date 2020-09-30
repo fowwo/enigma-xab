@@ -8,13 +8,13 @@
 }
 b {
 	color: #fff;
-	text-shadow: 0 0 0.5vw var(--enigma-purple);
+	text-shadow: 0 0 10px var(--enigma-purple);
 }
 body {
 	margin: 0;
 	color: var(--text-color);
 	font-family: 'Covered By Your Grace', cursive;
-	font-size: 1.25vw;
+	font-size: 24px;
 	background-image: url("images/background.png");
 	background-color: #000;
 	background-attachment: fixed;
@@ -23,49 +23,49 @@ body {
 	background-repeat: no-repeat;
 }
 div.sidebox {
-	padding: 0.5vw;
+	padding: 10px;
 	margin: 0;
 	width: 25%;
 	height: 100%;
 	background-color: #0006;
-	box-shadow: 0 0 5vw var(--enigma-purple);
+	box-shadow: 0 0 100px var(--enigma-purple);
 }
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	font-size: 5vw;
-	margin: 1vw;
+	font-size: 100px;
+	margin: 20px;
 }
 h2 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	font-size: 2.5vw;
+	font-size: 50px;
 	margin: 0;
 }
 h3 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.75vw;
+	font-size: 35px;
 	margin: 0;
 }
 hr {
-	border-top: 2px solid #fff;
+	border: 1px solid #fff;
 	border-radius: 1px;
-	box-shadow: 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple);
+	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 }
 input {
 	box-sizing: border-box;
 	border-color: var(--text-color);
 	border-style: solid;
-	border-radius: 0.5vw;
-	box-shadow: 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple);
+	border-radius: 10px;
+	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 	margin: 0;
-	padding: 0.15vw;
+	padding: 3px;
 	background-color: #0000;
 	outline: none;
 	color: inherit;
@@ -76,21 +76,21 @@ input {
 }
 input:focus {
 	border-color: #fff;
-	box-shadow: 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple);
+	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 	color: #fff;
 }
 input#search-input {
 	width: 100%;
 	background-image: url('./images/search-icon.png');
-	background-position: 0.5vw 0.5vw;
-	background-size: 1.0vw;
+	background-position: 10px 10px;
+	background-size: 20px;
 	background-repeat: no-repeat;
-	padding-left: 1.95vw;
+	padding-left: 40px;
 }
 p {
 	margin: 0;
-	padding-left: 1vw;
-	font-size: 1vw;
+	padding-left: 20px;
+	font-size: 20px;
 }
 table.center {
 	margin-left: auto; 
@@ -98,14 +98,14 @@ table.center {
 }
 table#leaderboard {
 	border-collapse: collapse;
-	box-shadow: 0 0 5vw #000;
+	box-shadow: 0 0 100px #000;
 }
 table#leaderboard:hover {
 	cursor: default;
 }
 table#leaderboard tr:hover td {
 	color: #fff;
-	text-shadow: 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple);
+	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 }
 table#leaderboard tr:nth-child(odd) {
 	background-color: #0003;
@@ -114,29 +114,29 @@ table#leaderboard tr:nth-child(even) {
 	background-color: #0008;
 }
 table#leaderboard td {
-	padding: 0 0.75vw;
+	padding: 0 15px;
 }
 table#leaderboard th {
-	padding: 0.75vw;
+	padding: 15px;
 }
 table#search-table {
 	border-collapse: collapse;
-	font-size: 1vw;
+	font-size: 20px;
 }
 table#search-table td {
-	padding: 0 0.4vw;
+	padding: 0 8px;
 }
 table#search-table td#search-name {
 	width: 100%;
-	padding: 0 0.4vw;
+	padding: 0 8px;
 }
 table#search-table th {
-	padding: 0.4vw;
+	padding: 8px;
 }
 .clickable:hover {
 	cursor: pointer;
 	color: #fff !important;
-	text-shadow: 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple), 0 0 0.5vw var(--enigma-purple) !important;
+	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple) !important;
 }
 .dropdown {
 	background-color: #0000;
@@ -149,7 +149,7 @@ table#search-table th {
 	outline: none;
 }
 .dropdown:after {
-	padding-right: 0.5vw;
+	padding-right: 10px;
 	float: left;
 	content: "+";
 	font-weight: bold;
