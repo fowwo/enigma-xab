@@ -141,7 +141,16 @@ td.name-cell, th.name-cell {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-} 
+}
+th#leaderboard-rank, th#leaderboard-wins, th#leaderboard-total {
+	width: 50px;
+}
+th#leaderboard-accuracy {
+	width: 90px;
+}
+th#leaderboard-x, th#leaderboard-a, th#leaderboard-b {
+	width: 40px;
+}
 .clickable:hover {
 	cursor: pointer;
 	color: #fff !important;

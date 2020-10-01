@@ -98,14 +98,14 @@
 		<div style="flex-grow: 1;">
 			<table id="leaderboard" class="center">
 				<tr>
-					<th style="width: 50px">#</th>
+					<th id="leaderboard-rank">#</th>
 					<th>Name</th>
-					<th class="clickable" style="width: 50px" onclick="sort(scores, compareByWins)">Wins</th>
-					<th class="clickable" style="width: 50px" onclick="sort(scores, compareByTotal)">Total</th>
-					<th class="clickable" style="width: 90px" onclick="sort(scores, compareByPercentage, false, true)">Accuracy</th>
-					<th class="clickable" style="width: 40px; color: var(--light-blue)" onclick="sort(scores, compareByTotalX)">X</th>
-					<th class="clickable" style="width: 40px; color: var(--light-green)" onclick="sort(scores, compareByTotalA)">A</th>
-					<th class="clickable" style="width: 40px; color: var(--light-red)" onclick="sort(scores, compareByTotalB)">B</th>
+					<th id="leaderboard-wins" class="clickable" onclick="sort(scores, compareByWins)">Wins</th>
+					<th id="leaderboard-total" class="clickable" onclick="sort(scores, compareByTotal)">Total</th>
+					<th id="leaderboard-accuracy" class="clickable" onclick="sort(scores, compareByPercentage, false, true)">Accuracy</th>
+					<th id="leaderboard-x" class="clickable" style="color: var(--light-blue)" onclick="sort(scores, compareByTotalX)">X</th>
+					<th id="leaderboard-a" class="clickable" style="color: var(--light-green)" onclick="sort(scores, compareByTotalA)">A</th>
+					<th id="leaderboard-b" class="clickable" style="color: var(--light-red)" onclick="sort(scores, compareByTotalB)">B</th>
 				</tr>
 				<tr style="color: #cdf5">
 					<th>─</th>
