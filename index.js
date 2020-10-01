@@ -102,7 +102,11 @@ function sort(list, comparator, reverse = false, filter = false) {
 		cell = document.createElement("td");
 		cell.innerHTML = a.username;
 		let maxGuess = Math.max(a.guesses.x, a.guesses.a, a.guesses.b);
-		cell.style = `text-align: left; color: rgb(${Math.round(155 * a.guesses.b / maxGuess) + 100}, ${Math.round(155 * a.guesses.a / maxGuess) + 100}, ${Math.round(155 * a.guesses.x / maxGuess) + 100})`;
+		cell.style.textAlign = "left";
+		cell.style.color = `rgb(${Math.round(155 * a.guesses.b / maxGuess) + 100}, ${Math.round(155 * a.guesses.a / maxGuess) + 100}, ${Math.round(155 * a.guesses.x / maxGuess) + 100})`;
+		cell.style.overflow = "hidden";
+		cell.style.textOverflow = "ellipsis";
+		cell.style.whiteSpace = "nowrap";
 		row.appendChild(cell);
 
 		cell = document.createElement("td");

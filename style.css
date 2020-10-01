@@ -99,7 +99,9 @@ table.center {
 }
 table#leaderboard {
 	table-layout: fixed;
-	width: 610px;
+	width: 100%;
+	min-width: 435px;
+	max-width: 610px;
 	border-collapse: collapse;
 	box-shadow: 0 0 100px #000;
 }
