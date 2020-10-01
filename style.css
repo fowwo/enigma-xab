@@ -25,7 +25,8 @@ body {
 div.sidebox {
 	padding: 10px;
 	margin: 0;
-	width: 25%;
+	min-width: 350px;
+	width: 350px;
 	height: 100%;
 	background-color: #0006;
 	box-shadow: 0 0 100px var(--enigma-purple);
