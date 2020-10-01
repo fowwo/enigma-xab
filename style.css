@@ -98,6 +98,8 @@ table.center {
 	margin-right: auto;
 }
 table#leaderboard {
+	table-layout: fixed;
+	width: 610px;
 	border-collapse: collapse;
 	box-shadow: 0 0 100px #000;
 }
@@ -115,10 +117,10 @@ table#leaderboard tr:nth-child(even) {
 	background-color: #0008;
 }
 table#leaderboard td {
-	padding: 0 15px;
+	padding: 0;
 }
 table#leaderboard th {
-	padding: 15px;
+	padding: 10px 0;
 }
 table#search-table {
 	border-collapse: collapse;
