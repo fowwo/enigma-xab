@@ -138,6 +138,12 @@ table#search-table td#search-name {
 table#search-table th {
 	padding: 8px;
 }
+td.name-cell, th.name-cell {
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+} 
 .clickable:hover {
 	cursor: pointer;
 	color: #fff !important;
