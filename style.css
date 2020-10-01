@@ -125,18 +125,16 @@ table#leaderboard th {
 	padding: 10px 0;
 }
 table#search-table {
+	table-layout: fixed;
+	width: 100%;
 	border-collapse: collapse;
-	font-size: 20px;
+	font-size: 18px;
 }
 table#search-table td {
-	padding: 0 8px;
-}
-table#search-table td#search-name {
-	width: 100%;
-	padding: 0 8px;
+	padding: 0;
 }
 table#search-table th {
-	padding: 8px;
+	padding: 6px 0;
 }
 td.name-cell, th.name-cell {
 	text-align: left;
