@@ -151,6 +151,15 @@ th#leaderboard-accuracy {
 th#leaderboard-x, th#leaderboard-a, th#leaderboard-b {
 	width: 40px;
 }
+th#search-wins, th#search-guesses {
+	width: 35px;
+}
+th#search-accuracy {
+	width: 65px;
+}
+th#search-guesses-x, th#search-guesses-a, th#search-guesses-b {
+	width: 30px;
+}
 ul#changelog {
 	list-style: none;
 	margin: 0;
