@@ -151,6 +151,22 @@ th#leaderboard-accuracy {
 th#leaderboard-x, th#leaderboard-a, th#leaderboard-b {
 	width: 40px;
 }
+ul#social-media {
+	list-style: none;
+	margin: 0;
+	padding-left: 20px;
+}
+ul#social-media a {
+	text-decoration: none;
+}
+ul#social-media img {
+	width: 30px;
+	height: 30px;
+	vertical-align: text-top;
+}
+ul#social-media span {
+	padding-left: 7px;
+}
 .clickable:hover {
 	cursor: pointer;
 	color: #fff !important;
