@@ -8,13 +8,11 @@
 }
 b {
 	color: #fff;
-	text-shadow: 0 0 10px var(--enigma-purple);
 }
 body {
 	margin: 0;
 	color: var(--text-color);
 	font-family: 'Covered By Your Grace', cursive;
-	font-size: 24px;
 	background-image: url("images/background.png");
 	background-color: #000;
 	background-attachment: fixed;
@@ -23,48 +21,37 @@ body {
 	background-repeat: no-repeat;
 }
 div.sidebox {
-	padding: 10px;
 	margin: 0;
-	min-width: 350px;
-	width: 350px;
 	height: 100%;
 	background-color: #0006;
-	box-shadow: 0 0 100px var(--enigma-purple);
 }
 h1 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	font-size: 100px;
-	margin: 20px;
 }
 h2 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	font-size: 50px;
 	margin: 0;
 }
 h3 {
 	font-family: 'Covered By Your Grace', cursive;
 	color: #fff;
 	text-decoration: none;
-	font-size: 35px;
 	margin: 0;
 }
 hr {
 	border: 1px solid #fff;
 	border-radius: 1px;
-	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 }
 input {
 	box-sizing: border-box;
 	border-color: var(--text-color);
 	border-style: solid;
-	border-radius: 10px;
-	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 	margin: 0;
 	padding: 3px;
 	background-color: #0000;
@@ -77,21 +64,15 @@ input {
 }
 input:focus {
 	border-color: #fff;
-	box-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 	color: #fff;
 }
 input#search-input {
 	width: 100%;
 	background-image: url('./images/search-icon.png');
-	background-position: 10px 10px;
-	background-size: 20px;
 	background-repeat: no-repeat;
-	padding-left: 40px;
 }
 p {
 	margin: 0;
-	padding-left: 20px;
-	font-size: 20px;
 }
 table.center {
 	margin-left: auto; 
@@ -100,17 +81,13 @@ table.center {
 table#leaderboard {
 	table-layout: fixed;
 	width: 100%;
-	min-width: 435px;
-	max-width: 610px;
 	border-collapse: collapse;
-	box-shadow: 0 0 100px #000;
 }
 table#leaderboard:hover {
 	cursor: default;
 }
 table#leaderboard tr:hover td {
 	color: #fff;
-	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple);
 }
 table#leaderboard tr:nth-child(odd) {
 	background-color: #0003;
@@ -121,44 +98,19 @@ table#leaderboard tr:nth-child(even) {
 table#leaderboard td {
 	padding: 0;
 }
-table#leaderboard th {
-	padding: 10px 0;
-}
 table#search-table {
 	table-layout: fixed;
 	width: 100%;
 	border-collapse: collapse;
-	font-size: 18px;
 }
 table#search-table td {
 	padding: 0;
-}
-table#search-table th {
-	padding: 6px 0;
 }
 td.name-cell, th.name-cell {
 	text-align: left;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-}
-th#leaderboard-rank, th#leaderboard-wins, th#leaderboard-total {
-	width: 50px;
-}
-th#leaderboard-accuracy {
-	width: 90px;
-}
-th#leaderboard-x, th#leaderboard-a, th#leaderboard-b {
-	width: 40px;
-}
-th#search-wins, th#search-guesses {
-	width: 35px;
-}
-th#search-accuracy {
-	width: 65px;
-}
-th#search-guesses-x, th#search-guesses-a, th#search-guesses-b {
-	width: 30px;
 }
 ul#changelog {
 	list-style: none;
@@ -167,11 +119,6 @@ ul#changelog {
 }
 ul#changelog ul.changelog-sub {
 	list-style: none;
-	padding-left: 20px;
-	font-size: 20px;
-}
-ul#changelog span.add, ul#changelog span.change, ul#changelog span.remove {
-	padding-right: 5px;
 }
 ul#changelog span.add {
 	color: var(--light-green);
@@ -185,23 +132,16 @@ ul#changelog span.remove {
 ul#social-media {
 	list-style: none;
 	margin: 0;
-	padding-left: 20px;
 }
 ul#social-media a {
 	text-decoration: none;
 }
 ul#social-media img {
-	width: 30px;
-	height: 30px;
 	vertical-align: text-top;
-}
-ul#social-media span {
-	padding-left: 7px;
 }
 .clickable:hover {
 	cursor: pointer;
 	color: #fff !important;
-	text-shadow: 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple), 0 0 10px var(--enigma-purple) !important;
 }
 .dropdown {
 	background-color: #0000;
@@ -214,7 +154,6 @@ ul#social-media span {
 	outline: none;
 }
 .dropdown:after {
-	padding-right: 10px;
 	float: left;
 	content: "+";
 	font-weight: bold;
