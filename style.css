@@ -151,6 +151,28 @@ th#leaderboard-accuracy {
 th#leaderboard-x, th#leaderboard-a, th#leaderboard-b {
 	width: 40px;
 }
+ul#changelog {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul#changelog ul.changelog-sub {
+	list-style: none;
+	padding-left: 20px;
+	font-size: 20px;
+}
+ul#changelog span.add, ul#changelog span.change, ul#changelog span.remove {
+	padding-right: 5px;
+}
+ul#changelog span.add {
+	color: var(--light-green);
+}
+ul#changelog span.change {
+	color: var(--light-yellow);
+}
+ul#changelog span.remove {
+	color: var(--light-red);
+}
 ul#social-media {
 	list-style: none;
 	margin: 0;
