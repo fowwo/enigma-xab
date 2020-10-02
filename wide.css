@@ -99,7 +99,7 @@
 		padding-right: 10px;
 	}
 }
-@media (max-width: 1384px) {
+@media (min-width: 1000px) and (max-width: 1384px) {
 	b {
 		text-shadow: 0 0 8px var(--enigma-purple);
 	}
