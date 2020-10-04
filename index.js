@@ -121,15 +121,8 @@ function sort(list, comparator, reverse = false, filter = false) {
 			cell.innerHTML = "------";
 			cell.style = "text-align: center;color: #cdf5;";
 		} else {
-			if (comparator == compareByPercentage) {
-				let max = Math.max((list[0].wins.x + list[0].wins.a + list[0].wins.b) / (list[0].guesses.x + list[0].guesses.a + list[0].guesses.b), (list[list.length - 1].wins.x + list[list.length - 1].wins.a + list[list.length - 1].wins.b) / (list[list.length - 1].guesses.x + list[list.length - 1].guesses.a + list[list.length - 1].guesses.b));
-				let min = Math.min((list[0].wins.x + list[0].wins.a + list[0].wins.b) / (list[0].guesses.x + list[0].guesses.a + list[0].guesses.b), (list[list.length - 1].wins.x + list[list.length - 1].wins.a + list[list.length - 1].wins.b) / (list[list.length - 1].guesses.x + list[list.length - 1].guesses.a + list[list.length - 1].guesses.b));
-				let rgb = `rgb(${Math.round(255 * Math.min((2 * max - 2 * totalWins / totalGuesses) / (max - min), 1))},${Math.round(255 * Math.min((2 * totalWins / totalGuesses - 2 * min) / (max - min), 1))},0)`;
-				cell.style = `text-align: center;color: ${rgb};text-shadow: 0 0 10px ${rgb};`;
-			} else {
-				let rgb = `rgb(${Math.round(255 * Math.min((2 - 2 * totalWins / totalGuesses), 1))},${Math.round(255 * Math.min((2 * totalWins / totalGuesses), 1))},0)`;
-				cell.style = `text-align: center;color: ${rgb};text-shadow: 0 0 10px ${rgb};`;
-			}
+			let rgb = `rgb(${Math.round(255 * Math.min((2 - 2 * totalWins / totalGuesses), 1))},${Math.round(255 * Math.min((2 * totalWins / totalGuesses), 1))},0)`;
+			cell.style = `text-align: center;color: ${rgb};text-shadow: 0 0 10px ${rgb};`;
 			cell.innerHTML = (100 * totalWins / totalGuesses).toFixed(2) + "%";
 		}
 		row.appendChild(cell);
