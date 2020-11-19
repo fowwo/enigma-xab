@@ -4,10 +4,11 @@
  * @author fowwo
  */
 
-var scores = [];
+var scores = {};
 fetch("data.json")
 	.then(r => r.json())
 	.then(data => {
+		let users = [];
 		var guesses = {
 			x: 0,
 			a: 0,
@@ -22,7 +23,7 @@ fetch("data.json")
 		var accuracy = 0;
 		for (let [key, value] of Object.entries(data)) {
 			if (key == 'stat') continue;
-			scores.push(new User(key, value.username, value.guesses, value.wins));
+			users.push(new User(key, value.username, value.guesses, value.wins));
 			guesses.x += value.guesses.x;
 			guesses.a += value.guesses.a;
 			guesses.b += value.guesses.b;
@@ -47,24 +48,26 @@ fetch("data.json")
 		rgb = `rgb(${Math.round(255 * Math.min((2 - 2 * (wins.x + wins.a + wins.b) / (guesses.x + guesses.a + guesses.b)), 1))},${Math.round(255 * Math.min((2 * (wins.x + wins.a + wins.b) / (guesses.x + guesses.a + guesses.b)), 1))},0)`;
 		document.getElementById("cumulative-accuracy").style = `color: ${rgb}; text-shadow: 0 0 10px ${rgb};`;
 		document.getElementById("cumulative-accuracy").innerHTML = (100 * (wins.x + wins.a + wins.b) / (guesses.x + guesses.a + guesses.b)).toFixed(2) + "%";
+
+		// Sort scores
+		scores.name = [...users].sort((a, b) => User.compareByName(a, b));
+		scores.wins = [...users].sort((a, b) => User.compareByWins(a, b) === 0 ? User.compareByName(a, b) : User.compareByWins(a, b));
+		scores.total = [...users].sort((a, b) => User.compareByTotal(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotal(a, b));
+		scores.accuracy = [...users].sort((a, b) => User.compareByPercentage(a, b) === 0 ? User.compareByName(a, b) : User.compareByPercentage(a, b)).filter(x => x.getTotalGuesses() >= 10);
+		scores.x = [...users].sort((a, b) => User.compareByTotalX(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalX(a, b));
+		scores.a = [...users].sort((a, b) => User.compareByTotalA(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalA(a, b));
+		scores.b = [...users].sort((a, b) => User.compareByTotalB(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalB(a, b));
 	});
 
 /**
- * Sorts scores and displays them in the table.
+ * Displays scores on the leaderboard.
  * 
  * @param {Array} list An array of scores.
- * @param {String} type The method in which the array should be sorted.
- * @param {Boolean} reverse Whether or not the order should be reversed; defaults to false.
- * @param {Boolean} filter Whether or not people will less than 10 guesses should be filtered out; defaults to false.
+ * @param comparator The comparator used on the list.
  */
-function sort(list, comparator, reverse = false, filter = false) {
-
-	if (filter) list = list.filter((a) => { return a.guesses.x + a.guesses.a + a.guesses.b >= 10; });
-
-	list.sort((a, b) => (comparator(a, b) === 0 ? User.compareByName(a, b) : comparator(a, b)) * (reverse ? -1 : 1));
+function displayScores(list, comparator) {
 
 	const table = document.getElementById("leaderboard");
-
 	for (var i = table.rows.length; i > 1; i--) {
 		table.deleteRow(-1);
 	}

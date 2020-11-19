@@ -61,12 +61,12 @@
 				<tr>
 					<th id="leaderboard-rank">#</th>
 					<th>Name</th>
-					<th id="leaderboard-wins" class="clickable" onclick="sort(scores, User.compareByWins)">Wins</th>
-					<th id="leaderboard-total" class="clickable" onclick="sort(scores, User.compareByTotal)">Total</th>
-					<th id="leaderboard-accuracy" class="clickable" onclick="sort(scores, User.compareByPercentage, false, true)">Accuracy</th>
-					<th id="leaderboard-x" class="clickable" style="color: var(--light-blue)" onclick="sort(scores, User.compareByTotalX)">X</th>
-					<th id="leaderboard-a" class="clickable" style="color: var(--light-green)" onclick="sort(scores, User.compareByTotalA)">A</th>
-					<th id="leaderboard-b" class="clickable" style="color: var(--light-red)" onclick="sort(scores, User.compareByTotalB)">B</th>
+					<th id="leaderboard-wins" class="clickable" onclick="displayScores(scores.wins, User.compareByWins)">Wins</th>
+					<th id="leaderboard-total" class="clickable" onclick="displayScores(scores.total, User.compareByTotal)">Total</th>
+					<th id="leaderboard-accuracy" class="clickable" onclick="displayScores(scores.accuracy, User.compareByPercentage, false, true)">Accuracy</th>
+					<th id="leaderboard-x" class="clickable" style="color: var(--light-blue)" onclick="displayScores(scores.x, User.compareByTotalX)">X</th>
+					<th id="leaderboard-a" class="clickable" style="color: var(--light-green)" onclick="displayScores(scores.a, User.compareByTotalA)">A</th>
+					<th id="leaderboard-b" class="clickable" style="color: var(--light-red)" onclick="displayScores(scores.b, User.compareByTotalB)">B</th>
 				</tr>
 				<tr style="color: #cdf5">
 					<th>─</th>
