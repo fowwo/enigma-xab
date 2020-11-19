@@ -10,6 +10,7 @@ class User {
 		this.username = username;
 		this.guesses = guesses;
 		this.wins = wins;
+		this.badges = { gold: 0, silver: 0, bronze: 0 };
 	}
 
 	getTotalGuesses() {
@@ -55,7 +56,39 @@ class User {
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
-		cell.innerHTML = this.username;
+		let badges = document.createElement("span");
+		for (var i = 0; i < this.badges.gold; i++) {
+			let badge = document.createElement("span");
+			badge.innerHTML = "★";
+			badge.classList.add("badge");
+			badge.style.color = "var(--gold)";
+			badge.style.textShadow = "0 0 10px var(--gold), 0 0 5px #000f";
+			badge.style.zIndex = 18 - i;
+			badges.appendChild(badge);
+		}
+		for (var i = 0; i < this.badges.silver; i++) {
+			let badge = document.createElement("span");
+			badge.innerHTML = "★";
+			badge.classList.add("badge");
+			badge.style.color = "var(--silver)";
+			badge.style.textShadow = "0 0 10px var(--silver), 0 0 5px #000f";
+			badge.style.zIndex = 12 - i;
+			badges.appendChild(badge);
+		}
+		for (var i = 0; i < this.badges.bronze; i++) {
+			let badge = document.createElement("span");
+			badge.innerHTML = "★";
+			badge.classList.add("badge");
+			badge.style.color = "var(--bronze)";
+			badge.style.textShadow = "0 0 10px var(--bronze), 0 0 5px #000f";
+			badge.style.zIndex = 6 - i;
+			badges.appendChild(badge);
+		}
+		if (badges.childElementCount !== 0) {
+			badges.classList.add("badges");
+			cell.appendChild(badges);
+		}
+		cell.innerHTML += this.username;
 		cell.classList.add("name-cell");
 		cell.style.color = this.getNameColor();
 		row.appendChild(cell);

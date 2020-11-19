@@ -57,6 +57,14 @@ fetch("data.json")
 		scores.x = [...users].sort((a, b) => User.compareByTotalX(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalX(a, b));
 		scores.a = [...users].sort((a, b) => User.compareByTotalA(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalA(a, b));
 		scores.b = [...users].sort((a, b) => User.compareByTotalB(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalB(a, b));
+
+		awardBadges(scores.wins, User.compareByWins);
+		awardBadges(scores.total, User.compareByTotal);
+		awardBadges(scores.accuracy, User.compareByPercentage);
+		awardBadges(scores.x, User.compareByTotalX);
+		awardBadges(scores.a, User.compareByTotalA);
+		awardBadges(scores.b, User.compareByTotalB);
+		
 	});
 
 /**
@@ -81,4 +89,35 @@ function displayScores(list, comparator) {
 		table.appendChild(user.toLeaderboardRow(rank));
 	}
 
+}
+
+/**
+ * Awards users badges given a list of users and a comparator.
+ * 
+ * @param {Array} list An array of users.
+ * @param comparator The comparator used on the list.
+ */
+function awardBadges(list, comparator) {
+	if (list.length != 0) list[0].badges.gold++;
+	
+	let rank = 1;
+	for (var i = 1; i < list.length; i++) {
+		let user = list[i];
+		if (comparator(list[i], list[i - 1]) !== 0) {
+			rank = i + 1;
+		}
+		switch (rank) {
+			case 1:
+				user.badges.gold++;
+				break;
+			case 2:
+				user.badges.silver++;
+				break;
+			case 3:
+				user.badges.bronze++;
+				break;
+			default:
+				return;
+		}
+	}
 }

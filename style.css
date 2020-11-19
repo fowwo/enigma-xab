@@ -80,6 +80,9 @@ input#search-input {
 p {
 	margin: 0;
 }
+span.badge {
+	position: relative;
+}
 table.center {
 	margin-left: auto; 
 	margin-right: auto;

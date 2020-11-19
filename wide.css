@@ -40,6 +40,10 @@
 		padding-left: 20px;
 		font-size: 20px;
 	}
+	span.badges {
+		padding-right: 15px;
+		letter-spacing: -12px;
+	}
 	table#leaderboard {
 		min-width: 435px;
 		max-width: 610px;
@@ -140,6 +144,10 @@
 	p {
 		padding-left: 16px;
 		font-size: 16px;
+	}
+	span.badges {
+		padding-right: 12px;
+		letter-spacing: -10px;
 	}
 	table#leaderboard {
 		min-width: 348px;
