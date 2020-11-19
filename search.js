@@ -19,7 +19,7 @@ document.getElementById('search-form').addEventListener('submit', (event) => {
   * @param {String} username
   */
 function search(username) {
-	for (var score of scores) {
+	for (var score of scores.name) {
 		if (score.username.toLowerCase() == username.toLowerCase()) {
 			let totalWins = score.wins.x + score.wins.a + score.wins.b;
 			let totalGuesses = score.guesses.x + score.guesses.a + score.guesses.b;
