@@ -36,19 +36,19 @@ class User {
 		cell.innerHTML = rank;
 		switch (rank) {
 			case 1:
-				cell.style.color = "#fc0";
-				cell.style.textShadow = "0 0 10px #fc0, 0 0 10px #fc0, 0 0 10px #fc0";
-				row.style.backgroundColor = "#fc04";
+				cell.style.color = "var(--gold)";
+				cell.style.textShadow = "0 0 10px var(--gold), 0 0 10px var(--gold), 0 0 10px var(--gold)";
+				row.style.backgroundColor = "var(--background-gold)";
 				break;
 			case 2:
-				cell.style.color = "#ddd";
-				cell.style.textShadow = "0 0 10px #ddd, 0 0 10px #ddd, 0 0 10px #ddd";
-				row.style.backgroundColor = "#ddd3";
+				cell.style.color = "var(--silver)";
+				cell.style.textShadow = "0 0 10px var(--silver), 0 0 10px var(--silver), 0 0 10px var(--silver)";
+				row.style.backgroundColor = "var(--background-silver)";
 				break;
 			case 3:
-				cell.style.color = "#d70";
-				cell.style.textShadow = "0 0 10px #d70, 0 0 10px #d70, 0 0 10px #d70";
-				row.style.backgroundColor = "#d702";
+				cell.style.color = "var(--bronze)";
+				cell.style.textShadow = "0 0 10px var(--bronze), 0 0 10px var(--bronze), 0 0 10px var(--bronze)";
+				row.style.backgroundColor = "var(--background-bronze)";
 				break;
 		}
 		cell.style.textAlign = "center";

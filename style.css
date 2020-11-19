@@ -5,6 +5,12 @@
 	--light-green: #afa;
 	--light-red: #faa;
 	--light-yellow: #fea;
+	--gold: #fc0;
+	--silver: #ddd;
+	--bronze: #d70;
+	--background-gold: #fc04;
+	--background-silver: #ddd3;
+	--background-bronze: #d702;
 }
 b {
 	color: #fff;
