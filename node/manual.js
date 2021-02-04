@@ -147,7 +147,6 @@ setInterval(() => {
 		
 		}
 
-		console.log(data);
 		fs.writeFileSync("../data.json", JSON.stringify(data, null, 4) + "\n", (err) => {
 			if (err) {
 				console.log(time() + " \x1b[101mError writing score file: ", err + "\x1b[0m");
