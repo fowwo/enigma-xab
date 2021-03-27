@@ -51,6 +51,19 @@
             "b": 0
         }
     },
+    "319509": {
+        "username": "GCM707",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "667229": {
         "username": "Heurou",
         "guesses": {
@@ -121,7 +134,7 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 2
+            "b": 3
         },
         "wins": {
             "x": 0,
@@ -132,14 +145,14 @@
     "7099399": {
         "username": "Branman",
         "guesses": {
-            "x": 16,
-            "a": 18,
-            "b": 6
+            "x": 20,
+            "a": 26,
+            "b": 8
         },
         "wins": {
-            "x": 4,
-            "a": 7,
-            "b": 3
+            "x": 5,
+            "a": 9,
+            "b": 5
         }
     },
     "7602852": {
@@ -198,7 +211,7 @@
         "username": "rottingpastry",
         "guesses": {
             "x": 2,
-            "a": 5,
+            "a": 6,
             "b": 2
         },
         "wins": {
@@ -311,6 +324,19 @@
             "b": 0
         }
     },
+    "14642076": {
+        "username": "TheBias",
+        "guesses": {
+            "x": 0,
+            "a": 2,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "14923135": {
         "username": "Lisla",
         "guesses": {
@@ -327,7 +353,7 @@
     "16622493": {
         "username": "Nancy_drew_sleuth85",
         "guesses": {
-            "x": 3,
+            "x": 4,
             "a": 2,
             "b": 0
         },
@@ -389,17 +415,30 @@
             "b": 2
         }
     },
+    "20404921": {
+        "username": "stampede_g",
+        "guesses": {
+            "x": 2,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "20717545": {
         "username": "shotgunman5000",
         "guesses": {
-            "x": 9,
-            "a": 15,
-            "b": 15
+            "x": 10,
+            "a": 17,
+            "b": 18
         },
         "wins": {
             "x": 2,
-            "a": 6,
-            "b": 7
+            "a": 8,
+            "b": 9
         }
     },
     "20941393": {
@@ -437,6 +476,19 @@
         },
         "wins": {
             "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "21856665": {
+        "username": "Zephewow",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
             "a": 0,
             "b": 0
         }
@@ -483,9 +535,9 @@
     "22740504": {
         "username": "Necbromancer",
         "guesses": {
-            "x": 4,
+            "x": 5,
             "a": 4,
-            "b": 9
+            "b": 10
         },
         "wins": {
             "x": 2,
@@ -536,7 +588,7 @@
         "username": "shak_ka",
         "guesses": {
             "x": 5,
-            "a": 2,
+            "a": 3,
             "b": 0
         },
         "wins": {
@@ -569,6 +621,19 @@
             "x": 0,
             "a": 1,
             "b": 3
+        }
+    },
+    "24297639": {
+        "username": "Ansga",
+        "guesses": {
+            "x": 1,
+            "a": 2,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 1,
+            "b": 0
         }
     },
     "24418830": {
@@ -639,7 +704,7 @@
     "25238829": {
         "username": "Spyder1246",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         },
@@ -649,17 +714,30 @@
             "b": 0
         }
     },
+    "25311675": {
+        "username": "LostShinta",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "25317128": {
         "username": "Tycerax",
         "guesses": {
-            "x": 4,
-            "a": 8,
-            "b": 4
+            "x": 10,
+            "a": 15,
+            "b": 12
         },
         "wins": {
-            "x": 2,
-            "a": 2,
-            "b": 2
+            "x": 4,
+            "a": 5,
+            "b": 6
         }
     },
     "25642417": {
@@ -743,14 +821,14 @@
     "26705611": {
         "username": "TigeltoN",
         "guesses": {
-            "x": 0,
+            "x": 2,
             "a": 0,
-            "b": 2
+            "b": 10
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 5
         }
     },
     "26767477": {
@@ -810,7 +888,7 @@
         "guesses": {
             "x": 2,
             "a": 0,
-            "b": 15
+            "b": 18
         },
         "wins": {
             "x": 1,
@@ -832,23 +910,23 @@
         }
     },
     "27713913": {
-        "username": "ThatGayGinger",
+        "username": "KosmicStoat",
         "guesses": {
             "x": 2,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "27817818": {
         "username": "Kriptin",
         "guesses": {
             "x": 0,
-            "a": 0,
+            "a": 1,
             "b": 1
         },
         "wins": {
@@ -940,12 +1018,12 @@
         "guesses": {
             "x": 0,
             "a": 1,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 0,
             "a": 1,
-            "b": 0
+            "b": 1
         }
     },
     "28365412": {
@@ -977,14 +1055,14 @@
     "29285196": {
         "username": "MorriganLeFeye",
         "guesses": {
-            "x": 2,
-            "a": 1,
-            "b": 5
+            "x": 3,
+            "a": 3,
+            "b": 9
         },
         "wins": {
             "x": 2,
-            "a": 0,
-            "b": 1
+            "a": 1,
+            "b": 2
         }
     },
     "29417281": {
@@ -1018,6 +1096,19 @@
         "guesses": {
             "x": 0,
             "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "29686773": {
+        "username": "ScarletSuzuka",
+        "guesses": {
+            "x": 1,
+            "a": 0,
             "b": 0
         },
         "wins": {
@@ -1081,9 +1172,9 @@
     "30445999": {
         "username": "NickelCanvas",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 2,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 0,
@@ -1107,14 +1198,14 @@
     "30603963": {
         "username": "SlowpokeVG",
         "guesses": {
-            "x": 1,
-            "a": 3,
-            "b": 3
+            "x": 2,
+            "a": 4,
+            "b": 6
         },
         "wins": {
             "x": 0,
-            "a": 0,
-            "b": 0
+            "a": 1,
+            "b": 2
         }
     },
     "30647400": {
@@ -1186,12 +1277,12 @@
         "username": "UltimateDaveLIVE",
         "guesses": {
             "x": 0,
-            "a": 2,
+            "a": 3,
             "b": 3
         },
         "wins": {
             "x": 0,
-            "a": 2,
+            "a": 3,
             "b": 2
         }
     },
@@ -1205,6 +1296,19 @@
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 0
+        }
+    },
+    "31135126": {
+        "username": "MashuraXX",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -1289,7 +1393,7 @@
     "31898142": {
         "username": "ShiftyEffect",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 0,
             "b": 0
         },
@@ -1312,10 +1416,23 @@
             "b": 0
         }
     },
+    "31915581": {
+        "username": "YukariMAiG",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "32012245": {
         "username": "xanderkins",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 1,
             "b": 1
         },
@@ -1351,6 +1468,19 @@
             "b": 0
         }
     },
+    "32194567": {
+        "username": "Bittie",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "32313280": {
         "username": "AttackTheMoon",
         "guesses": {
@@ -1369,12 +1499,12 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 5
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 3
         }
     },
     "32464043": {
@@ -1394,6 +1524,19 @@
         "username": "AssassinAshur",
         "guesses": {
             "x": 1,
+            "a": 2,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "32531881": {
+        "username": "Sefhie",
+        "guesses": {
+            "x": 0,
             "a": 1,
             "b": 0
         },
@@ -1406,7 +1549,7 @@
     "32801376": {
         "username": "Foopy23",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 2
         },
@@ -1432,13 +1575,13 @@
     "32829865": {
         "username": "fowwo_",
         "guesses": {
-            "x": 9,
-            "a": 26,
+            "x": 10,
+            "a": 33,
             "b": 7
         },
         "wins": {
             "x": 3,
-            "a": 13,
+            "a": 16,
             "b": 4
         }
     },
@@ -1481,6 +1624,32 @@
             "b": 1
         }
     },
+    "34497730": {
+        "username": "OutbreakRE",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "35180499": {
+        "username": "DH_Ninja",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
     "35447590": {
         "username": "BreakingFuse",
         "guesses": {
@@ -1497,13 +1666,13 @@
     "35879678": {
         "username": "TheSirAce",
         "guesses": {
-            "x": 0,
-            "a": 0,
+            "x": 2,
+            "a": 1,
             "b": 1
         },
         "wins": {
             "x": 0,
-            "a": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -1533,6 +1702,19 @@
             "b": 0
         }
     },
+    "36056274": {
+        "username": "chagggo",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "36096754": {
         "username": "DJRebirth",
         "guesses": {
@@ -1549,12 +1731,12 @@
     "36112199": {
         "username": "Ulain",
         "guesses": {
-            "x": 8,
+            "x": 11,
             "a": 0,
             "b": 0
         },
         "wins": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         }
@@ -1575,14 +1757,14 @@
     "36268303": {
         "username": "DragonCelt",
         "guesses": {
-            "x": 1,
-            "a": 1,
-            "b": 0
+            "x": 2,
+            "a": 3,
+            "b": 2
         },
         "wins": {
             "x": 1,
-            "a": 1,
-            "b": 0
+            "a": 2,
+            "b": 1
         }
     },
     "36329505": {
@@ -1628,7 +1810,20 @@
         "username": "FallenIsel",
         "guesses": {
             "x": 0,
-            "a": 6,
+            "a": 7,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "36590658": {
+        "username": "zombizzle",
+        "guesses": {
+            "x": 0,
+            "a": 1,
             "b": 1
         },
         "wins": {
@@ -1655,6 +1850,19 @@
         "guesses": {
             "x": 0,
             "a": 1,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "37016269": {
+        "username": "KeezyC",
+        "guesses": {
+            "x": 0,
+            "a": 0,
             "b": 1
         },
         "wins": {
@@ -1680,12 +1888,12 @@
         "username": "Jaraxxis",
         "guesses": {
             "x": 2,
-            "a": 1,
+            "a": 2,
             "b": 1
         },
         "wins": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 1
         }
     },
@@ -1720,7 +1928,7 @@
         "guesses": {
             "x": 2,
             "a": 1,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -1757,14 +1965,14 @@
     "37848493": {
         "username": "Hadder0291",
         "guesses": {
-            "x": 1,
+            "x": 3,
             "a": 0,
-            "b": 0
+            "b": 2
         },
         "wins": {
-            "x": 1,
+            "x": 2,
             "a": 0,
-            "b": 0
+            "b": 2
         }
     },
     "38078496": {
@@ -1806,6 +2014,19 @@
             "b": 0
         }
     },
+    "38424976": {
+        "username": "SolidSpiderZnake",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "38446956": {
         "username": "8bitwiseman",
         "guesses": {
@@ -1832,6 +2053,19 @@
             "b": 1
         }
     },
+    "38837035": {
+        "username": "Lastrin",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 3
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 2
+        }
+    },
     "38850818": {
         "username": "afroninja727",
         "guesses": {
@@ -1843,6 +2077,19 @@
             "x": 5,
             "a": 0,
             "b": 0
+        }
+    },
+    "39039337": {
+        "username": "LDCTheLaw",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
         }
     },
     "39138789": {
@@ -1898,14 +2145,14 @@
         }
     },
     "39374924": {
-        "username": "JupiterOverload",
+        "username": "DAAthren",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 1,
             "b": 0
         },
         "wins": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         }
@@ -1915,7 +2162,7 @@
         "guesses": {
             "x": 18,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 4,
@@ -1926,7 +2173,20 @@
     "39402417": {
         "username": "LoZZora",
         "guesses": {
-            "x": 2,
+            "x": 4,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "39505964": {
+        "username": "Xenothlian",
+        "guesses": {
+            "x": 3,
             "a": 0,
             "b": 0
         },
@@ -1936,15 +2196,15 @@
             "b": 0
         }
     },
-    "39505964": {
-        "username": "Xenothlian",
+    "39706411": {
+        "username": "KiAliens",
         "guesses": {
-            "x": 2,
+            "x": 1,
             "a": 0,
             "b": 0
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -1960,6 +2220,19 @@
             "x": 0,
             "a": 0,
             "b": 2
+        }
+    },
+    "39972787": {
+        "username": "RedeemTK",
+        "guesses": {
+            "x": 2,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
         }
     },
     "40202219": {
@@ -1998,6 +2271,19 @@
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 0
+        }
+    },
+    "40367156": {
+        "username": "Silverwolf32",
+        "guesses": {
+            "x": 0,
+            "a": 27,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 8,
             "b": 0
         }
     },
@@ -2096,7 +2382,7 @@
         "username": "Bronnix8",
         "guesses": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 1
         },
         "wins": {
@@ -2123,12 +2409,12 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 13
+            "b": 17
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 4
+            "b": 6
         }
     },
     "41367478": {
@@ -2136,12 +2422,12 @@
         "guesses": {
             "x": 3,
             "a": 1,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 1,
             "a": 1,
-            "b": 0
+            "b": 1
         }
     },
     "41422347": {
@@ -2149,12 +2435,12 @@
         "guesses": {
             "x": 2,
             "a": 1,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "41472922": {
@@ -2196,6 +2482,32 @@
             "b": 0
         }
     },
+    "41811212": {
+        "username": "SteveChopz",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "41970968": {
+        "username": "GHzSacred",
+        "guesses": {
+            "x": 1,
+            "a": 3,
+            "b": 3
+        },
+        "wins": {
+            "x": 1,
+            "a": 2,
+            "b": 2
+        }
+    },
     "41990227": {
         "username": "gogerry",
         "guesses": {
@@ -2205,6 +2517,19 @@
         },
         "wins": {
             "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "42200181": {
+        "username": "wonderful72pike",
+        "guesses": {
+            "x": 3,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
             "a": 0,
             "b": 0
         }
@@ -2264,14 +2589,14 @@
     "43047136": {
         "username": "BehindTheHero",
         "guesses": {
-            "x": 0,
-            "a": 2,
-            "b": 1
+            "x": 1,
+            "a": 3,
+            "b": 2
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "43172839": {
@@ -2313,6 +2638,19 @@
             "b": 0
         }
     },
+    "43467555": {
+        "username": "SuperSonic_",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "43516780": {
         "username": "Poison_Apple_Farm",
         "guesses": {
@@ -2326,16 +2664,29 @@
             "b": 0
         }
     },
-    "43674270": {
-        "username": "AmericanNidiot",
+    "43670432": {
+        "username": "SpotTheAussie",
         "guesses": {
-            "x": 1,
-            "a": 1,
+            "x": 0,
+            "a": 0,
             "b": 1
         },
         "wins": {
             "x": 0,
-            "a": 1,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "43674270": {
+        "username": "AmericanNidiot",
+        "guesses": {
+            "x": 1,
+            "a": 2,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 2,
             "b": 0
         }
     },
@@ -2348,6 +2699,19 @@
         },
         "wins": {
             "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "43825554": {
+        "username": "dotBik",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
             "a": 0,
             "b": 0
         }
@@ -2420,12 +2784,12 @@
     "44690546": {
         "username": "FightTheSys",
         "guesses": {
-            "x": 28,
+            "x": 29,
             "a": 3,
             "b": 3
         },
         "wins": {
-            "x": 10,
+            "x": 11,
             "a": 0,
             "b": 1
         }
@@ -2453,6 +2817,32 @@
         "wins": {
             "x": 0,
             "a": 2,
+            "b": 0
+        }
+    },
+    "44976214": {
+        "username": "Invading_Fish",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 3
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 2
+        }
+    },
+    "45267148": {
+        "username": "moon2PREGARIO",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 3
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
             "b": 0
         }
     },
@@ -2578,7 +2968,7 @@
         "guesses": {
             "x": 1,
             "a": 1,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 1,
@@ -2634,6 +3024,19 @@
         },
         "wins": {
             "x": 2,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "46420271": {
+        "username": "thecatsaysmooo",
+        "guesses": {
+            "x": 8,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -2706,12 +3109,12 @@
     "47088713": {
         "username": "Tovoh",
         "guesses": {
-            "x": 3,
+            "x": 4,
             "a": 0,
             "b": 0
         },
         "wins": {
-            "x": 1,
+            "x": 2,
             "a": 0,
             "b": 0
         }
@@ -2734,7 +3137,7 @@
         "guesses": {
             "x": 1,
             "a": 2,
-            "b": 15
+            "b": 18
         },
         "wins": {
             "x": 0,
@@ -2781,6 +3184,32 @@
             "b": 0
         }
     },
+    "47682335": {
+        "username": "Luffyking303",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "47710025": {
+        "username": "Mariner_Hawk",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "47746312": {
         "username": "emmavalentine",
         "guesses": {
@@ -2810,7 +3239,7 @@
     "47973253": {
         "username": "Hyperwerk",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 1
         },
@@ -2825,7 +3254,7 @@
         "guesses": {
             "x": 1,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 1,
@@ -2863,7 +3292,7 @@
         "username": "FungoTV",
         "guesses": {
             "x": 2,
-            "a": 2,
+            "a": 3,
             "b": 0
         },
         "wins": {
@@ -2950,12 +3379,51 @@
             "b": 2
         }
     },
+    "48868537": {
+        "username": "felipedisa",
+        "guesses": {
+            "x": 2,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        }
+    },
     "49159500": {
         "username": "LunaGeme",
         "guesses": {
             "x": 0,
             "a": 0,
             "b": 3
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "49316935": {
+        "username": "GreenWolf_84",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "49323291": {
+        "username": "Nimerith",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
         },
         "wins": {
             "x": 0,
@@ -2987,6 +3455,19 @@
             "x": 1,
             "a": 0,
             "b": 1
+        }
+    },
+    "49718720": {
+        "username": "keatiestofthegribbles",
+        "guesses": {
+            "x": 0,
+            "a": 3,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
         }
     },
     "49752659": {
@@ -3058,7 +3539,7 @@
         "username": "Samael1981",
         "guesses": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 0
         },
         "wins": {
@@ -3123,7 +3604,7 @@
         "username": "FENKELL",
         "guesses": {
             "x": 4,
-            "a": 1,
+            "a": 3,
             "b": 0
         },
         "wins": {
@@ -3132,16 +3613,29 @@
             "b": 0
         }
     },
+    "51291369": {
+        "username": "projectvalkyrie",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 2
+        },
+        "wins": {
+            "x": 1,
+            "a": 1,
+            "b": 1
+        }
+    },
     "51332332": {
         "username": "jrustlive",
         "guesses": {
             "x": 5,
-            "a": 2,
+            "a": 5,
             "b": 2
         },
         "wins": {
             "x": 2,
-            "a": 0,
+            "a": 2,
             "b": 0
         }
     },
@@ -3213,7 +3707,7 @@
     "51895357": {
         "username": "ZBat21",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 3
         },
@@ -3240,7 +3734,7 @@
         "username": "1289dude",
         "guesses": {
             "x": 1,
-            "a": 2,
+            "a": 3,
             "b": 2
         },
         "wins": {
@@ -3340,6 +3834,19 @@
             "b": 0
         }
     },
+    "52825243": {
+        "username": "turbosnek",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "53118577": {
         "username": "macmisfit",
         "guesses": {
@@ -3408,12 +3915,12 @@
     "53643135": {
         "username": "nichiyoubi",
         "guesses": {
-            "x": 2,
+            "x": 6,
             "a": 2,
             "b": 9
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 4
         }
@@ -3431,11 +3938,24 @@
             "b": 0
         }
     },
+    "53907918": {
+        "username": "Nekomatagirl",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
     "53941218": {
         "username": "Brandonl715",
         "guesses": {
             "x": 1,
-            "a": 1,
+            "a": 2,
             "b": 0
         },
         "wins": {
@@ -3509,6 +4029,19 @@
             "b": 0
         }
     },
+    "54901636": {
+        "username": "Tapporauta__",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
     "55348430": {
         "username": "Knives112",
         "guesses": {
@@ -3561,6 +4094,19 @@
             "b": 0
         }
     },
+    "55863130": {
+        "username": "Eesane",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "56256684": {
         "username": "UncleFunk",
         "guesses": {
@@ -3587,11 +4133,37 @@
             "b": 1
         }
     },
+    "57126301": {
+        "username": "mangolak",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
     "57250596": {
         "username": "Yamlicious",
         "guesses": {
             "x": 1,
             "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "57301721": {
+        "username": "Nighthunter6",
+        "guesses": {
+            "x": 0,
+            "a": 1,
             "b": 0
         },
         "wins": {
@@ -3652,6 +4224,19 @@
             "b": 0
         }
     },
+    "57598115": {
+        "username": "cookies_and_milfs",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "57617102": {
         "username": "TheNexusRebound",
         "guesses": {
@@ -3681,12 +4266,12 @@
     "57760236": {
         "username": "Erikalynnw",
         "guesses": {
-            "x": 2,
+            "x": 5,
             "a": 2,
             "b": 0
         },
         "wins": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         }
@@ -3743,10 +4328,23 @@
             "b": 0
         }
     },
+    "58402604": {
+        "username": "DominiqueDrolet_Linux",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "58429340": {
         "username": "bfuqua55",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         },
@@ -3848,20 +4446,33 @@
         }
     },
     "59307983": {
-        "username": "queenbrandyn",
+        "username": "x_brandyn_x",
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 15
+            "b": 24
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 6
+            "b": 8
         }
     },
     "59577884": {
         "username": "SLAMJAMMER69",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "59710911": {
+        "username": "fluffyabyss",
         "guesses": {
             "x": 0,
             "a": 0,
@@ -3890,12 +4501,12 @@
         "username": "diamond_suxx",
         "guesses": {
             "x": 5,
-            "a": 3,
+            "a": 4,
             "b": 3
         },
         "wins": {
             "x": 4,
-            "a": 3,
+            "a": 4,
             "b": 1
         }
     },
@@ -3904,6 +4515,19 @@
         "guesses": {
             "x": 0,
             "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "60142077": {
+        "username": "Raythegr8",
+        "guesses": {
+            "x": 2,
+            "a": 1,
             "b": 1
         },
         "wins": {
@@ -3928,7 +4552,7 @@
     "60683922": {
         "username": "Whitexpanther",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 1,
             "b": 7
         },
@@ -4016,6 +4640,19 @@
             "b": 0
         }
     },
+    "62011958": {
+        "username": "OSiRiS151",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 4
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "62031020": {
         "username": "Seirion",
         "guesses": {
@@ -4027,6 +4664,19 @@
             "x": 0,
             "a": 0,
             "b": 1
+        }
+    },
+    "62082822": {
+        "username": "Egan_BW",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
         }
     },
     "62230640": {
@@ -4120,8 +4770,34 @@
             "b": 3
         }
     },
+    "63215700": {
+        "username": "johnnyarks",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "63284017": {
         "username": "AlmightyGasol",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "63285653": {
+        "username": "mechanicalqueen",
         "guesses": {
             "x": 1,
             "a": 0,
@@ -4292,7 +4968,7 @@
     "64719061": {
         "username": "DazManianDevil5",
         "guesses": {
-            "x": 2,
+            "x": 4,
             "a": 0,
             "b": 0
         },
@@ -4315,12 +4991,38 @@
             "b": 0
         }
     },
+    "65130272": {
+        "username": "Dragonown",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "65165427": {
+        "username": "LuckyFatVeggie",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "65267767": {
         "username": "GhostR3CONGaming",
         "guesses": {
             "x": 2,
             "a": 1,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 2,
@@ -4393,6 +5095,19 @@
             "b": 0
         }
     },
+    "65924213": {
+        "username": "MahouDesu",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "65984052": {
         "username": "jonnyaki",
         "guesses": {
@@ -4422,12 +5137,12 @@
     "66181839": {
         "username": "Adwark",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 2
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 1
         }
@@ -4469,6 +5184,19 @@
             "x": 0,
             "a": 0,
             "b": 1
+        }
+    },
+    "66567935": {
+        "username": "Datenshi1325",
+        "guesses": {
+            "x": 0,
+            "a": 3,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
         }
     },
     "66640449": {
@@ -4540,8 +5268,8 @@
         "username": "MrFoodski",
         "guesses": {
             "x": 0,
-            "a": 1,
-            "b": 0
+            "a": 2,
+            "b": 1
         },
         "wins": {
             "x": 0,
@@ -4566,7 +5294,7 @@
         "username": "TonyPullMyDTRedgrave",
         "guesses": {
             "x": 3,
-            "a": 0,
+            "a": 2,
             "b": 1
         },
         "wins": {
@@ -4693,10 +5421,10 @@
         }
     },
     "69694858": {
-        "username": "lllshogunlll",
+        "username": "shogun__1",
         "guesses": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 0
         },
         "wins": {
@@ -4770,6 +5498,19 @@
             "b": 0
         }
     },
+    "71905099": {
+        "username": "NyssaMysteria",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "71978779": {
         "username": "wiatters",
         "guesses": {
@@ -4784,11 +5525,11 @@
         }
     },
     "72237024": {
-        "username": "HappyGreenWitch",
+        "username": "SatansBlackWitch",
         "guesses": {
             "x": 1,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 1,
@@ -4825,12 +5566,12 @@
     "72477804": {
         "username": "BerryBerryGood",
         "guesses": {
-            "x": 0,
+            "x": 2,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -4851,12 +5592,12 @@
     "72984093": {
         "username": "One_Lemonade",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 2,
             "b": 0
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -4929,25 +5670,38 @@
     "73261462": {
         "username": "Cyansomnia",
         "guesses": {
-            "x": 27,
+            "x": 28,
             "a": 5,
             "b": 13
         },
         "wins": {
-            "x": 10,
+            "x": 11,
             "a": 0,
             "b": 4
+        }
+    },
+    "73448565": {
+        "username": "Whats_H3r_Face",
+        "guesses": {
+            "x": 6,
+            "a": 1,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
         }
     },
     "73476007": {
         "username": "Admiralpoosh",
         "guesses": {
-            "x": 2,
+            "x": 4,
             "a": 4,
             "b": 2
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 1,
             "b": 1
         }
@@ -4955,14 +5709,14 @@
     "73515322": {
         "username": "Archonys",
         "guesses": {
-            "x": 3,
+            "x": 7,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "73849076": {
@@ -5111,7 +5865,7 @@
     "76807727": {
         "username": "Moriartea_time",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         },
@@ -5150,12 +5904,12 @@
     "77316555": {
         "username": "rc_gmr_0826",
         "guesses": {
-            "x": 4,
+            "x": 6,
             "a": 1,
             "b": 6
         },
         "wins": {
-            "x": 1,
+            "x": 2,
             "a": 1,
             "b": 2
         }
@@ -5203,8 +5957,8 @@
         "username": "NeoThe1",
         "guesses": {
             "x": 0,
-            "a": 0,
-            "b": 1
+            "a": 1,
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -5241,9 +5995,9 @@
     "77617402": {
         "username": "theotherDW",
         "guesses": {
-            "x": 12,
-            "a": 11,
-            "b": 10
+            "x": 14,
+            "a": 13,
+            "b": 11
         },
         "wins": {
             "x": 2,
@@ -5326,6 +6080,32 @@
         "wins": {
             "x": 0,
             "a": 2,
+            "b": 0
+        }
+    },
+    "80187380": {
+        "username": "Allyed",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "80360290": {
+        "username": "SherryMonocle",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
             "b": 0
         }
     },
@@ -5437,12 +6217,12 @@
         "username": "miyabel",
         "guesses": {
             "x": 2,
-            "a": 4,
-            "b": 1
+            "a": 5,
+            "b": 2
         },
         "wins": {
             "x": 0,
-            "a": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -5450,12 +6230,12 @@
         "username": "Fis216",
         "guesses": {
             "x": 0,
-            "a": 1,
+            "a": 2,
             "b": 1
         },
         "wins": {
             "x": 0,
-            "a": 1,
+            "a": 2,
             "b": 0
         }
     },
@@ -5485,6 +6265,19 @@
             "b": 1
         }
     },
+    "83073053": {
+        "username": "Majinjustin",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "83500685": {
         "username": "KramerC",
         "guesses": {
@@ -5498,12 +6291,25 @@
             "b": 2
         }
     },
+    "83558382": {
+        "username": "Knumpty",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "83961200": {
         "username": "stellarreplica",
         "guesses": {
-            "x": 4,
-            "a": 5,
-            "b": 1
+            "x": 6,
+            "a": 6,
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -5606,7 +6412,7 @@
         "username": "impa_danila",
         "guesses": {
             "x": 1,
-            "a": 4,
+            "a": 5,
             "b": 3
         },
         "wins": {
@@ -5722,14 +6528,14 @@
     "86111217": {
         "username": "Midolir",
         "guesses": {
-            "x": 0,
-            "a": 3,
-            "b": 12
+            "x": 2,
+            "a": 4,
+            "b": 15
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 1,
-            "b": 4
+            "b": 7
         }
     },
     "86232394": {
@@ -5774,13 +6580,13 @@
     "87133390": {
         "username": "BoxKing",
         "guesses": {
-            "x": 2,
-            "a": 0,
+            "x": 7,
+            "a": 3,
             "b": 0
         },
         "wins": {
-            "x": 0,
-            "a": 0,
+            "x": 2,
+            "a": 1,
             "b": 0
         }
     },
@@ -5801,12 +6607,12 @@
         "username": "Neitchzehrer",
         "guesses": {
             "x": 6,
-            "a": 1,
+            "a": 2,
             "b": 4
         },
         "wins": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 2
         }
     },
@@ -5839,7 +6645,7 @@
     "88087109": {
         "username": "SerAvium",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 1,
             "b": 1
         },
@@ -5865,7 +6671,7 @@
     "88521508": {
         "username": "BillSlithers",
         "guesses": {
-            "x": 6,
+            "x": 7,
             "a": 4,
             "b": 7
         },
@@ -5956,12 +6762,12 @@
     "89045476": {
         "username": "snowdayzie",
         "guesses": {
-            "x": 0,
+            "x": 2,
             "a": 1,
             "b": 0
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 1,
             "b": 0
         }
@@ -5989,6 +6795,19 @@
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 0
+        }
+    },
+    "89899691": {
+        "username": "MalachiteKell",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 1,
             "b": 0
         }
     },
@@ -6190,12 +7009,12 @@
     "92984089": {
         "username": "TheRagingMule",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 4
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 1
         }
@@ -6216,9 +7035,9 @@
     "93009743": {
         "username": "tank_controls",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 0,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 1,
@@ -6248,6 +7067,19 @@
         },
         "wins": {
             "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "93554223": {
+        "username": "chrisfrom92",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -6412,8 +7244,21 @@
         "username": "Xavier_Blaq",
         "guesses": {
             "x": 0,
-            "a": 1,
+            "a": 3,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 2,
             "b": 1
+        }
+    },
+    "97302123": {
+        "username": "Seraphina81",
+        "guesses": {
+            "x": 1,
+            "a": 2,
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -6421,17 +7266,17 @@
             "b": 1
         }
     },
-    "97302123": {
-        "username": "Seraphina81",
+    "97767810": {
+        "username": "verdanht",
         "guesses": {
             "x": 0,
-            "a": 1,
+            "a": 0,
             "b": 1
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "97985521": {
@@ -6474,15 +7319,15 @@
         }
     },
     "99235398": {
-        "username": "TrissMerigoldofMaribor",
+        "username": "Jormungander1",
         "guesses": {
             "x": 0,
-            "a": 1,
-            "b": 1
+            "a": 2,
+            "b": 2
         },
         "wins": {
             "x": 0,
-            "a": 0,
+            "a": 1,
             "b": 1
         }
     },
@@ -6525,10 +7370,23 @@
             "b": 0
         }
     },
+    "100356138": {
+        "username": "FhaeLin",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "101019545": {
         "username": "Zendrik510",
         "guesses": {
-            "x": 10,
+            "x": 12,
             "a": 0,
             "b": 0
         },
@@ -6633,12 +7491,12 @@
         "username": "alf717",
         "guesses": {
             "x": 0,
-            "a": 1,
+            "a": 2,
             "b": 0
         },
         "wins": {
             "x": 0,
-            "a": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -6684,12 +7542,12 @@
     "103632869": {
         "username": "aweful_john",
         "guesses": {
-            "x": 2,
+            "x": 4,
             "a": 0,
             "b": 0
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -6697,7 +7555,7 @@
     "103716231": {
         "username": "Archie980",
         "guesses": {
-            "x": 2,
+            "x": 4,
             "a": 3,
             "b": 1
         },
@@ -6723,14 +7581,14 @@
     "104538958": {
         "username": "idazU_iraviZ",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
-            "b": 2
+            "b": 4
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 1
+            "b": 2
         }
     },
     "104542931": {
@@ -6772,10 +7630,23 @@
             "b": 1
         }
     },
+    "105522742": {
+        "username": "RideThatStrider",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "105526034": {
         "username": "snorlaxbud",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         },
@@ -6791,6 +7662,45 @@
             "x": 1,
             "a": 0,
             "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "107785846": {
+        "username": "shutitnavi",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "107798859": {
+        "username": "gwenny1234",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "107828857": {
+        "username": "thederailedplatipus",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -6828,8 +7738,8 @@
         "username": "lunawolf349",
         "guesses": {
             "x": 2,
-            "a": 2,
-            "b": 2
+            "a": 4,
+            "b": 3
         },
         "wins": {
             "x": 1,
@@ -6879,7 +7789,7 @@
     "108833597": {
         "username": "GrandObelisk",
         "guesses": {
-            "x": 6,
+            "x": 7,
             "a": 1,
             "b": 0
         },
@@ -6915,6 +7825,19 @@
             "b": 1
         }
     },
+    "109341903": {
+        "username": "The_Dude_55",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
     "109462556": {
         "username": "JPeezy182",
         "guesses": {
@@ -6932,7 +7855,7 @@
         "username": "ganondick",
         "guesses": {
             "x": 0,
-            "a": 1,
+            "a": 2,
             "b": 3
         },
         "wins": {
@@ -7054,6 +7977,19 @@
         },
         "wins": {
             "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "112150438": {
+        "username": "mANGEL9610",
+        "guesses": {
+            "x": 5,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 2,
             "a": 0,
             "b": 0
         }
@@ -7321,14 +8257,14 @@
     "117893944": {
         "username": "FoxGreywithaFro",
         "guesses": {
-            "x": 2,
-            "a": 0,
-            "b": 0
+            "x": 3,
+            "a": 1,
+            "b": 2
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 2
         }
     },
     "118157438": {
@@ -7348,7 +8284,7 @@
         "username": "gnosisseeker1",
         "guesses": {
             "x": 3,
-            "a": 2,
+            "a": 3,
             "b": 1
         },
         "wins": {
@@ -7362,7 +8298,7 @@
         "guesses": {
             "x": 2,
             "a": 2,
-            "b": 4
+            "b": 6
         },
         "wins": {
             "x": 1,
@@ -7435,17 +8371,43 @@
             "b": 0
         }
     },
+    "121717153": {
+        "username": "JoeyBluff",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "121876364": {
         "username": "memochaa",
         "guesses": {
-            "x": 3,
-            "a": 0,
-            "b": 6
+            "x": 4,
+            "a": 1,
+            "b": 7
         },
         "wins": {
             "x": 2,
-            "a": 0,
+            "a": 1,
             "b": 2
+        }
+    },
+    "122105223": {
+        "username": "CaptainAmazing",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
         }
     },
     "122323874": {
@@ -7453,12 +8415,12 @@
         "guesses": {
             "x": 1,
             "a": 2,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "122677544": {
@@ -7503,14 +8465,14 @@
     "123346187": {
         "username": "NPCWendyK",
         "guesses": {
-            "x": 6,
-            "a": 4,
-            "b": 4
+            "x": 12,
+            "a": 7,
+            "b": 6
         },
         "wins": {
-            "x": 2,
+            "x": 4,
             "a": 1,
-            "b": 1
+            "b": 2
         }
     },
     "123359379": {
@@ -7529,8 +8491,8 @@
     "124065622": {
         "username": "HeadMooseInCharge",
         "guesses": {
-            "x": 2,
-            "a": 0,
+            "x": 3,
+            "a": 1,
             "b": 2
         },
         "wins": {
@@ -7643,6 +8605,19 @@
             "b": 0
         }
     },
+    "125042870": {
+        "username": "MrThompson423",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        }
+    },
     "125061196": {
         "username": "moiiiisty",
         "guesses": {
@@ -7711,14 +8686,14 @@
     "125969354": {
         "username": "MetalWaldo",
         "guesses": {
-            "x": 5,
-            "a": 2,
-            "b": 1
+            "x": 7,
+            "a": 5,
+            "b": 5
         },
         "wins": {
             "x": 1,
-            "a": 0,
-            "b": 0
+            "a": 1,
+            "b": 2
         }
     },
     "126379233": {
@@ -7744,6 +8719,19 @@
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 1
+        }
+    },
+    "126836144": {
+        "username": "Adgarienne",
+        "guesses": {
+            "x": 2,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 1,
+            "a": 1,
             "b": 1
         }
     },
@@ -7784,6 +8772,32 @@
             "x": 0,
             "a": 0,
             "b": 0
+        }
+    },
+    "128039117": {
+        "username": "spicymilk2942",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "128039530": {
+        "username": "Nachtchaos",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 1
         }
     },
     "128285475": {
@@ -7843,7 +8857,7 @@
         "guesses": {
             "x": 8,
             "a": 0,
-            "b": 3
+            "b": 4
         },
         "wins": {
             "x": 3,
@@ -7953,6 +8967,19 @@
             "x": 0,
             "a": 0,
             "b": 0
+        }
+    },
+    "130489412": {
+        "username": "Kuro_Gorgonzola",
+        "guesses": {
+            "x": 2,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 1
         }
     },
     "130651512": {
@@ -8124,12 +9151,25 @@
             "b": 0
         }
     },
+    "135958101": {
+        "username": "Shelbs_and_Cheese",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "136079237": {
         "username": "cswift86",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 2,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 1,
@@ -8215,6 +9255,32 @@
             "b": 0
         }
     },
+    "137013043": {
+        "username": "BrotherBluto",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "137066948": {
+        "username": "youhaolu",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "137166504": {
         "username": "CeeLEXA",
         "guesses": {
@@ -8272,23 +9338,23 @@
         "guesses": {
             "x": 4,
             "a": 4,
-            "b": 5
+            "b": 6
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 3
+            "b": 4
         }
     },
     "137889020": {
-        "username": "YeahBoi1969",
+        "username": "ExplodingKitchen69",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 1,
             "b": 1
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -8361,7 +9427,7 @@
     "139751009": {
         "username": "imaginaryfren",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 1,
             "b": 0
         },
@@ -8425,6 +9491,19 @@
     },
     "140731663": {
         "username": "DrCallieeSix",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "141036869": {
+        "username": "Owlectricity",
         "guesses": {
             "x": 0,
             "a": 1,
@@ -8501,17 +9580,30 @@
             "b": 0
         }
     },
-    "143346388": {
-        "username": "JackiEilonwySpicer",
+    "143071522": {
+        "username": "bumblebeetuna41",
         "guesses": {
-            "x": 3,
-            "a": 1,
+            "x": 0,
+            "a": 0,
             "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "143346388": {
+        "username": "SerenityLynne",
+        "guesses": {
+            "x": 4,
+            "a": 4,
+            "b": 4
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 2
+            "b": 3
         }
     },
     "143568388": {
@@ -8531,12 +9623,12 @@
         "username": "iamgreaser",
         "guesses": {
             "x": 0,
-            "a": 14,
+            "a": 24,
             "b": 0
         },
         "wins": {
             "x": 0,
-            "a": 4,
+            "a": 7,
             "b": 0
         }
     },
@@ -8592,10 +9684,23 @@
             "b": 1
         }
     },
-    "145142816": {
-        "username": "funkadelichika3",
+    "144965053": {
+        "username": "Zenora1911",
         "guesses": {
-            "x": 1,
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "145142816": {
+        "username": "funkadelichika",
+        "guesses": {
+            "x": 2,
             "a": 6,
             "b": 5
         },
@@ -8608,7 +9713,7 @@
     "145531329": {
         "username": "xxlessthnzeroxx",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 0,
             "b": 0
         },
@@ -8723,9 +9828,9 @@
         }
     },
     "147588615": {
-        "username": "samuraipoet88",
+        "username": "SamuraiPoet88",
         "guesses": {
-            "x": 3,
+            "x": 4,
             "a": 0,
             "b": 2
         },
@@ -8740,12 +9845,12 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 2
+            "b": 3
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "148064471": {
@@ -8895,8 +10000,21 @@
         "username": "LonesomeWalker91",
         "guesses": {
             "x": 0,
-            "a": 2,
+            "a": 4,
             "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "150835585": {
+        "username": "Ceoreparque",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
         },
         "wins": {
             "x": 0,
@@ -8922,7 +10040,7 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -8935,7 +10053,7 @@
         "guesses": {
             "x": 0,
             "a": 1,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 0,
@@ -8995,6 +10113,19 @@
             "b": 0
         }
     },
+    "152219725": {
+        "username": "Rayne_The_Gamer",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "152815967": {
         "username": "mtwenty",
         "guesses": {
@@ -9008,15 +10139,41 @@
             "b": 0
         }
     },
-    "153671330": {
-        "username": "durza85",
+    "152905261": {
+        "username": "kill_payne8787",
         "guesses": {
-            "x": 1,
-            "a": 1,
+            "x": 0,
+            "a": 0,
             "b": 1
         },
         "wins": {
-            "x": 1,
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "152922392": {
+        "username": "StimeThePirate",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "153671330": {
+        "username": "durza85",
+        "guesses": {
+            "x": 5,
+            "a": 2,
+            "b": 1
+        },
+        "wins": {
+            "x": 2,
             "a": 0,
             "b": 0
         }
@@ -9053,6 +10210,19 @@
             "x": 2,
             "a": 1,
             "b": 1
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "154576051": {
+        "username": "Homecoming",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
         },
         "wins": {
             "x": 1,
@@ -9112,6 +10282,19 @@
             "b": 0
         }
     },
+    "157215288": {
+        "username": "psyphon11",
+        "guesses": {
+            "x": 10,
+            "a": 10,
+            "b": 1
+        },
+        "wins": {
+            "x": 4,
+            "a": 3,
+            "b": 0
+        }
+    },
     "157723735": {
         "username": "Freund_Blase",
         "guesses": {
@@ -9151,6 +10334,19 @@
             "b": 0
         }
     },
+    "158039525": {
+        "username": "forzagambit92",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
     "158132515": {
         "username": "hachitory",
         "guesses": {
@@ -9162,6 +10358,19 @@
             "x": 0,
             "a": 0,
             "b": 0
+        }
+    },
+    "158247331": {
+        "username": "Donny0207",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 1
         }
     },
     "158488866": {
@@ -9221,7 +10430,7 @@
         "guesses": {
             "x": 3,
             "a": 2,
-            "b": 4
+            "b": 5
         },
         "wins": {
             "x": 0,
@@ -9252,6 +10461,19 @@
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 0
+        }
+    },
+    "161801154": {
+        "username": "thetravesty3",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -9299,12 +10521,25 @@
         "guesses": {
             "x": 0,
             "a": 4,
-            "b": 3
+            "b": 5
         },
         "wins": {
             "x": 0,
             "a": 1,
             "b": 0
+        }
+    },
+    "164158055": {
+        "username": "AceWolfG",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
         }
     },
     "164352622": {
@@ -9583,12 +10818,12 @@
     "177115316": {
         "username": "MemoriesEmbrace",
         "guesses": {
-            "x": 10,
+            "x": 11,
             "a": 1,
             "b": 2
         },
         "wins": {
-            "x": 2,
+            "x": 3,
             "a": 0,
             "b": 0
         }
@@ -9619,6 +10854,19 @@
             "b": 0
         }
     },
+    "178182187": {
+        "username": "Space_Woodman",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "179099348": {
         "username": "ToasterLover",
         "guesses": {
@@ -9629,6 +10877,19 @@
         "wins": {
             "x": 0,
             "a": 1,
+            "b": 0
+        }
+    },
+    "179183655": {
+        "username": "Ortharsyne",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 2
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
             "b": 0
         }
     },
@@ -9671,6 +10932,19 @@
             "b": 1
         }
     },
+    "181496785": {
+        "username": "Thanxie",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "182394724": {
         "username": "undeadronin00",
         "guesses": {
@@ -9680,6 +10954,19 @@
         },
         "wins": {
             "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "185381797": {
+        "username": "KrossFire4",
+        "guesses": {
+            "x": 2,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 1,
             "a": 0,
             "b": 0
         }
@@ -9739,7 +11026,7 @@
     "187100971": {
         "username": "TheBowtieTori",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
             "b": 1
         },
@@ -9840,6 +11127,19 @@
             "b": 0
         }
     },
+    "191395265": {
+        "username": "scaymanx",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "194181272": {
         "username": "inaru__",
         "guesses": {
@@ -9885,6 +11185,19 @@
             "x": 0,
             "a": 0,
             "b": 3
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "197215868": {
+        "username": "PuddinFart",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 1
         },
         "wins": {
             "x": 0,
@@ -9947,14 +11260,14 @@
     "198886606": {
         "username": "griffin009966",
         "guesses": {
-            "x": 2,
-            "a": 5,
-            "b": 3
+            "x": 3,
+            "a": 8,
+            "b": 5
         },
         "wins": {
             "x": 0,
-            "a": 1,
-            "b": 0
+            "a": 2,
+            "b": 2
         }
     },
     "199075649": {
@@ -10009,6 +11322,19 @@
             "b": 0
         }
     },
+    "203802781": {
+        "username": "kermidex",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "204056363": {
         "username": "carneousevil",
         "guesses": {
@@ -10025,12 +11351,25 @@
     "205203640": {
         "username": "blacksnakemoana",
         "guesses": {
-            "x": 1,
+            "x": 3,
             "a": 0,
-            "b": 0
+            "b": 3
         },
         "wins": {
             "x": 1,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "206423095": {
+        "username": "DrSpaghettii",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
             "a": 0,
             "b": 0
         }
@@ -10062,14 +11401,14 @@
         }
     },
     "209366098": {
-        "username": "Minty_Cookies",
+        "username": "Risryns",
         "guesses": {
-            "x": 10,
+            "x": 15,
             "a": 0,
             "b": 0
         },
         "wins": {
-            "x": 3,
+            "x": 4,
             "a": 0,
             "b": 0
         }
@@ -10100,6 +11439,19 @@
             "b": 0
         }
     },
+    "211649021": {
+        "username": "buzz7788",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "213018973": {
         "username": "ThatAlyKat",
         "guesses": {
@@ -10122,6 +11474,19 @@
         },
         "wins": {
             "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "214913786": {
+        "username": "crimson_emblem",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 1,
             "a": 0,
             "b": 1
         }
@@ -10191,6 +11556,19 @@
             "b": 0
         }
     },
+    "219209572": {
+        "username": "Otoako",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "219375229": {
         "username": "Rio_Dalash",
         "guesses": {
@@ -10220,13 +11598,13 @@
     "222815855": {
         "username": "MsNix",
         "guesses": {
-            "x": 7,
-            "a": 8,
+            "x": 8,
+            "a": 15,
             "b": 7
         },
         "wins": {
-            "x": 2,
-            "a": 2,
+            "x": 3,
+            "a": 6,
             "b": 1
         }
     },
@@ -10245,6 +11623,19 @@
     },
     "227194170": {
         "username": "markc_420",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "228643486": {
+        "username": "Swanky_1337",
         "guesses": {
             "x": 1,
             "a": 0,
@@ -10559,26 +11950,26 @@
         "username": "make7_upyours",
         "guesses": {
             "x": 11,
-            "a": 0,
-            "b": 7
+            "a": 2,
+            "b": 8
         },
         "wins": {
             "x": 4,
-            "a": 0,
-            "b": 2
+            "a": 1,
+            "b": 3
         }
     },
     "252923506": {
         "username": "majindusto",
         "guesses": {
-            "x": 2,
+            "x": 4,
             "a": 3,
-            "b": 5
+            "b": 6
         },
         "wins": {
-            "x": 1,
+            "x": 2,
             "a": 1,
-            "b": 0
+            "b": 1
         }
     },
     "253176452": {
@@ -10623,14 +12014,14 @@
     "254985091": {
         "username": "Roozie",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 1,
-            "b": 1
+            "b": 3
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 2
         }
     },
     "255088702": {
@@ -10794,12 +12185,38 @@
         "guesses": {
             "x": 1,
             "a": 0,
-            "b": 0
+            "b": 2
         },
         "wins": {
             "x": 1,
             "a": 0,
             "b": 0
+        }
+    },
+    "269614708": {
+        "username": "toxic_svensk",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "269644275": {
+        "username": "linreicos",
+        "guesses": {
+            "x": 2,
+            "a": 0,
+            "b": 2
+        },
+        "wins": {
+            "x": 1,
+            "a": 0,
+            "b": 1
         }
     },
     "269990262": {
@@ -10833,7 +12250,7 @@
         "guesses": {
             "x": 1,
             "a": 0,
-            "b": 0
+            "b": 1
         },
         "wins": {
             "x": 0,
@@ -10909,14 +12326,14 @@
     "403558616": {
         "username": "Ded_Bundy",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 0,
-            "b": 4
+            "b": 7
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 1
+            "b": 3
         }
     },
     "403900724": {
@@ -10961,13 +12378,13 @@
     "406515343": {
         "username": "ZucchinaGhost",
         "guesses": {
-            "x": 4,
-            "a": 7,
+            "x": 11,
+            "a": 9,
             "b": 10
         },
         "wins": {
             "x": 1,
-            "a": 5,
+            "a": 6,
             "b": 3
         }
     },
@@ -10975,7 +12392,7 @@
         "username": "quesadilla79",
         "guesses": {
             "x": 1,
-            "a": 0,
+            "a": 1,
             "b": 0
         },
         "wins": {
@@ -11078,14 +12495,14 @@
     "415490567": {
         "username": "SpookyCritter",
         "guesses": {
-            "x": 2,
+            "x": 3,
             "a": 0,
-            "b": 2
+            "b": 3
         },
         "wins": {
-            "x": 0,
+            "x": 1,
             "a": 0,
-            "b": 2
+            "b": 3
         }
     },
     "415577780": {
@@ -11153,6 +12570,32 @@
             "b": 1
         }
     },
+    "418435154": {
+        "username": "fti_wheerawr",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "419380209": {
+        "username": "tsukuyomidance",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "421015062": {
         "username": "frankcastle5157",
         "guesses": {
@@ -11197,23 +12640,23 @@
         "guesses": {
             "x": 1,
             "a": 0,
-            "b": 16
+            "b": 21
         },
         "wins": {
             "x": 1,
             "a": 0,
-            "b": 6
+            "b": 9
         }
     },
     "423906828": {
         "username": "Arya_Phoenix",
         "guesses": {
-            "x": 24,
+            "x": 25,
             "a": 1,
             "b": 0
         },
         "wins": {
-            "x": 8,
+            "x": 9,
             "a": 0,
             "b": 0
         }
@@ -11227,6 +12670,19 @@
         },
         "wins": {
             "x": 1,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "424054843": {
+        "username": "Aoristic_1",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
             "a": 0,
             "b": 0
         }
@@ -11260,7 +12716,7 @@
     "430176533": {
         "username": "nordsson18",
         "guesses": {
-            "x": 1,
+            "x": 3,
             "a": 0,
             "b": 1
         },
@@ -11322,6 +12778,19 @@
             "b": 0
         }
     },
+    "433224372": {
+        "username": "artfulkiller23",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "434456751": {
         "username": "levcrouton",
         "guesses": {
@@ -11364,12 +12833,12 @@
     "437005956": {
         "username": "0nyx_",
         "guesses": {
-            "x": 10,
+            "x": 11,
             "a": 2,
             "b": 0
         },
         "wins": {
-            "x": 3,
+            "x": 4,
             "a": 1,
             "b": 0
         }
@@ -11390,8 +12859,8 @@
     "441217186": {
         "username": "frenchie_1984",
         "guesses": {
-            "x": 9,
-            "a": 1,
+            "x": 10,
+            "a": 2,
             "b": 0
         },
         "wins": {
@@ -11429,9 +12898,9 @@
     "448404035": {
         "username": "SweatyNakedMan",
         "guesses": {
-            "x": 0,
+            "x": 1,
             "a": 1,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 0,
@@ -11470,7 +12939,7 @@
         "guesses": {
             "x": 0,
             "a": 0,
-            "b": 2
+            "b": 3
         },
         "wins": {
             "x": 0,
@@ -11608,15 +13077,28 @@
             "b": 0
         }
     },
-    "463129187": {
-        "username": "HugeCandySquids",
+    "462776892": {
+        "username": "ZerO_deLuca",
         "guesses": {
-            "x": 40,
+            "x": 0,
             "a": 0,
             "b": 1
         },
         "wins": {
-            "x": 12,
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "463129187": {
+        "username": "HugeCandySquids",
+        "guesses": {
+            "x": 53,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 16,
             "a": 0,
             "b": 0
         }
@@ -11626,12 +13108,12 @@
         "guesses": {
             "x": 0,
             "a": 1,
-            "b": 1
+            "b": 2
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "464384500": {
@@ -11756,12 +13238,12 @@
         "guesses": {
             "x": 0,
             "a": 4,
-            "b": 5
+            "b": 6
         },
         "wins": {
             "x": 0,
             "a": 0,
-            "b": 0
+            "b": 1
         }
     },
     "474037852": {
@@ -11830,22 +13312,22 @@
         }
     },
     "477565576": {
-        "username": "cookiev28",
+        "username": "CookieV28",
         "guesses": {
-            "x": 1,
-            "a": 0,
-            "b": 1
+            "x": 3,
+            "a": 4,
+            "b": 5
         },
         "wins": {
             "x": 1,
-            "a": 0,
-            "b": 0
+            "a": 1,
+            "b": 1
         }
     },
     "480708149": {
         "username": "ctdolomane24",
         "guesses": {
-            "x": 1,
+            "x": 2,
             "a": 0,
             "b": 0
         },
@@ -11895,7 +13377,33 @@
         }
     },
     "489754061": {
-        "username": "oldirty6acon",
+        "username": "olDirty6acon",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 3
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "490264381": {
+        "username": "blackholeindeepspace",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "490781967": {
+        "username": "jjmoneypenny",
         "guesses": {
             "x": 0,
             "a": 0,
@@ -11907,8 +13415,8 @@
             "b": 0
         }
     },
-    "490781967": {
-        "username": "jjmoneypenny",
+    "492517027": {
+        "username": "filthehmcnasteh",
         "guesses": {
             "x": 0,
             "a": 0,
@@ -11959,6 +13467,19 @@
             "b": 1
         }
     },
+    "495380798": {
+        "username": "barryblurton",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
     "496126219": {
         "username": "benevolent_raz",
         "guesses": {
@@ -11989,12 +13510,25 @@
         "username": "zombiemunky31",
         "guesses": {
             "x": 0,
-            "a": 2,
-            "b": 0
+            "a": 3,
+            "b": 1
         },
         "wins": {
             "x": 0,
             "a": 2,
+            "b": 0
+        }
+    },
+    "499535850": {
+        "username": "sebastiancvx",
+        "guesses": {
+            "x": 2,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
             "b": 0
         }
     },
@@ -12184,13 +13718,13 @@
         "username": "mbishopgaming",
         "guesses": {
             "x": 0,
-            "a": 0,
-            "b": 1
+            "a": 2,
+            "b": 3
         },
         "wins": {
             "x": 0,
-            "a": 0,
-            "b": 0
+            "a": 1,
+            "b": 1
         }
     },
     "528892154": {
@@ -12262,12 +13796,38 @@
         "username": "lunairetiic",
         "guesses": {
             "x": 1,
-            "a": 2,
-            "b": 0
+            "a": 4,
+            "b": 1
         },
         "wins": {
             "x": 0,
             "a": 0,
+            "b": 1
+        }
+    },
+    "550024943": {
+        "username": "cloud1984",
+        "guesses": {
+            "x": 7,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 2,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "567023470": {
+        "username": "soulsstan",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
             "b": 0
         }
     },
@@ -12314,12 +13874,12 @@
         "username": "goodguybadman",
         "guesses": {
             "x": 0,
-            "a": 3,
+            "a": 4,
             "b": 0
         },
         "wins": {
             "x": 0,
-            "a": 1,
+            "a": 2,
             "b": 0
         }
     },
@@ -12349,11 +13909,115 @@
             "b": 0
         }
     },
+    "627545646": {
+        "username": "harrymason10",
+        "guesses": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "633813606": {
+        "username": "SkyGam3rZero",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "642482296": {
+        "username": "konnerbovs",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "643253465": {
+        "username": "rhilever",
+        "guesses": {
+            "x": 0,
+            "a": 3,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "644259395": {
+        "username": "RIPeldritch",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
+    "646032096": {
+        "username": "thatfeelingofeggshells",
+        "guesses": {
+            "x": 1,
+            "a": 0,
+            "b": 0
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 0
+        }
+    },
+    "647681735": {
+        "username": "fabiansilent",
+        "guesses": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        },
+        "wins": {
+            "x": 1,
+            "a": 1,
+            "b": 0
+        }
+    },
+    "653249679": {
+        "username": "KarateRat",
+        "guesses": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        },
+        "wins": {
+            "x": 0,
+            "a": 0,
+            "b": 1
+        }
+    },
     "stat": {
-        "x": 36,
-        "a": 48,
-        "b": 42,
-        "prev": "x",
+        "x": 46,
+        "a": 61,
+        "b": 57,
+        "prev": "b",
         "streak": 1,
         "maxx": 3,
         "maxa": 5,
