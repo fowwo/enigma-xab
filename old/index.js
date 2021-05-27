@@ -5,7 +5,7 @@
  */
 
 var scores = {};
-fetch("data.json")
+fetch("../data.json")
 	.then(r => r.json())
 	.then(data => {
 		let users = [];
