@@ -1,0 +1,30 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	height: 100vh;
+	background: linear-gradient(#000, #408);
+}
+div#container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: scroll;
+	z-index: 100;
+}
+div#background-container {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+div#background-container svg {
+	position: absolute;
+	width: 120vmax;
+	overflow: visible;
+}
+svg#background1 { z-index: 1; bottom: -20%; filter: blur(32px); }
+svg#background2 { z-index: 2; bottom: -40%; filter: blur(24px); }
+svg#background3 { z-index: 3; bottom: -60%; filter: blur(16px); }
+svg#background4 { z-index: 4; bottom: -80%; filter: blur(8px); }
+svg#background5 { z-index: 5; bottom: -100%; }
