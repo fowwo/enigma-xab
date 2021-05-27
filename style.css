@@ -1,15 +1,48 @@
+:root {
+	--enigma: #a4f;
+	--red: #faa;
+	--green: #afa;
+	--blue: #acf;
+}
 body {
+	display: flex;
+	justify-content: center;
 	overflow: hidden;
 	margin: 0;
 	height: 100vh;
+	font-family: 'Merienda', cursive;
 	background: linear-gradient(#000, #408);
 }
 div#container {
+	box-sizing: border-box;
 	position: absolute;
+	padding: 10px;
 	width: 100vw;
+	max-width: 1000px;
 	height: 100vh;
 	overflow-y: scroll;
 	z-index: 100;
+}
+div#container::-webkit-scrollbar {
+	width: 20px;
+}
+div#container::-webkit-scrollbar-track {
+	border: 6px solid transparent;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 100px inset #0005;
+}
+div#container::-webkit-scrollbar-thumb {
+	border: 6px solid transparent;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 100px inset var(--enigma);
+}
+div#container::-webkit-scrollbar-thumb:hover {
+	box-shadow:
+		0px 0px 0px 1.5px inset #fff,
+		0px 0px 0px 100px inset var(--enigma);
+}
+div#container::-webkit-scrollbar-thumb:active {
+	box-shadow: 0px 0px 0px 100px inset #fff;
 }
 div#background-container {
 	position: absolute;
@@ -22,6 +55,18 @@ div#background-container svg {
 	position: absolute;
 	width: 120vmax;
 	overflow: visible;
+}
+div#xab {
+	margin: 10px 0;
+	width: 100%;
+	font-size: 80px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0px 3px 0px var(--enigma),
+		0px 0px 10px var(--enigma),
+		0px 0px 30px var(--enigma);
+	text-align: center;
 }
 svg#background1 { z-index: 1; bottom: -20%; filter: blur(32px); }
 svg#background2 { z-index: 2; bottom: -40%; filter: blur(24px); }
