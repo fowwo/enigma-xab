@@ -42,3 +42,21 @@ container.addEventListener("scroll", function(){
 	background4.style.bottom = `${-80 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
 	background5.style.bottom = `${-100 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
 });
+
+// Dropdown functionality
+let dropdownList = document.getElementsByClassName("dropdown");
+for (var dropdown of dropdownList) {
+	let head = dropdown.children.item(0);
+	let tail = head.nextElementSibling;
+	head.addEventListener("click", function() {
+		tail.style.maxHeight = this.parentElement.classList.toggle("active") ? `${tail.scrollHeight}px` : null;
+	});
+}
+
+// Dropdown resized height adjustment
+window.addEventListener("resize", function(){
+	for (var dropdown of dropdownList) {
+		let tail = dropdown.children.item(1);
+		if (tail.style.maxHeight) tail.style.maxHeight = `${tail.scrollHeight}px`;
+	}
+});

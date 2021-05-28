@@ -1,5 +1,8 @@
 :root {
+	--text-color: #caf;
 	--enigma: #a4f;
+	--dark-enigma: #528;
+	--dark-enigma-transparent: #5288;
 	--red: #faa;
 	--green: #afa;
 	--blue: #acf;
@@ -10,9 +13,17 @@ body {
 	overflow: hidden;
 	margin: 0;
 	height: 100vh;
+	color: var(--text-color);
 	font-family: 'Merienda', cursive;
+	font-size: 15px;
 	background: linear-gradient(#000, #408);
 }
+p {
+	margin: 10px;
+}
+
+/* ---------------------- container --------------------- */
+
 div#container {
 	box-sizing: border-box;
 	position: absolute;
@@ -44,6 +55,52 @@ div#container::-webkit-scrollbar-thumb:hover {
 div#container::-webkit-scrollbar-thumb:active {
 	box-shadow: 0px 0px 0px 100px inset #fff;
 }
+
+/* ---------------------- dropdown ---------------------- */
+
+div.dropdown {
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #000;
+	overflow: hidden;
+}
+div.dropdown > div:first-child {
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: var(--dark-enigma);
+	background-image: linear-gradient(var(--enigma), #0000);
+	cursor: pointer;
+	transition-property: background-color, box-shadow, color;
+	transition-duration: 150ms;
+	transition-timing-function: ease-in-out;
+}
+div.dropdown.active > div:first-child {
+	background-color: var(--enigma);
+	box-shadow: 0 60px 50px -60px inset #fff;
+	color: #000;
+}
+div.dropdown > div:first-child + div {
+	overflow: hidden;
+	max-height: 10px;
+	background-color: var(--dark-enigma-transparent);
+	background-image: linear-gradient(#0004, #0000);
+	backdrop-filter: blur(8px);
+	transition: max-height 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+div.dropdown > div:first-child:after {
+	float: left;
+	content: "+";
+	width: 0px;
+	margin-right: 12px;
+	text-align: center;
+	font-weight: bold;
+}
+div.dropdown.active > div:first-child:after {
+	content: "-";
+}
+
+/* --------------------- background --------------------- */
+
 div#background-container {
 	position: absolute;
 	display: flex;
@@ -56,6 +113,14 @@ div#background-container svg {
 	width: 120vmax;
 	overflow: visible;
 }
+svg#background1 { z-index: 1; bottom: -20%; filter: blur(32px); }
+svg#background2 { z-index: 2; bottom: -40%; filter: blur(24px); }
+svg#background3 { z-index: 3; bottom: -60%; filter: blur(16px); }
+svg#background4 { z-index: 4; bottom: -80%; filter: blur(8px); }
+svg#background5 { z-index: 5; bottom: -100%; }
+
+/* ------------------------------------------------------ */
+
 div#xab {
 	margin: 10px 0;
 	width: 100%;
@@ -68,8 +133,3 @@ div#xab {
 		0px 0px 30px var(--enigma);
 	text-align: center;
 }
-svg#background1 { z-index: 1; bottom: -20%; filter: blur(32px); }
-svg#background2 { z-index: 2; bottom: -40%; filter: blur(24px); }
-svg#background3 { z-index: 3; bottom: -60%; filter: blur(16px); }
-svg#background4 { z-index: 4; bottom: -80%; filter: blur(8px); }
-svg#background5 { z-index: 5; bottom: -100%; }
