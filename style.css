@@ -6,6 +6,12 @@
 	--red: #faa;
 	--green: #afa;
 	--blue: #acf;
+	--gold: #fc0;
+	--silver: #ddd;
+	--bronze: #d70;
+	--background-gold: #fc04;
+	--background-silver: #ddd3;
+	--background-bronze: #d702;
 }
 body {
 	display: flex;
