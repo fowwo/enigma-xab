@@ -119,6 +119,82 @@ svg#background3 { z-index: 3; bottom: -60%; filter: blur(16px); }
 svg#background4 { z-index: 4; bottom: -80%; filter: blur(8px); }
 svg#background5 { z-index: 5; bottom: -100%; }
 
+/* --------------------- leaderboard -------------------- */
+
+table.leaderboard {
+	width: 100%;
+	border-radius: 10px;
+	border-collapse: collapse;
+	box-shadow: 0 0 15px var(--dark-enigma);
+	overflow: hidden;
+	backdrop-filter: blur(8px);
+}
+table.leaderboard:not(.active) { display: none; }
+table.leaderboard tr:nth-child(even) {
+	background-color: #0004;
+}
+table.leaderboard td {
+	box-sizing: border-box;
+	padding: 5px;
+}
+table.leaderboard th {
+	box-sizing: border-box;
+	padding: 10px 5px;
+	height: 40px;
+	background-color: var(--dark-enigma);
+	background-image: linear-gradient(var(--enigma), #0000);
+}
+table.leaderboard th.clickable {
+	transition-property: background-color, box-shadow, color;
+	transition-duration: 150ms;
+	transition-timing-function: ease-in-out;
+	cursor: pointer;
+}
+table.leaderboard th.clickable:hover {
+	background-color: var(--enigma);
+	box-shadow: 0 60px 50px -60px inset #fff;
+	color: #fff;
+}
+table.leaderboard td:not(:nth-child(2)) { text-align: center; }
+table.leaderboard tr > th:nth-child(1) {
+	width: 40px;
+	min-width: 40px;
+	max-width: 40px;
+}
+table.leaderboard tr > td:nth-child(2) {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 0;
+}
+table.leaderboard tr > th:nth-child(3),
+table.leaderboard tr > th:nth-child(4),
+table.leaderboard tr > th:nth-child(6),
+table.leaderboard tr > th:nth-child(7),
+table.leaderboard tr > th:nth-child(8) {
+	width: 7%;
+}
+table.leaderboard tr > th:nth-child(5) {
+	width: 10.5%;
+}
+table.leaderboard tr > th:nth-child(6),
+table.leaderboard tr > th:nth-child(7),
+table.leaderboard tr > th:nth-child(8) {
+	min-width: 30px;
+}
+table.leaderboard tr > :nth-child(6) { color: var(--blue); }
+table.leaderboard tr > :nth-child(7) { color: var(--green); }
+table.leaderboard tr > :nth-child(8) { color: var(--red); }
+span.badges {
+	vertical-align: top;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 20px;
+	padding-right: 16px;
+	letter-spacing: -12px;
+}
+span.badge { position: relative; }
+
 /* ------------------------------------------------------ */
 
 div#xab {

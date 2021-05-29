@@ -9,8 +9,33 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<script src="User.js"></script>
 	<div id="container">
 		<div id="xab"><span style="color:var(--blue)">X</span>, <span style="color:var(--green)">A</span>, or <span style="color:var(--red)">B</span>?</div>
+		<table id="leaderboard-placeholder" class="leaderboard active">
+			<tbody>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-wins'); activeLeaderboard.classList.add('active');">Wins</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-total'); activeLeaderboard.classList.add('active');">Total</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-accuracy'); activeLeaderboard.classList.add('active');">Accuracy</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-x'); activeLeaderboard.classList.add('active');">X</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-a'); activeLeaderboard.classList.add('active');">A</th>
+					<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-b'); activeLeaderboard.classList.add('active');">B</th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 	<div id="background-container">
 		<svg id="background1" viewBox="0 0 1 1"></svg>
