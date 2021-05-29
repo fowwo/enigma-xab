@@ -198,9 +198,10 @@ span.badge { position: relative; }
 /* ------------------------------------------------------ */
 
 div#xab {
-	margin: 10px 0;
+	margin: 30px 0;
 	width: 100%;
 	font-size: 80px;
+	line-height: 80px;
 	color: #fff;
 	font-weight: bold;
 	text-shadow:
