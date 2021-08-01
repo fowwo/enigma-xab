@@ -50,6 +50,14 @@ div#container {
 	height: 100%;
 	overflow-y: scroll;
 }
+div#sidebox {
+	box-sizing: border-box;
+	padding: 15px;
+	flex-shrink: 0;
+	width: 400px;
+	height: 100%;
+	overflow-y: scroll;
+}
 
 /* ---------------------- scrollbar --------------------- */
 
