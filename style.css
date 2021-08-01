@@ -65,11 +65,11 @@ div#container::-webkit-scrollbar-thumb:active {
 /* ---------------------- dropdown ---------------------- */
 
 div.dropdown {
-	margin-bottom: 15px;
 	border-radius: 10px;
 	box-shadow: 0 0 15px #000;
 	overflow: hidden;
 }
+div.dropdown:not(:last-child) { margin-bottom: 15px; }
 div.dropdown > div:first-child {
 	box-sizing: border-box;
 	padding: 10px;
