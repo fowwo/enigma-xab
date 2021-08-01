@@ -13,16 +13,19 @@
 	--background-silver: #ddd3;
 	--background-bronze: #d702;
 }
+html {
+	height: 100vh;
+	background-color: #204;
+	background-image: linear-gradient(#000, #408);
+}
 body {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
 	margin: 0;
-	height: 100vh;
 	color: var(--text-color);
 	font-family: 'Merienda', cursive;
 	font-size: 15px;
-	background: linear-gradient(#000, #408);
 }
 p {
 	margin: 10px;
