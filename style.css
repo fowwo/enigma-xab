@@ -40,25 +40,28 @@ div#container {
 	overflow-y: scroll;
 	z-index: 100;
 }
-div#container::-webkit-scrollbar {
+
+/* ---------------------- scrollbar --------------------- */
+
+::-webkit-scrollbar {
 	width: 20px;
 }
-div#container::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	border: 6px solid transparent;
 	border-radius: 10px;
 	box-shadow: 0px 0px 0px 100px inset #0005;
 }
-div#container::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	border: 6px solid transparent;
 	border-radius: 10px;
 	box-shadow: 0px 0px 0px 100px inset var(--enigma);
 }
-div#container::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
 	box-shadow:
 		0px 0px 0px 1.5px inset #fff,
 		0px 0px 0px 100px inset var(--enigma);
 }
-div#container::-webkit-scrollbar-thumb:active {
+::-webkit-scrollbar-thumb:active {
 	box-shadow: 0px 0px 0px 100px inset #fff;
 }
 
