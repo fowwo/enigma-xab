@@ -14,7 +14,7 @@
 		<div id="container">
 			<div id="xab"><span style="color:var(--blue)">X</span>, <span style="color:var(--green)">A</span>, or <span style="color:var(--red)">B</span>?</div>
 			<table id="leaderboard-placeholder" class="leaderboard active">
-				<tbody>
+				<thead>
 					<tr>
 						<th>#</th>
 						<th>Name</th>
@@ -25,6 +25,8 @@
 						<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-a'); activeLeaderboard.classList.add('active');">A</th>
 						<th class="clickable" onclick="activeLeaderboard.classList.remove('active'); activeLeaderboard = document.getElementById('leaderboard-b'); activeLeaderboard.classList.add('active');">B</th>
 					</tr>
+				</thead>
+				<tbody>
 					<tr>
 						<td></td>
 						<td></td>
