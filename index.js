@@ -61,27 +61,6 @@ window.addEventListener("resize", function(){
 	}
 });
 
-// Sidebox toggle
-function toggleSidebox() {
-	let container = document.getElementById("container");
-	let sidebox = document.getElementById("sidebox");
-	let button = document.getElementById("sidebox-button");
-	switch (button.innerHTML) {
-		case "&lt;":
-			button.innerHTML = ">";
-			container.classList.add("sidebox-active");
-			sidebox.classList.add("active");
-			button.classList.add("active");
-			break;
-		case "&gt;":
-			button.innerHTML = "<";
-			container.classList.remove("sidebox-active");
-			sidebox.classList.remove("active");
-			button.classList.remove("active");
-			break;
-	}
-}
-
 // Fetch user data
 var scores = {};
 var activeLeaderboard = document.getElementById("leaderboard-placeholder");
