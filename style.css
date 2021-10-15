@@ -64,6 +64,15 @@ div#xab {
 		0px 0px 30px var(--enigma);
 	text-align: center;
 }
+@media (max-width: 800px) {
+	div.nav-group { flex-direction: column; }
+	div.nav-group > div {
+		text-align: right; 
+		padding: 3px 0;
+	}
+	div.nav-group > div + div { margin: 0; }
+	div#xab + div.nav-group > div { text-align: left; }
+}
 
 /* ---------------------- container --------------------- */
 
