@@ -24,7 +24,7 @@ body {
 	justify-content: center;
 	overflow: hidden;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1000px;
 	color: var(--text-color);
 	font-family: 'Merienda', cursive;
 	font-size: 15px;
