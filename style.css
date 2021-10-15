@@ -73,6 +73,20 @@ div#xab {
 	div.nav-group > div + div { margin: 0; }
 	div#xab + div.nav-group > div { text-align: left; }
 }
+@media (min-width: 401px) and (max-width: 600px) {
+	div#xab {
+		margin: 0 3.333vw;
+		font-size: calc(15vw - 30px);
+		line-height: calc(15vw - 30px);
+	}
+}
+@media (max-width: 400px) {
+	div#xab {
+		margin: 0 13.333px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
 
 /* ---------------------- container --------------------- */
 
