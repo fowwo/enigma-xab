@@ -209,7 +209,7 @@ table.leaderboard {
 	overflow: hidden;
 	backdrop-filter: blur(8px);
 }
-table.leaderboard:not(.active) { display: none; }
+table.leaderboard tbody:not(.active) { display: none; }
 table.leaderboard tr:nth-child(even) {
 	background-color: #0004;
 }

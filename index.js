@@ -1,4 +1,5 @@
 const container = document.getElementById("container");
+const leaderboard = document.getElementById("leaderboard");
 const background1 = document.getElementById("background1");
 const background2 = document.getElementById("background2");
 const background3 = document.getElementById("background3");
@@ -118,37 +119,14 @@ fetch("data.json").then(r => r.json()).then(data => {
 	}
 	
 	function toLeaderboard(list, comparator, id) {
-		let table = document.createElement("table");
 		let tbody = document.createElement("tbody");
-		let tr = document.createElement("tr");
-		for (var a of ["#", "Name"]) {
-			let th = document.createElement("th");
-			th.innerHTML = a;
-			tr.appendChild(th);
-		}
-		for (var a of ["Wins", "Total", "Accuracy", "X", "A", "B"]) {
-			let th = document.createElement("th");
-			th.innerHTML = a;
-			th.classList.add("clickable");
-			th.onclick = () => {
-				activeLeaderboard.classList.remove("active");
-				activeLeaderboard = document.getElementById(`leaderboard-${th.innerHTML.toLowerCase()}`);
-				activeLeaderboard.classList.add("active");
-			};
-			tr.appendChild(th);
-		}
-		tbody.appendChild(tr);
-
+		tbody.id = id;
 		var rank = 1;
 		for (var i = 0; i < list.length; i++) {
 			if (i > 0 && comparator(list[i], list[i - 1]) !== 0) rank = i + 1;
 			tbody.appendChild(list[i].toLeaderboardRow(rank));
 		}
-
-		table.id = id;
-		table.classList.add("leaderboard");
-		table.appendChild(tbody);
-		container.appendChild(table);
+		leaderboard.appendChild(tbody);
 	}
 
 	// Sort users
