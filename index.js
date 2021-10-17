@@ -29,6 +29,7 @@ function viewLeaderboard(id) {
 	activeLeaderboard.classList.remove('active');
 	activeLeaderboard = document.getElementById(id);
 	activeLeaderboard.classList.add('active');
+	leaderboard.scrollTop = 0;
 }
 
 // Fill background with sequins
