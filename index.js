@@ -25,6 +25,11 @@ function generateRandomCircle() {
 function randomRange(a, b) {
 	return (b - a) * Math.random() + a;
 }
+function viewLeaderboard(id) {
+	activeLeaderboard.classList.remove('active');
+	activeLeaderboard = document.getElementById(id);
+	activeLeaderboard.classList.add('active');
+}
 
 // Fill background with sequins
 for (var i = 0; i < 150; i++) {
