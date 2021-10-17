@@ -193,6 +193,7 @@ div#background-container svg {
 	position: absolute;
 	width: 120vmax;
 	overflow: visible;
+	transition: bottom 3s cubic-bezier(0.1, 1, 0.1, 1);
 }
 svg#background1 { z-index: 1; bottom: -20%; filter: blur(32px); }
 svg#background2 { z-index: 2; bottom: -40%; filter: blur(24px); }
