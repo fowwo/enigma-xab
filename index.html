@@ -15,35 +15,33 @@
 		<div id="xab"><span style="color:var(--blue)">X</span>, <span style="color:var(--green)">A</span>, or <span style="color:var(--red)">B</span>?</div>
 		<div class="nav-group"></div>
 	</nav>
-	<div id="main">
-		<div id="container">
-			<table id="leaderboard">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>Name</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-wins')">Wins</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-total')">Total</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-accuracy')">Accuracy</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-x')">X</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-a')">A</th>
-						<th class="clickable" onclick="viewLeaderboard('leaderboard-b')">B</th>
-					</tr>
-				</thead>
-				<tbody id="leaderboard-placeholder" class="active">
-					<tr>
-						<td></td>
-						<td></td>
-						<td>^</td>
-						<td>^</td>
-						<td>^</td>
-						<td>^</td>
-						<td>^</td>
-						<td>^</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+	<div id="leaderboard-container" class="container">
+		<table id="leaderboard">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-wins')">Wins</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-total')">Total</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-accuracy')">Accuracy</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-x')">X</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-a')">A</th>
+					<th class="clickable" onclick="viewLeaderboard('leaderboard-b')">B</th>
+				</tr>
+			</thead>
+			<tbody id="leaderboard-placeholder" class="active">
+				<tr>
+					<td></td>
+					<td></td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+					<td>^</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 	<div id="background-container">
 		<svg id="background1" viewBox="0 0 1 1"></svg>
