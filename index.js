@@ -36,12 +36,12 @@ for (var i = 0; i < 150; i++) {
 }
 
 // Background parallax
-container.addEventListener("scroll", function(){
-	background1.style.bottom = `${-20 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
-	background2.style.bottom = `${-40 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
-	background3.style.bottom = `${-60 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
-	background4.style.bottom = `${-80 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
-	background5.style.bottom = `${-100 * (1 - container.scrollTop / (container.scrollHeight - container.clientHeight))}%`;
+leaderboard.addEventListener("scroll", function(){
+	background1.style.bottom = `${-20 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
+	background2.style.bottom = `${-40 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
+	background3.style.bottom = `${-60 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
+	background4.style.bottom = `${-80 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
+	background5.style.bottom = `${-100 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
 });
 
 // Dropdown functionality
