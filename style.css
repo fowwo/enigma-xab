@@ -227,6 +227,7 @@ table#leaderboard th {
 	height: 40px;
 	background-color: var(--dark-enigma);
 	background-image: linear-gradient(var(--enigma), #0000);
+	z-index: 20;
 }
 table#leaderboard th.clickable {
 	transition-property: background-color, box-shadow, color;
