@@ -19,6 +19,7 @@ html {
 	background-image: linear-gradient(#000, #408);
 }
 body {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -108,12 +109,17 @@ div#xab {
 /* ---------------------- container --------------------- */
 
 div.container {
+	position: absolute;
 	box-sizing: border-box;
 	padding: 15px;
 	width: 100%;
 	height: calc(100vh - 90px);
+	top: 90px;
 	overflow: hidden;
 	z-index: 100;
+	transition-property: opacity, top;
+	transition-duration: 150ms;
+	transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 /* ---------------------- scrollbar --------------------- */

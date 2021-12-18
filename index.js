@@ -6,6 +6,10 @@ const background3 = document.getElementById("background3");
 const background4 = document.getElementById("background4");
 const background5 = document.getElementById("background5");
 
+var activeLeaderboard = document.getElementById("leaderboard-placeholder");
+var activeLeaderboardTab = document.getElementById("th-wins");
+var activeScreen = document.getElementById("leaderboard-container");
+
 function generateCircle(x, y, r, color = "black") {
 	let circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
 	circle.setAttribute("cx", x);
@@ -36,6 +40,23 @@ function viewLeaderboard(event) {
 	activeLeaderboardTab.classList.add("active");
 
 	leaderboard.scrollTop = 0;
+}
+function switchTab(event) {
+	let e = document.getElementById(`${event.target.id.substring(4)}-container`);
+	if (e && e !== activeScreen) {
+		activeScreen.style.opacity = 0;
+		activeScreen.style.top = "110px";
+		e.style.top = "70px";
+		setTimeout(() => {
+			activeScreen.style.display = "none";
+			e.style.display = "initial";
+			setTimeout(() => {
+				e.style.opacity = 1;
+				e.style.top = "90px";
+				activeScreen = e;
+			}, 50); // Allows for the screen to fade in
+		}, 150);
+	}
 }
 
 // Fill background with sequins
@@ -76,8 +97,6 @@ window.addEventListener("resize", function(){
 
 // Fetch user data
 var scores = {};
-var activeLeaderboard = document.getElementById("leaderboard-placeholder");
-var activeLeaderboardTab = document.getElementById("th-wins");
 fetch("data.json").then(r => r.json()).then(data => {
 	let users = [];
 	var accuracy = 0;
