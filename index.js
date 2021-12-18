@@ -25,10 +25,16 @@ function generateRandomCircle() {
 function randomRange(a, b) {
 	return (b - a) * Math.random() + a;
 }
-function viewLeaderboard(id) {
-	activeLeaderboard.classList.remove('active');
-	activeLeaderboard = document.getElementById(id);
-	activeLeaderboard.classList.add('active');
+function viewLeaderboard(event) {
+	activeLeaderboard.classList.remove("active");
+	activeLeaderboardTab.classList.remove("active");
+
+	activeLeaderboard = document.getElementById(`leaderboard-${event.target.id.substring(3)}`);
+	activeLeaderboardTab = event.target;
+
+	activeLeaderboard.classList.add("active");
+	activeLeaderboardTab.classList.add("active");
+
 	leaderboard.scrollTop = 0;
 }
 
@@ -71,6 +77,7 @@ window.addEventListener("resize", function(){
 // Fetch user data
 var scores = {};
 var activeLeaderboard = document.getElementById("leaderboard-placeholder");
+var activeLeaderboardTab = document.getElementById("th-wins");
 fetch("data.json").then(r => r.json()).then(data => {
 	let users = [];
 	var accuracy = 0;

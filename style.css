@@ -244,10 +244,12 @@ table#leaderboard th.clickable {
 	transition-timing-function: ease-in-out;
 	cursor: pointer;
 }
-table#leaderboard th.clickable:hover {
+table#leaderboard th.clickable.active, table#leaderboard th.clickable:hover {
 	background-color: var(--enigma);
-	box-shadow: 0 60px 50px -60px inset #fff;
 	color: #fff;
+}
+table#leaderboard th.clickable.active {
+	box-shadow: 0 60px 50px -60px inset #fff;
 }
 table#leaderboard td:not(:nth-child(2)) { text-align: center; }
 table#leaderboard tr > th:nth-child(1) {

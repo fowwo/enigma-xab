@@ -21,12 +21,12 @@
 				<tr>
 					<th>#</th>
 					<th>Name</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-wins')">Wins</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-total')">Total</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-accuracy')">Accuracy</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-x')">X</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-a')">A</th>
-					<th class="clickable" onclick="viewLeaderboard('leaderboard-b')">B</th>
+					<th id="th-wins" class="clickable" onclick="viewLeaderboard(event)">Wins</th>
+					<th id="th-total" class="clickable" onclick="viewLeaderboard(event)">Total</th>
+					<th id="th-accuracy" class="clickable" onclick="viewLeaderboard(event)">Accuracy</th>
+					<th id="th-x" class="clickable" onclick="viewLeaderboard(event)">X</th>
+					<th id="th-a" class="clickable" onclick="viewLeaderboard(event)">A</th>
+					<th id="th-b" class="clickable" onclick="viewLeaderboard(event)">B</th>
 				</tr>
 			</thead>
 			<tbody id="leaderboard-placeholder" class="active">
