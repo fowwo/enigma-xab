@@ -126,6 +126,11 @@ function fillPieChart(pie, x, a, b, tab) {
 		fillList.push(`rotate(${360 * b / total}deg)`);
 	}
 
+	const label = document.createElement("div");
+	label.classList.add("pie-label");
+	label.innerHTML = x + a + b;
+	pie.parentElement.insertBefore(label, null);
+
 	if (tab) {
 		tab.addEventListener("click", () => {
 			if (activeScreen.id !== "statistics-container") {
