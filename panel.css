@@ -1,0 +1,18 @@
+div.panel {
+	border-radius: 10px;
+	box-shadow: 0 0 15px #000;
+	overflow: hidden;
+}
+div.panel:not(:last-child) { margin-bottom: 15px; }
+div.panel > div:first-child {
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: var(--dark-enigma);
+	background-image: linear-gradient(var(--enigma), #0000);
+}
+div.panel > div:first-child + div {
+	overflow: hidden;
+	background-color: var(--dark-enigma-transparent);
+	background-image: linear-gradient(#0004, #0000);
+	backdrop-filter: blur(8px);
+}
