@@ -58,6 +58,73 @@ function switchTab(event) {
 		}, 150);
 	}
 }
+function fillPieChart(pie, x, a, b) {
+	const total = x + a + b;
+	let slice, fill, value = 0;
+	const createSlice = () => {
+		slice = document.createElement("div");
+		slice.classList.add("pie-slice");
+		fill = document.createElement("div");
+		fill.classList.add("fill");
+		slice.appendChild(fill);
+		pie.appendChild(slice);
+	};
+
+	if (x / total > .5) {
+		createSlice();
+		slice.classList.add("x");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = "rotate(180deg)";
+
+		createSlice();
+		slice.classList.add("x");
+		slice.style.transform = `rotate(${value + 180}deg)`;
+		fill.style.transform = `rotate(${360 * x / total - 180}deg)`;
+	} else {
+		createSlice();
+		slice.classList.add("x");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = `rotate(${360 * x / total}deg)`;
+	}
+
+	value += 360 * x / total;
+
+	if (a / total > .5) {
+		createSlice();
+		slice.classList.add("a");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = "rotate(180deg)";
+
+		createSlice();
+		slice.classList.add("a");
+		slice.style.transform = `rotate(${value + 180}deg)`;
+		fill.style.transform = `rotate(${360 * a / total - 180}deg)`;
+	} else {
+		createSlice();
+		slice.classList.add("a");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = `rotate(${360 * a / total}deg)`;
+	}
+
+	value += 360 * a / total;
+
+	if (b / total > .5) {
+		createSlice();
+		slice.classList.add("b");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = "rotate(180deg)";
+
+		createSlice();
+		slice.classList.add("b");
+		slice.style.transform = `rotate(${value + 180}deg)`;
+		fill.style.transform = `rotate(${360 * b / total - 180}deg)`;
+	} else {
+		createSlice();
+		slice.classList.add("b");
+		slice.style.transform = `rotate(${value}deg)`;
+		fill.style.transform = `rotate(${360 * b / total}deg)`;
+	}
+}
 
 // Fill background with sequins
 for (var i = 0; i < 150; i++) {
