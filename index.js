@@ -58,9 +58,10 @@ function switchTab(event) {
 		}, 150);
 	}
 }
-function fillPieChart(pie, x, a, b) {
+function fillPieChart(pie, x, a, b, tab) {
 	const total = x + a + b;
 	let slice, fill, value = 0;
+	let sliceList = [], fillList = [];
 	const createSlice = () => {
 		slice = document.createElement("div");
 		slice.classList.add("pie-slice");
@@ -73,18 +74,18 @@ function fillPieChart(pie, x, a, b) {
 	if (x / total > .5) {
 		createSlice();
 		slice.classList.add("x");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push("rotate(180deg)");
 
 		createSlice();
 		slice.classList.add("x");
-		slice.style.transform = `rotate(${value + (360 * x / total - 180)}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value + (360 * x / total - 180)}deg)`);
+		fillList.push("rotate(180deg)");
 	} else {
 		createSlice();
 		slice.classList.add("x");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = `rotate(${360 * x / total}deg)`;
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push(`rotate(${360 * x / total}deg)`);
 	}
 
 	value += 360 * x / total;
@@ -92,18 +93,18 @@ function fillPieChart(pie, x, a, b) {
 	if (a / total > .5) {
 		createSlice();
 		slice.classList.add("a");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push("rotate(180deg)");
 
 		createSlice();
 		slice.classList.add("a");
-		slice.style.transform = `rotate(${value + (360 * a / total - 180)}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value + (360 * a / total - 180)}deg)`);
+		fillList.push("rotate(180deg)");
 	} else {
 		createSlice();
 		slice.classList.add("a");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = `rotate(${360 * a / total}deg)`;
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push(`rotate(${360 * a / total}deg)`);
 	}
 
 	value += 360 * a / total;
@@ -111,18 +112,41 @@ function fillPieChart(pie, x, a, b) {
 	if (b / total > .5) {
 		createSlice();
 		slice.classList.add("b");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push("rotate(180deg)");
 
 		createSlice();
 		slice.classList.add("b");
-		slice.style.transform = `rotate(${value + (360 * b / total - 180)}deg)`;
-		fill.style.transform = "rotate(180deg)";
+		sliceList.push(`rotate(${value + (360 * b / total - 180)}deg)`);
+		fillList.push("rotate(180deg)");
 	} else {
 		createSlice();
 		slice.classList.add("b");
-		slice.style.transform = `rotate(${value}deg)`;
-		fill.style.transform = `rotate(${360 * b / total}deg)`;
+		sliceList.push(`rotate(${value}deg)`);
+		fillList.push(`rotate(${360 * b / total}deg)`);
+	}
+
+	if (tab) {
+		tab.addEventListener("click", () => {
+			if (activeScreen.id !== "statistics-container") {
+				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
+				pie.animate([
+					{ transform: "rotate(90deg)" },
+					{ transform: "rotate(225deg)" }
+				], animateOptions);
+				for (var i = 0; i < pie.children.length; i++) {
+					let child = pie.children[i];
+					child.animate([
+						{ transform: "rotate(0deg)" },
+						{ transform: sliceList[i] }
+					], animateOptions);
+					child.firstElementChild.animate([
+						{ transform: "rotate(0deg)" },
+						{ transform: fillList[i] }
+					], animateOptions);
+				}
+			}
+		});
 	}
 }
 
