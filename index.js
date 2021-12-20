@@ -77,24 +77,6 @@ leaderboard.addEventListener("scroll", function(){
 	background5.style.bottom = `${-100 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
 });
 
-// Dropdown functionality
-let dropdownList = document.getElementsByClassName("dropdown");
-for (var dropdown of dropdownList) {
-	let head = dropdown.children.item(0);
-	let tail = head.nextElementSibling;
-	head.addEventListener("click", function() {
-		tail.style.maxHeight = this.parentElement.classList.toggle("active") ? `${tail.scrollHeight}px` : null;
-	});
-}
-
-// Dropdown resized height adjustment
-window.addEventListener("resize", function(){
-	for (var dropdown of dropdownList) {
-		let tail = dropdown.children.item(1);
-		if (tail.style.maxHeight) tail.style.maxHeight = `${tail.scrollHeight}px`;
-	}
-});
-
 // Fetch user data
 var scores = {};
 fetch("data.json").then(r => r.json()).then(data => {
