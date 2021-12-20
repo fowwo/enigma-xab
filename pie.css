@@ -4,7 +4,10 @@
 	width: 150px;
 	height: 150px;
 	border-radius: 100%;
-	box-shadow: 0px 0px 15px var(--enigma);
+	background-color: var(--dark-enigma);
+	box-shadow:
+		0px 0px 0px 5px var(--dark-enigma),
+		0px 0px 5px 10px var(--enigma);
 }
 .pie-slice, .pie-slice > .fill {
 	position: absolute;
