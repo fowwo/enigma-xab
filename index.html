@@ -15,11 +15,18 @@
 <body>
 	<script src="User.js"></script>
 	<nav>
-		<div class="nav-group"></div>
-		<div id="xab"><span style="color:var(--blue)">X</span>, <span style="color:var(--green)">A</span>, or <span style="color:var(--red)">B</span>?</div>
-		<div class="nav-group"></div>
+		<div class="nav-group">
+			<div id="nav-leaderboard" onclick="switchTab(event)">leaderboard</div>
+			<div id="nav-user" onclick="switchTab(event)">user</div>
+		</div>
+		<div id="xab"><span style="color:var(--blue)">X</span>, <span style="color:var(--green)">A</span>, or <span
+				style="color:var(--red)">B</span>?</div>
+		<div class="nav-group">
+			<div id="nav-statistics" onclick="switchTab(event)">statistics</div>
+			<div id="nav-faq" onclick="switchTab(event)">faq</div>
+		</div>
 	</nav>
-	<div id="leaderboard-container" class="container">
+	<div id="leaderboard-container" class="container active">
 		<table id="leaderboard">
 			<thead>
 				<tr>
@@ -46,6 +53,24 @@
 				</tr>
 			</tbody>
 		</table>
+	</div>
+	<div id="user-container" class="container" style="display: none; opacity: 0;">
+		<div class="panel" style="height: 100%">
+			<div></div>
+			<div style="overflow-y: scroll"></div>
+		</div>
+	</div>
+	<div id="statistics-container" class="container" style="display: none; opacity: 0;">
+		<div class="panel" style="height: 100%">
+			<div></div>
+			<div style="overflow-y: scroll"></div>
+		</div>
+	</div>
+	<div id="faq-container" class="container" style="display: none; opacity: 0;">
+		<div class="panel" style="height: 100%">
+			<div></div>
+			<div style="overflow-y: scroll"></div>
+		</div>
 	</div>
 	<div id="background-container">
 		<svg id="background1" viewBox="0 0 1 1"></svg>
