@@ -78,8 +78,8 @@ function fillPieChart(pie, x, a, b) {
 
 		createSlice();
 		slice.classList.add("x");
-		slice.style.transform = `rotate(${value + 180}deg)`;
-		fill.style.transform = `rotate(${360 * x / total - 180}deg)`;
+		slice.style.transform = `rotate(${value + (360 * x / total - 180)}deg)`;
+		fill.style.transform = "rotate(180deg)";
 	} else {
 		createSlice();
 		slice.classList.add("x");
@@ -97,8 +97,8 @@ function fillPieChart(pie, x, a, b) {
 
 		createSlice();
 		slice.classList.add("a");
-		slice.style.transform = `rotate(${value + 180}deg)`;
-		fill.style.transform = `rotate(${360 * a / total - 180}deg)`;
+		slice.style.transform = `rotate(${value + (360 * a / total - 180)}deg)`;
+		fill.style.transform = "rotate(180deg)";
 	} else {
 		createSlice();
 		slice.classList.add("a");
@@ -116,8 +116,8 @@ function fillPieChart(pie, x, a, b) {
 
 		createSlice();
 		slice.classList.add("b");
-		slice.style.transform = `rotate(${value + 180}deg)`;
-		fill.style.transform = `rotate(${360 * b / total - 180}deg)`;
+		slice.style.transform = `rotate(${value + (360 * b / total - 180)}deg)`;
+		fill.style.transform = "rotate(180deg)";
 	} else {
 		createSlice();
 		slice.classList.add("b");
