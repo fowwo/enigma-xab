@@ -12,8 +12,8 @@
 	height: 100%;
 	border-radius: 100%;
 }
-.pie-slice { clip: rect(0px, 150px, 150px, 75px); }
-.pie-slice > .fill { clip: rect(0px, 75px, 150px, 0px); }
+.pie-slice { clip: rect(0px, 150px, 150px, 77.5px); }
+.pie-slice > .fill { clip: rect(0px, 72.5px, 150px, 0px); }
 .pie-slice.x > .fill { background-color: var(--blue); }
 .pie-slice.a > .fill { background-color: var(--green); }
 .pie-slice.b > .fill { background-color: var(--red); }
