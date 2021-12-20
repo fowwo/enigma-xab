@@ -1,4 +1,6 @@
 div.panel {
+	display: flex;
+	flex-direction: column;
 	border-radius: 10px;
 	box-shadow: 0 0 15px #000;
 	overflow: hidden;
@@ -11,6 +13,8 @@ div.panel > div:first-child {
 	background-image: linear-gradient(var(--enigma), #0000);
 }
 div.panel > div:first-child + div {
+	flex-grow: 1;
+	padding: 15px;
 	overflow: hidden;
 	background-color: var(--dark-enigma-transparent);
 	background-image: linear-gradient(#0004, #0000);
