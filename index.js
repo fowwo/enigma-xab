@@ -241,6 +241,8 @@ fetch("data.json").then(r => r.json()).then(data => {
 
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
+	fillPieChart(document.getElementById("pie-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
+	fillBarGraph(document.getElementById("bar-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
 
 	function awardBadges(list, comparator) {
 		if (list.length != 0) list[0].badges.gold++;
