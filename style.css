@@ -30,6 +30,10 @@ body {
 	font-family: 'Merienda', cursive;
 	font-size: 15px;
 }
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
 nav {
 	box-sizing: border-box;
 	display: flex;

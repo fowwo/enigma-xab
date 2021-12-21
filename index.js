@@ -5,6 +5,7 @@ const background2 = document.getElementById("background2");
 const background3 = document.getElementById("background3");
 const background4 = document.getElementById("background4");
 const background5 = document.getElementById("background5");
+const statTab = document.getElementById("nav-statistics");
 
 var activeLeaderboard = document.getElementById("leaderboard-placeholder");
 var activeLeaderboardTab = document.getElementById("th-wins");
@@ -238,6 +239,9 @@ fetch("data.json").then(r => r.json()).then(data => {
 		accuracy += (value.wins.x + value.wins.a + value.wins.b) / (value.guesses.x + value.guesses.a + value.guesses.b);
 	}
 
+	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
+	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
+
 	function awardBadges(list, comparator) {
 		if (list.length != 0) list[0].badges.gold++;
 		let rank = 1;
@@ -261,7 +265,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 			}
 		}
 	}
-	
+
 	function toLeaderboard(list, comparator, id) {
 		let tbody = document.createElement("tbody");
 		tbody.id = id;
