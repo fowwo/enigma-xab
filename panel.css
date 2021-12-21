@@ -20,3 +20,6 @@ div.panel > div:first-child + div {
 	background-image: linear-gradient(#0004, #0000);
 	backdrop-filter: blur(8px);
 }
+div.panel.scrollable > div:first-child + div {
+	overflow-y: scroll;
+}
