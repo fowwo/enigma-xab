@@ -223,6 +223,11 @@ fetch("data.json").then(r => r.json()).then(data => {
 			x: 0,
 			a: 0,
 			b: 0
+		},
+		members: {
+			x: 0,
+			a: 0,
+			b: 0
 		}
 	}
 	const stat = data.stat;
@@ -237,6 +242,10 @@ fetch("data.json").then(r => r.json()).then(data => {
 		total.wins.a += value.wins.a;
 		total.wins.b += value.wins.b;
 		accuracy += (value.wins.x + value.wins.a + value.wins.b) / (value.guesses.x + value.guesses.a + value.guesses.b);
+
+		if (value.guesses.x > value.guesses.a && value.guesses.x > value.guesses.b) total.members.x++;
+		else if (value.guesses.a > value.guesses.x && value.guesses.a > value.guesses.b) total.members.a++;
+		else if (value.guesses.b > value.guesses.a && value.guesses.b > value.guesses.x) total.members.b++;
 	}
 
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
@@ -245,6 +254,8 @@ fetch("data.json").then(r => r.json()).then(data => {
 	fillBarGraph(document.getElementById("bar-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
 	fillPieChart(document.getElementById("pie-total-wins"), total.wins.x, total.wins.a, total.wins.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-wins"), total.wins.x, total.wins.a, total.wins.b, statTab);
+	fillPieChart(document.getElementById("pie-total-members"), total.members.x, total.members.a, total.members.b, statTab);
+	fillBarGraph(document.getElementById("bar-total-members"), total.members.x, total.members.a, total.members.b, statTab);
 
 	function awardBadges(list, comparator) {
 		if (list.length != 0) list[0].badges.gold++;
