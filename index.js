@@ -154,6 +154,40 @@ function fillPieChart(pie, x, a, b, tab) {
 		});
 	}
 }
+function fillBarGraph(bar, x, a, b, tab) {
+	const total = x + a + b;
+	const max = Math.max(x, a, b);
+
+	const xBar = document.createElement("li");
+	const aBar = document.createElement("li");
+	const bBar = document.createElement("li");
+	xBar.classList.add("x");
+	aBar.classList.add("a");
+	bBar.classList.add("b");
+	bar.appendChild(xBar);
+	bar.appendChild(aBar);
+	bar.appendChild(bBar);
+
+	xBar.innerHTML = `${x} <span>(${(100 * x / total).toFixed(2)}%)</span>`;
+	aBar.innerHTML = `${a} <span>(${(100 * a / total).toFixed(2)}%)</span>`;
+	bBar.innerHTML = `${b} <span>(${(100 * b / total).toFixed(2)}%)</span>`;
+
+	if (tab) {
+		const list = [ `${100 * x / max}%`, `${100 * a / max}% `, `${100 * b / max}%` ];
+		tab.addEventListener("click", () => {
+			if (activeScreen.id !== "statistics-container") {
+				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
+				for (var i = 0; i < bar.children.length; i++) {
+					let child = bar.children[i];
+					child.animate([
+						{ width: "0%" },
+						{ width: list[i] }
+					], animateOptions);
+				}
+			}
+		});
+	}
+}
 
 // Fill background with sequins
 for (var i = 0; i < 150; i++) {
