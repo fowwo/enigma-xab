@@ -1,5 +1,4 @@
-# Ignore Node modules; they have no use in the site but I want to keep the files
+# Node
 node/node_modules
-node/package-lock.json
 # Sensitive information
 node/info.json

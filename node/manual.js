@@ -12,8 +12,8 @@
  * @author fowwo
  */
 
-const fs = require("fs");
-const fetch = require("node-fetch");
+import fs from "fs";
+import fetch from "node-fetch";
 const twitchInfo = JSON.parse(fs.readFileSync("info.json"));
 var data = JSON.parse(fs.readFileSync("../data.json"));
 var temp = {};
