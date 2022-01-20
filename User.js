@@ -138,7 +138,7 @@ class User {
 	 * @returns -1, 0, or 1.
 	 */
 	static compareByName(a, b) {
-		return a.username < b.username ? -1 : a.username === b.username ? 0 : 1;
+		return a.username.toLowerCase() < b.username.toLowerCase() ? -1 : a.username.toLowerCase() === b.username.toLowerCase() ? 0 : 1;
 	}
 
 	/**
