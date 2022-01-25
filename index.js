@@ -134,7 +134,7 @@ function fillPieChart(pie, x, a, b, tab) {
 
 	if (tab) {
 		tab.addEventListener("click", () => {
-			if (activeScreen.id !== "statistics-container") {
+			if (activeScreen.id !== `${tab.id.substring(4)}-container`) {
 				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
 				pie.animate([
 					{ transform: "rotate(90deg)" },
@@ -176,7 +176,7 @@ function fillBarGraph(bar, x, a, b, tab) {
 	if (tab) {
 		const list = [ `${100 * x / max}%`, `${100 * a / max}% `, `${100 * b / max}%` ];
 		tab.addEventListener("click", () => {
-			if (activeScreen.id !== "statistics-container") {
+			if (activeScreen.id !== `${tab.id.substring(4)}-container`) {
 				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
 				for (var i = 0; i < bar.children.length; i++) {
 					let child = bar.children[i];
