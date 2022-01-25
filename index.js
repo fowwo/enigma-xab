@@ -240,6 +240,73 @@ function searchUser(name) {
 		});
 		badgeContainer.style.marginRight = user.badges.gold + user.badges.silver + user.badges.bronze ? "5px" : "0px";
 
+		// Stat table
+		const rank = (list, comparator) => {
+			const span = document.createElement("span");
+			if (list[0].id === user.id) {
+				span.innerHTML = "1st";
+				span.style.color = "var(--gold)";
+				span.style.textShadow = "0 0 10px var(--gold), 0 0 10px var(--gold), 0 0 10px var(--gold)";
+				return span.outerHTML;
+			}
+			
+			// Find rank
+			let rank = 1;
+			for (var i = 1; i < list.length; i++) {
+				if (comparator(list[i], list[i - 1]) !== 0) rank = i + 1;
+				if (list[i].id === user.id) {
+					span.innerHTML = `${rank}${suffix(rank)}`;
+					switch (rank) {
+						case 1:
+							span.style.color = "var(--gold)";
+							span.style.textShadow = "0 0 10px var(--gold), 0 0 10px var(--gold), 0 0 10px var(--gold)";
+							break;
+						case 2:
+							span.style.color = "var(--silver)";
+							span.style.textShadow = "0 0 10px var(--silver), 0 0 10px var(--silver), 0 0 10px var(--silver)";
+							break;
+						case 3:
+							span.style.color = "var(--bronze)";
+							span.style.textShadow = "0 0 10px var(--bronze), 0 0 10px var(--bronze), 0 0 10px var(--bronze)";
+							break;
+					}
+					return span.outerHTML;
+				}
+			}
+
+			// Rank not found
+			span.innerHTML = "-";
+			return span.outerHTML;
+		};
+		const suffix = (rank) => {
+			if (rank % 100 > 3 && rank % 100 < 21) return "th";
+			let x = rank % 10;
+			switch (x) {
+				case 1:
+					return "st";
+				case 2:
+					return "nd";
+				case 3:
+					return "rd";
+				default:
+					return "th";
+			}
+		};
+		document.getElementById("user-wins").innerHTML = user.getTotalWins();
+		document.getElementById("user-guesses").innerHTML = user.getTotalGuesses();
+		document.getElementById("user-accuracy").innerHTML = `${(100 * user.getTotalWins() / user.getTotalGuesses()).toFixed(2)}%`;
+		document.getElementById("user-accuracy").style.color = user.getAccuracyColor();
+		document.getElementById("user-x").innerHTML = user.guesses.x;
+		document.getElementById("user-a").innerHTML = user.guesses.a;
+		document.getElementById("user-b").innerHTML = user.guesses.b;
+		
+		document.getElementById("user-wins-rank").innerHTML = rank(scores.wins, User.compareByWins);
+		document.getElementById("user-guesses-rank").innerHTML = rank(scores.total, User.compareByTotal);
+		document.getElementById("user-accuracy-rank").innerHTML = rank(scores.accuracy, User.compareByPercentage);
+		document.getElementById("user-x-rank").innerHTML = rank(scores.x, User.compareByTotalX);
+		document.getElementById("user-a-rank").innerHTML = rank(scores.a, User.compareByTotalA);
+		document.getElementById("user-b-rank").innerHTML = rank(scores.b, User.compareByTotalB);
+
 		document.getElementById("search-results").style.display = "initial";		
 	} else {
 		// User not found

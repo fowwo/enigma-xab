@@ -17,3 +17,23 @@ div#search-name {
 	font-weight: bold;
 	text-shadow: 0 2px 0 #000;
 }
+table#user-stats {
+	table-layout: fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #000;
+}
+table#user-stats td, table#user-stats th {
+	box-sizing: border-box;
+	padding: 5px;
+	text-align: center;
+}
+table#user-stats th {
+	background-color: var(--dark-enigma);
+	background-image: linear-gradient(var(--enigma), #0000);
+}
+table#user-stats tr:nth-child(3) {
+	background-color: #0004;
+}
