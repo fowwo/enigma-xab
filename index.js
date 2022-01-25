@@ -71,6 +71,24 @@ function fillPieChart(pie, x, a, b, tab) {
 		slice.appendChild(fill);
 		pie.appendChild(slice);
 	};
+	const animate = () => {
+		const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
+		pie.animate([
+			{ transform: "rotate(90deg)" },
+			{ transform: "rotate(225deg)" }
+		], animateOptions);
+		for (var i = 0; i < pie.children.length; i++) {
+			let child = pie.children[i];
+			child.animate([
+				{ transform: "rotate(0deg)" },
+				{ transform: sliceList[i] }
+			], animateOptions);
+			child.firstElementChild.animate([
+				{ transform: "rotate(0deg)" },
+				{ transform: fillList[i] }
+			], animateOptions);
+		}
+	};
 
 	if (x / total > .5) {
 		createSlice();
@@ -134,26 +152,11 @@ function fillPieChart(pie, x, a, b, tab) {
 
 	if (tab) {
 		tab.addEventListener("click", () => {
-			if (activeScreen.id !== `${tab.id.substring(4)}-container`) {
-				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
-				pie.animate([
-					{ transform: "rotate(90deg)" },
-					{ transform: "rotate(225deg)" }
-				], animateOptions);
-				for (var i = 0; i < pie.children.length; i++) {
-					let child = pie.children[i];
-					child.animate([
-						{ transform: "rotate(0deg)" },
-						{ transform: sliceList[i] }
-					], animateOptions);
-					child.firstElementChild.animate([
-						{ transform: "rotate(0deg)" },
-						{ transform: fillList[i] }
-					], animateOptions);
-				}
-			}
+			if (activeScreen.id !== `${tab.id.substring(4)}-container`) animate();
 		});
 	}
+
+	animate();
 }
 function fillBarGraph(bar, x, a, b, tab) {
 	const total = x + a + b;
