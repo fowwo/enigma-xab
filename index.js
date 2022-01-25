@@ -161,6 +161,17 @@ function fillPieChart(pie, x, a, b, tab) {
 function fillBarGraph(bar, x, a, b, tab) {
 	const total = x + a + b;
 	const max = Math.max(x, a, b);
+	const list = [ `${100 * x / max}%`, `${100 * a / max}% `, `${100 * b / max}%` ];
+	const animate = () => {
+		const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
+		for (var i = 0; i < bar.children.length; i++) {
+			let child = bar.children[i];
+			child.animate([
+				{ width: "0%" },
+				{ width: list[i] }
+			], animateOptions);
+		}
+	};
 
 	const xBar = document.createElement("li");
 	const aBar = document.createElement("li");
@@ -177,20 +188,12 @@ function fillBarGraph(bar, x, a, b, tab) {
 	bBar.innerHTML = `${b} <span>(${(100 * b / total).toFixed(2)}%)</span>`;
 
 	if (tab) {
-		const list = [ `${100 * x / max}%`, `${100 * a / max}% `, `${100 * b / max}%` ];
 		tab.addEventListener("click", () => {
-			if (activeScreen.id !== `${tab.id.substring(4)}-container`) {
-				const animateOptions = { easing: "ease", fill: "forwards", duration: 1500 };
-				for (var i = 0; i < bar.children.length; i++) {
-					let child = bar.children[i];
-					child.animate([
-						{ width: "0%" },
-						{ width: list[i] }
-					], animateOptions);
-				}
-			}
+			if (activeScreen.id !== `${tab.id.substring(4)}-container`) animate();
 		});
 	}
+
+	animate();
 }
 function searchUser(name) {
 	const input = document.getElementById("search");
