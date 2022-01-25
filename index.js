@@ -189,6 +189,57 @@ function fillBarGraph(bar, x, a, b, tab) {
 		});
 	}
 }
+function searchUser(name) {
+	const input = document.getElementById("search");
+	input.classList.remove("not-found");
+
+	let user = new User(null, name);
+	let a = 0;
+	let b = scores.name.length - 1;
+	while (a <= b) {
+		let i = Math.floor((a + b) / 2);
+		let value = User.compareByName(user, scores.name[i]);
+		if (value === 1) {
+			a = i + 1;
+		} else if (value === -1) {
+			b = i - 1;
+		} else {
+			user = scores.name[i];
+			break;
+		}
+	}
+	
+	if (user.id !== null) {
+		document.getElementById("search-results").style.display = "initial";
+
+		// Input
+		input.blur();
+
+		// Username
+		const username = document.getElementById("search-name");
+		username.style.color = user.getNameColor();
+		username.innerText = user.username;
+
+		// Badges
+		const badgeContainer = document.getElementById("search-badges");
+		badgeContainer.innerHTML = "";
+		[ "gold", "silver", "bronze" ].forEach((x) => {
+			let badges = document.createElement("span");
+			badges.style.fontSize = "24px";
+			badges.style.lineHeight = "24px";
+			badges.style.color = `var(--${x})`;
+			badges.style.textShadow = `0 0 10px var(--${x}), 0 0 5px #000f`;
+			for (var i = 0; i < user.badges[x]; i++) badges.innerHTML += "★";
+			badgeContainer.appendChild(badges);
+		});
+		badgeContainer.style.marginRight = user.badges.gold + user.badges.silver + user.badges.bronze ? "5px" : "0px";
+
+		document.getElementById("search-results").style.display = "initial";		
+	} else {
+		// User not found
+		input.classList.add("not-found");
+	}
+}
 
 // Fill background with sequins
 for (var i = 0; i < 150; i++) {
@@ -206,6 +257,16 @@ leaderboard.addEventListener("scroll", function(){
 	background3.style.bottom = `${-60 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
 	background4.style.bottom = `${-80 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
 	background5.style.bottom = `${-100 * (1 - leaderboard.scrollTop / (leaderboard.scrollHeight - leaderboard.clientHeight))}%`;
+});
+
+// Search event listeners
+document.getElementById("search-form").addEventListener("submit", (event) => {
+	event.preventDefault();
+	let input = document.getElementById("search").value;
+	if (input !== "") searchUser(input);
+});
+document.getElementById("search").addEventListener("input", (event) => {
+	event.target.classList.remove("found", "not-found");
 });
 
 // Fetch user data
@@ -293,6 +354,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 	}
 
 	// Sort users
+	scores.name = [...users].sort((a, b) => User.compareByName(a, b));
 	scores.wins = [...users].sort((a, b) => User.compareByWins(a, b) === 0 ? User.compareByName(a, b) : User.compareByWins(a, b));
 	scores.total = [...users].sort((a, b) => User.compareByTotal(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotal(a, b));
 	scores.accuracy = [...users].filter(x => x.getTotalGuesses() >= 10).sort((a, b) => User.compareByPercentage(a, b) === 0 ? User.compareByName(a, b) : User.compareByPercentage(a, b));

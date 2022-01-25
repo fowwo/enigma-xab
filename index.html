@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="panel.css">
 	<link rel="stylesheet" type="text/css" href="data.css">
 	<link rel="stylesheet" type="text/css" href="leaderboard.css">
+	<link rel="stylesheet" type="text/css" href="user.css">
 </head>
 <body>
 	<script src="User.js"></script>
@@ -55,9 +56,21 @@
 		</table>
 	</div>
 	<div id="user-container" class="container" style="display: none; opacity: 0;">
-		<div class="panel" style="height: 100%">
+		<div class="panel scrollable" style="height: 100%">
 			<div></div>
-			<div style="overflow-y: scroll"></div>
+			<div>
+				<form id="search-form" autocomplete="off" spellcheck="false">
+					<input type="text" id="search" style="width: 100%; margin-bottom: 10px;" placeholder="Username">
+				</form>
+				<div id="search-results" style="display: none">
+					<div>
+						<div style="display: flex; margin-bottom: 10px;">
+							<div id="search-name">username</div>
+							<div id="search-badges"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="statistics-container" class="container" style="display: none; opacity: 0;">

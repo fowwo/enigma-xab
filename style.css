@@ -34,6 +34,24 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 }
+input[type=text] {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 3px;
+	border: 1px solid var(--text-color);
+	border-radius: 5px;
+	background-color: #0000;
+	outline: none;
+	color: inherit;
+	font: inherit;
+	transition-property: border-color, box-shadow, color;
+	transition-duration: 150ms;
+	transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+input[type=text]:focus {
+	border-color: #fff;
+	color: #fff;
+}
 nav {
 	box-sizing: border-box;
 	display: flex;
