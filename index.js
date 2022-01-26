@@ -307,6 +307,17 @@ function searchUser(name) {
 		document.getElementById("user-a-rank").innerHTML = rank(scores.a, User.compareByTotalA);
 		document.getElementById("user-b-rank").innerHTML = rank(scores.b, User.compareByTotalB);
 
+		// Charts
+		const userTab = document.getElementById("nav-user");
+		[ "guesses", "wins" ].forEach((x) => {
+			let pie = document.getElementById(`pie-user-${x}`);
+			let bar = document.getElementById(`bar-user-${x}`);
+			pie.innerHTML = ""; 
+			bar.innerHTML = "";
+			fillPieChart(pie, user[x].x, user[x].a, user[x].b, userTab);
+			fillBarGraph(bar, user[x].x, user[x].a, user[x].b, userTab);
+		});
+
 		document.getElementById("search-results").style.display = "initial";		
 	} else {
 		// User not found
