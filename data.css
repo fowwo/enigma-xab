@@ -1,6 +1,7 @@
 /* https://stackoverflow.com/a/51679606 */
 .pie {
 	position: relative;
+	overflow: hidden;
 	width: 150px;
 	height: 150px;
 	border-radius: 100%;
