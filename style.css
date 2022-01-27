@@ -33,6 +33,11 @@ body {
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
+	color: #fff;
+	text-shadow:
+		0 2px 0 var(--enigma), 
+		0px 0px 5px var(--enigma),
+		0px 0px 15px var(--enigma);
 }
 input[type=text] {
 	box-sizing: border-box;
