@@ -39,6 +39,12 @@ h1, h2, h3 {
 		0px 0px 5px var(--enigma),
 		0px 0px 15px var(--enigma);
 }
+hr {
+	border: none;
+	margin: 10px 0px;
+	height: 1px;
+	background-image: linear-gradient(to right, #0000, var(--enigma), #0000);
+}
 input[type=text] {
 	box-sizing: border-box;
 	margin: 0;
