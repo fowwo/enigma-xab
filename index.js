@@ -295,7 +295,7 @@ function searchUser(name) {
 		document.getElementById("user-score").innerHTML = user.score.toFixed(3);
 		document.getElementById("user-wins").innerHTML = user.getTotalWins();
 		document.getElementById("user-guesses").innerHTML = user.getTotalGuesses();
-		document.getElementById("user-accuracy").innerHTML = `${(100 * user.getTotalWins() / user.getTotalGuesses()).toFixed(2)}%`;
+		document.getElementById("user-accuracy").innerHTML = `${(100 * user.getAccuracy()).toFixed(2)}%`;
 		document.getElementById("user-accuracy").style.color = user.getAccuracyColor();
 		document.getElementById("user-x").innerHTML = user.guesses.x;
 		document.getElementById("user-a").innerHTML = user.guesses.a;
@@ -381,18 +381,20 @@ fetch("data.json").then(r => r.json()).then(data => {
 	delete data.stat;
 
 	for (let [key, value] of Object.entries(data)) {
-		users.push(new User(key, value.username, value.guesses, value.wins));
-		total.guesses.x += value.guesses.x;
-		total.guesses.a += value.guesses.a;
-		total.guesses.b += value.guesses.b;
-		total.wins.x += value.wins.x;
-		total.wins.a += value.wins.a;
-		total.wins.b += value.wins.b;
-		accuracy += (value.wins.x + value.wins.a + value.wins.b) / (value.guesses.x + value.guesses.a + value.guesses.b);
+		let user = new User(key, value.username, value.guesses, value.wins);
+		total.guesses.x += user.guesses.x;
+		total.guesses.a += user.guesses.a;
+		total.guesses.b += user.guesses.b;
+		total.wins.x += user.wins.x;
+		total.wins.a += user.wins.a;
+		total.wins.b += user.wins.b;
+		accuracy += user.getAccuracy();
 
-		if (value.guesses.x > value.guesses.a && value.guesses.x > value.guesses.b) total.members.x++;
-		else if (value.guesses.a > value.guesses.x && value.guesses.a > value.guesses.b) total.members.a++;
-		else if (value.guesses.b > value.guesses.a && value.guesses.b > value.guesses.x) total.members.b++;
+		if (user.guesses.x > user.guesses.a && user.guesses.x > user.guesses.b) total.members.x++;
+		else if (user.guesses.a > user.guesses.x && user.guesses.a > user.guesses.b) total.members.a++;
+		else if (user.guesses.b > user.guesses.a && user.guesses.b > user.guesses.x) total.members.b++;
+
+		users.push(user);
 	}
 
 	// Stat panel

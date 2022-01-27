@@ -5,7 +5,7 @@ class User {
 		this.username = username;
 		this.guesses = guesses;
 		this.wins = wins;
-		this.score = this.getTotalWins() ** 2 / this.getTotalGuesses();
+		this.score = this.getTotalWins() * this.getAccuracy();
 		this.badges = { gold: 0, silver: 0, bronze: 0 };
 	}
 
@@ -15,6 +15,9 @@ class User {
 	getTotalWins() {
 		return this.wins.x + this.wins.a + this.wins.b;
 	}
+	getAccuracy() {
+		return this.getTotalWins() / this.getTotalGuesses();
+	}
 	getNameColor() {
 		let max = Math.max(this.guesses.x, this.guesses.a, this.guesses.b);
 		return `rgb(${Math.round(155 * this.guesses.b / max) + 100},
@@ -22,8 +25,9 @@ class User {
 		${Math.round(155 * this.guesses.x / max) + 100})`;
 	}
 	getAccuracyColor(min = 0, max = 1) {
-		return `rgb(${Math.round(255 * Math.min((2 * max - 2 * this.getTotalWins() / this.getTotalGuesses()) / (max - min), 1))},
-		${Math.round(255 * Math.min((2 * this.getTotalWins() / this.getTotalGuesses() - 2 * min) / (max - min), 1))}
+		let accuracy = this.getAccuracy();
+		return `rgb(${Math.round(255 * Math.min(2 * (max - accuracy) / (max - min), 1))},
+		${Math.round(255 * Math.min(2 * (accuracy - min) / (max - min), 1))}
 		,0)`;
 	}
 
@@ -101,7 +105,7 @@ class User {
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
-		cell.innerHTML = (100 * this.getTotalWins() / this.getTotalGuesses()).toFixed(2) + "%";
+		cell.innerHTML = (100 * this.getAccuracy()).toFixed(2) + "%";
 		cell.style.color = this.getAccuracyColor();
 		row.appendChild(cell);
 
