@@ -393,6 +393,13 @@ fetch("data.json").then(r => r.json()).then(data => {
 		else if (value.guesses.b > value.guesses.a && value.guesses.b > value.guesses.x) total.members.b++;
 	}
 
+	// Stat panel
+	document.getElementById("stat-rounds-played-total").innerHTML = stat.x + stat.a + stat.b;
+	document.getElementById("stat-rounds-played-x").innerHTML = stat.x;
+	document.getElementById("stat-rounds-played-a").innerHTML = stat.a;
+	document.getElementById("stat-rounds-played-b").innerHTML = stat.b;
+
+	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillPieChart(document.getElementById("pie-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
