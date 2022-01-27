@@ -48,27 +48,29 @@ table#leaderboard tr > td:nth-child(2) {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	width: 54.5%;
+	width: 47.5%;
 	max-width: 0;
 }
 table#leaderboard tr > th:nth-child(3),
 table#leaderboard tr > th:nth-child(4),
-table#leaderboard tr > th:nth-child(6),
+table#leaderboard tr > th:nth-child(5),
 table#leaderboard tr > th:nth-child(7),
-table#leaderboard tr > th:nth-child(8) {
+table#leaderboard tr > th:nth-child(8),
+table#leaderboard tr > th:nth-child(9) {
 	width: 7%;
 }
-table#leaderboard tr > th:nth-child(5) {
+table#leaderboard tr > th:nth-child(6) {
 	width: 10.5%;
 }
-table#leaderboard tr > th:nth-child(6),
 table#leaderboard tr > th:nth-child(7),
-table#leaderboard tr > th:nth-child(8) {
+table#leaderboard tr > th:nth-child(8),
+table#leaderboard tr > th:nth-child(9) {
 	min-width: 30px;
 }
-table#leaderboard tr > :nth-child(6) { color: var(--blue); }
-table#leaderboard tr > :nth-child(7) { color: var(--green); }
-table#leaderboard tr > :nth-child(8) { color: var(--red); }
+table#leaderboard tr > td:nth-child(3) { color: #fff; }
+table#leaderboard tr > :nth-child(7) { color: var(--blue); }
+table#leaderboard tr > :nth-child(8) { color: var(--green); }
+table#leaderboard tr > :nth-child(9) { color: var(--red); }
 table#leaderboard span.badges {
 	vertical-align: top;
 	display: inline-block;

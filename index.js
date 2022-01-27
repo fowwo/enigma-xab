@@ -292,6 +292,7 @@ function searchUser(name) {
 					return "th";
 			}
 		};
+		document.getElementById("user-score").innerHTML = user.score.toFixed(3);
 		document.getElementById("user-wins").innerHTML = user.getTotalWins();
 		document.getElementById("user-guesses").innerHTML = user.getTotalGuesses();
 		document.getElementById("user-accuracy").innerHTML = `${(100 * user.getTotalWins() / user.getTotalGuesses()).toFixed(2)}%`;
@@ -300,6 +301,7 @@ function searchUser(name) {
 		document.getElementById("user-a").innerHTML = user.guesses.a;
 		document.getElementById("user-b").innerHTML = user.guesses.b;
 		
+		document.getElementById("user-score-rank").innerHTML = rank(scores.score, User.compareByScore);
 		document.getElementById("user-wins-rank").innerHTML = rank(scores.wins, User.compareByWins);
 		document.getElementById("user-guesses-rank").innerHTML = rank(scores.total, User.compareByTotal);
 		document.getElementById("user-accuracy-rank").innerHTML = rank(scores.accuracy, User.compareByPercentage);
@@ -469,6 +471,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 
 	// Sort users
 	scores.name = [...users].sort((a, b) => User.compareByName(a, b));
+	scores.score = [...users].sort((a, b) => User.compareByScore(a, b) === 0 ? User.compareByName(a, b) : User.compareByScore(a, b));
 	scores.wins = [...users].sort((a, b) => User.compareByWins(a, b) === 0 ? User.compareByName(a, b) : User.compareByWins(a, b));
 	scores.total = [...users].sort((a, b) => User.compareByTotal(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotal(a, b));
 	scores.accuracy = [...users].filter(x => x.getTotalGuesses() >= 10).sort((a, b) => User.compareByPercentage(a, b) === 0 ? User.compareByName(a, b) : User.compareByPercentage(a, b));
@@ -477,6 +480,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 	scores.b = [...users].sort((a, b) => User.compareByTotalB(a, b) === 0 ? User.compareByName(a, b) : User.compareByTotalB(a, b));
 
 	// Award badges
+	awardBadges(scores.score, User.compareByScore);
 	awardBadges(scores.wins, User.compareByWins);
 	awardBadges(scores.total, User.compareByTotal);
 	awardBadges(scores.accuracy, User.compareByPercentage);
@@ -485,6 +489,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 	awardBadges(scores.b, User.compareByTotalB);
 
 	// Create leaderboards
+	toLeaderboard(scores.score, User.compareByScore, "leaderboard-score");
 	toLeaderboard(scores.wins, User.compareByWins, "leaderboard-wins");
 	toLeaderboard(scores.total, User.compareByTotal, "leaderboard-total");
 	toLeaderboard(scores.accuracy, User.compareByPercentage, "leaderboard-accuracy");

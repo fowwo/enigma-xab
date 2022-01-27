@@ -5,6 +5,7 @@ class User {
 		this.username = username;
 		this.guesses = guesses;
 		this.wins = wins;
+		this.score = this.getTotalWins() ** 2 / this.getTotalGuesses();
 		this.badges = { gold: 0, silver: 0, bronze: 0 };
 	}
 
@@ -85,6 +86,10 @@ class User {
 		}
 		cell.innerHTML += this.username;
 		cell.style.color = this.getNameColor();
+		row.appendChild(cell);
+
+		cell = document.createElement("td");
+		cell.innerHTML = this.score.toFixed(3);
 		row.appendChild(cell);
 
 		cell = document.createElement("td");
@@ -198,6 +203,17 @@ class User {
 	 */
 	static compareByTotalB(a, b) {
 		return a.guesses.b > b.guesses.b ? -1 : a.guesses.b === b.guesses.b ? 0 : 1;
+	}
+
+	/**
+	 * Compares users by score.
+	 * 
+	 * @param a The user being compared from.
+	 * @param b The user being compared to.
+	 * @returns -1, 0, or 1.
+	 */
+	static compareByScore(a, b) {
+		return a.score > b.score ? -1 : a.score === b.score ? 0 : 1;
 	}
 
 }

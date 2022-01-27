@@ -33,6 +33,7 @@
 				<tr>
 					<th>#</th>
 					<th>Name</th>
+					<th id="th-score" class="clickable" onclick="viewLeaderboard(event)">Score</th>
 					<th id="th-wins" class="clickable" onclick="viewLeaderboard(event)">Wins</th>
 					<th id="th-total" class="clickable" onclick="viewLeaderboard(event)">Total</th>
 					<th id="th-accuracy" class="clickable" onclick="viewLeaderboard(event)">Accuracy</th>
@@ -45,6 +46,7 @@
 				<tr>
 					<td></td>
 					<td></td>
+					<td>^</td>
 					<td>^</td>
 					<td>^</td>
 					<td>^</td>
@@ -71,6 +73,7 @@
 						<table id="user-stats">
 							<tbody>
 								<tr>
+									<th>Score</th>
 									<th>Wins</th>
 									<th>Total</th>
 									<th>Accuracy</th>
@@ -79,6 +82,7 @@
 									<th style="color: var(--red)">B</th>
 								</tr>
 								<tr>
+									<td id="user-score" style="color: #fff"></td>
 									<td id="user-wins"></td>
 									<td id="user-guesses"></td>
 									<td id="user-accuracy"></td>
@@ -87,6 +91,7 @@
 									<td id="user-b" style="color: var(--red)"></td>
 								</tr>
 								<tr>
+									<td id="user-score-rank"></td>
 									<td id="user-wins-rank"></td>
 									<td id="user-guesses-rank"></td>
 									<td id="user-accuracy-rank"></td>
