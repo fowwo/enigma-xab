@@ -419,6 +419,9 @@ fetch("data.json").then(r => r.json()).then(data => {
 	document.getElementById("stat-average-accuracy").innerHTML = `${(100 * accuracy / users.length).toFixed(2)}%`;
 	document.getElementById("stat-average-accuracy").style.color = getAccuracyColor(accuracy / users.length);
 
+	document.getElementById("stat-cumulative-accuracy").innerHTML = `${(100 * (total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b)).toFixed(2)}%`;
+	document.getElementById("stat-cumulative-accuracy").style.color = getAccuracyColor((total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b));
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
