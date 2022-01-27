@@ -399,6 +399,11 @@ fetch("data.json").then(r => r.json()).then(data => {
 	document.getElementById("stat-rounds-played-a").innerHTML = stat.a;
 	document.getElementById("stat-rounds-played-b").innerHTML = stat.b;
 
+	document.getElementById("stat-guesses-total").innerHTML = total.guesses.x + total.guesses.a + total.guesses.b;
+	document.getElementById("stat-guesses-x").innerHTML = total.guesses.x;
+	document.getElementById("stat-guesses-a").innerHTML = total.guesses.a;
+	document.getElementById("stat-guesses-b").innerHTML = total.guesses.b;
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
