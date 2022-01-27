@@ -409,6 +409,8 @@ fetch("data.json").then(r => r.json()).then(data => {
 	document.getElementById("stat-wins-a").innerHTML = total.wins.a;
 	document.getElementById("stat-wins-b").innerHTML = total.wins.b;
 
+	document.getElementById("stat-unique-players").innerHTML = users.length;
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
