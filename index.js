@@ -183,9 +183,9 @@ function fillBarGraph(bar, x, a, b, tab) {
 	bar.appendChild(aBar);
 	bar.appendChild(bBar);
 
-	xBar.innerHTML = `${x} <span>(${(100 * x / total).toFixed(2)}%)</span>`;
-	aBar.innerHTML = `${a} <span>(${(100 * a / total).toFixed(2)}%)</span>`;
-	bBar.innerHTML = `${b} <span>(${(100 * b / total).toFixed(2)}%)</span>`;
+	xBar.innerHTML = `${x} <span>(${(total ? 100 * x / total : 0).toFixed(2)}%)</span>`;
+	aBar.innerHTML = `${a} <span>(${(total ? 100 * a / total : 0).toFixed(2)}%)</span>`;
+	bBar.innerHTML = `${b} <span>(${(total ? 100 * b / total : 0).toFixed(2)}%)</span>`;
 
 	if (tab) {
 		tab.addEventListener("click", () => {
