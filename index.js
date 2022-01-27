@@ -411,6 +411,14 @@ fetch("data.json").then(r => r.json()).then(data => {
 
 	document.getElementById("stat-unique-players").innerHTML = users.length;
 
+	const getAccuracyColor = (accuracy) => {
+		return `rgb(${Math.round(255 * Math.min((2 - 2 * accuracy), 1))},
+		${Math.round(255 * Math.min((2 * accuracy), 1))}
+		,0)`;
+	};
+	document.getElementById("stat-average-accuracy").innerHTML = `${(100 * accuracy / users.length).toFixed(2)}%`;
+	document.getElementById("stat-average-accuracy").style.color = getAccuracyColor(accuracy / users.length);
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
