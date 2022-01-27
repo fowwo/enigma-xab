@@ -122,8 +122,14 @@
 	<div id="statistics-container" class="container" style="display: none; opacity: 0;">
 		<div class="panel scrollable" style="height: 100%">
 			<div></div>
-			<div>
-				<div style="display: flex; flex-wrap: wrap;">
+			<div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse;">
+				<div style="min-width: 300px; flex-grow: 3;">
+					<div class="panel" style="margin-bottom: 10px">
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				<div style="flex-grow: 1">
 					<div class="data-container">
 						<div class="pie-container">
 							<div class="pie" id="pie-total-occurrences"></div>
