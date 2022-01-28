@@ -24,6 +24,14 @@ class User {
 		${Math.round(155 * this.guesses.a / max) + 100},
 		${Math.round(155 * this.guesses.x / max) + 100})`;
 	}
+	getTeam() {
+		const f = (x, y) => { return x ** 1.5 + y ** 1.5 < 0.4 ** 1.5; };
+		const total = this.getTotalGuesses();
+		if (f(this.guesses.a / total, this.guesses.b / total)) return "x";
+		if (f(this.guesses.x / total, this.guesses.b / total)) return "a";
+		if (f(this.guesses.x / total, this.guesses.a / total)) return "b";
+		return null;
+	}
 	getAccuracyColor(min = 0, max = 1) {
 		let accuracy = this.getAccuracy();
 		return `rgb(${Math.round(255 * Math.min(2 * (max - accuracy) / (max - min), 1))},

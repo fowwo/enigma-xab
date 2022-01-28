@@ -390,9 +390,8 @@ fetch("data.json").then(r => r.json()).then(data => {
 		total.wins.b += user.wins.b;
 		accuracy += user.getAccuracy();
 
-		if (user.guesses.x > user.guesses.a && user.guesses.x > user.guesses.b) total.members.x++;
-		else if (user.guesses.a > user.guesses.x && user.guesses.a > user.guesses.b) total.members.a++;
-		else if (user.guesses.b > user.guesses.a && user.guesses.b > user.guesses.x) total.members.b++;
+		let team = user.getTeam();
+		if (team) total.members[team]++;
 
 		users.push(user);
 	}
