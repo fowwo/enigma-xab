@@ -432,6 +432,11 @@ fetch("data.json").then(r => r.json()).then(data => {
 
 	document.getElementById("stat-unique-players").innerHTML = users.length;
 
+	document.getElementById("stat-members-x").innerHTML = total.members.x;
+	document.getElementById("stat-members-a").innerHTML = total.members.a;
+	document.getElementById("stat-members-b").innerHTML = total.members.b;
+	document.getElementById("stat-members-none").innerHTML = users.length - total.members.x - total.members.a - total.members.b;
+
 	const getAccuracyColor = (accuracy) => {
 		return `rgb(${Math.round(255 * Math.min((2 - 2 * accuracy), 1))},
 		${Math.round(255 * Math.min((2 * accuracy), 1))}
