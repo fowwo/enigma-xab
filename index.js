@@ -448,6 +448,10 @@ fetch("data.json").then(r => r.json()).then(data => {
 	document.getElementById("stat-cumulative-accuracy").innerHTML = `${(100 * (total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b)).toFixed(2)}%`;
 	document.getElementById("stat-cumulative-accuracy").style.color = getAccuracyColor((total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b));
 
+	document.getElementById("stat-streak-x").innerHTML = stat.maxx;
+	document.getElementById("stat-streak-a").innerHTML = stat.maxa;
+	document.getElementById("stat-streak-b").innerHTML = stat.maxb;
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
