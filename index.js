@@ -240,6 +240,24 @@ function searchUser(name) {
 		});
 		badgeContainer.style.marginRight = user.badges.gold + user.badges.silver + user.badges.bronze ? "5px" : "0px";
 
+		// Team
+		const team = document.getElementById("search-team");
+		team.innerHTML = "";
+		switch (user.getTeam()) {
+			case "x":
+				team.innerHTML = "Team X";
+				team.style.color = "var(--blue)";
+				break;
+			case "a":
+				team.innerHTML = "Team A";
+				team.style.color = "var(--green)";
+				break;
+			case "b":
+				team.innerHTML = "Team B";
+				team.style.color = "var(--red)";
+				break;
+		}
+
 		// Stat table
 		const rank = (list, comparator) => {
 			const span = document.createElement("span");
