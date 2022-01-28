@@ -308,7 +308,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	50477784:b
 	417455201:A
 	111005547:x
-*   tua___:X (name changed)
+	266158094:X
 	423831063:B
 	29469407:B
 	437005956:X
@@ -811,7 +811,7 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	43393725:X
 	35987252:B
 	63146119:B
-*   SavageGardenCitizen:B (name changed)
+	194181272:B
 		A is the winner
 	470208104:X
 	43363244:A
@@ -934,7 +934,7 @@ May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 2
 	26865742:X
 	61250685:B
 	38850818:X
-*   tua___:x (name changed)
+	266158094:x
 	143346388:A
 	222815855:x
 	52779637:B
@@ -985,7 +985,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	77617402:b
 	54174445:b
 	128937155:A
-*   PandaRock3:X (name changed)
+	124701874:X
 	149554620:b
 	59307983:B
 	24969575:A
@@ -1010,7 +1010,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	22740504:B
 	500179495:b
 	136174273:A
-*   SavageGardenCitizen:b (name changed)
+	194181272:b
 	97168525:B
 	137889020:x
 		B is the winner
@@ -1047,7 +1047,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	50190206:B
 	24969575:A
 	48726344:x
-*   SavageGardenCitizen:x (name changed)
+	194181272:x
 	20717545:X
 	59307983:B
 	57930063:A
@@ -1523,7 +1523,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	436234538:B
 	448404035:B
 *   leavemealonenowplease:X (name changed)
-*   Silent__Downpour:B (name changed)
+	129645305:B
 	106240515:B
 	423831063:B
 	141812589:B
@@ -1543,7 +1543,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	144550422:X
 	39782104:x
 	27827359:X
-*   Silent__Downpour:A (name changed)
+	129645305:A
 	128826625:b
 	59577884:b
 	188588355:x
