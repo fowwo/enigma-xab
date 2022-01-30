@@ -63,10 +63,10 @@ fetch("../user.json")
 fetch("../stat.json")
 	.then(r => r.json())
 	.then(stat => {
-		document.getElementById("rounds-played").innerHTML = stat.x + stat.a + stat.b;
-		document.getElementById("x-streak").innerHTML = stat.maxx;
-		document.getElementById("a-streak").innerHTML = stat.maxa;
-		document.getElementById("b-streak").innerHTML = stat.maxb;
+		document.getElementById("rounds-played").innerHTML = stat.total.x + stat.total.a + stat.total.b;
+		document.getElementById("x-streak").innerHTML = stat.streak.x;
+		document.getElementById("a-streak").innerHTML = stat.streak.a;
+		document.getElementById("b-streak").innerHTML = stat.streak.b;
 	});
 
 /**

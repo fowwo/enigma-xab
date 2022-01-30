@@ -10,14 +10,8 @@ const nameFile = fs.readFileSync("./data/name.txt", "utf-8").split(/\r?\n/);
 
 let data = {};
 let stat = {
-	x: 0,
-	a: 0,
-	b: 0,
-	prev: "",
-	streak: 0,
-	maxx: 0,
-	maxa: 0,
-	maxb: 0
+	total: { x: 0, a: 0, b: 0 },
+	streak: { x: 0, a: 0, b: 0 }
 };
 
 // Filter
@@ -31,6 +25,8 @@ for (var i = 0; i < idFile.length; i++) {
 
 // Recalculate
 let round = {};
+let streak = 0;
+let previous = "";
 for (var i in idFile) {
 	const line = idFile[i];
 	if (line[1] === '\t') {
@@ -38,13 +34,13 @@ for (var i in idFile) {
 
 		// Choose winning option
 		if (char === 'x' || char === 'a' || char === 'b') {
-			stat[char]++;
-			if (stat.prev === char) {
-				stat.streak++;
-				if (stat["max" + char] < stat.streak) stat["max" + char] = stat.streak;
+			stat.total[char]++;
+			if (previous === char) {
+				streak++;
+				if (stat.streak[char] < streak) stat.streak[char] = streak;
 			} else {
-				stat.prev = char;
-				stat.streak = 1;
+				previous = char;
+				streak = 1;
 			}
 			for (let [key, value] of Object.entries(round)) {
 				if (value === char) data[key].wins[value]++;

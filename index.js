@@ -516,16 +516,16 @@ fetch("user.json").then(r => r.json()).then(data => {
 });
 fetch("stat.json").then(r => r.json()).then(stat => {
 	// Stat panel
-	document.getElementById("stat-rounds-played-total").innerHTML = stat.x + stat.a + stat.b;
-	document.getElementById("stat-rounds-played-x").innerHTML = stat.x;
-	document.getElementById("stat-rounds-played-a").innerHTML = stat.a;
-	document.getElementById("stat-rounds-played-b").innerHTML = stat.b;
+	document.getElementById("stat-rounds-played-total").innerHTML = stat.total.x + stat.total.a + stat.total.b;
+	document.getElementById("stat-rounds-played-x").innerHTML = stat.total.x;
+	document.getElementById("stat-rounds-played-a").innerHTML = stat.total.a;
+	document.getElementById("stat-rounds-played-b").innerHTML = stat.total.b;
 
-	document.getElementById("stat-streak-x").innerHTML = stat.maxx;
-	document.getElementById("stat-streak-a").innerHTML = stat.maxa;
-	document.getElementById("stat-streak-b").innerHTML = stat.maxb;
+	document.getElementById("stat-streak-x").innerHTML = stat.streak.x;
+	document.getElementById("stat-streak-a").innerHTML = stat.streak.a;
+	document.getElementById("stat-streak-b").innerHTML = stat.streak.b;
 
 	// Charts
-	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
-	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
+	fillPieChart(document.getElementById("pie-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);
+	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);
 });
