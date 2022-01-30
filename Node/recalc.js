@@ -90,9 +90,9 @@ for (var i in idFile) {
 }
 
 // Save
-fs.writeFileSync("../user.json", JSON.stringify(data, null, 4) + '\n', (err) => {
+fs.writeFileSync("../user.json", JSON.stringify(data, null, '\t') + '\n', (err) => {
 	if (err) console.log("\x1b[101mError writing user file: ", err + "\x1b[0m");
 });
-fs.writeFileSync("../stat.json", JSON.stringify(stat, null, 4) + '\n', (err) => {
+fs.writeFileSync("../stat.json", JSON.stringify(stat, null, '\t') + '\n', (err) => {
 	if (err) console.log("\x1b[101mError writing stat file: ", err + "\x1b[0m");
 });
