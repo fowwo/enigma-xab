@@ -525,6 +525,12 @@ fetch("stat.json").then(r => r.json()).then(stat => {
 	document.getElementById("stat-streak-a").innerHTML = stat.streak.a;
 	document.getElementById("stat-streak-b").innerHTML = stat.streak.b;
 
+	for (var occurrence of stat.occurrences.splice(-50).reverse()) {
+		let div = document.createElement("div");
+		div.classList.add(occurrence);
+		document.getElementById("stat-last-occurrences").appendChild(div);
+	}
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);

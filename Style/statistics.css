@@ -1,0 +1,11 @@
+div#stat-last-occurrences { display: flex; }
+div#stat-last-occurrences > div {
+	flex-grow: 1;
+	height: 30px;
+	border-radius: 2px;
+	background-image: linear-gradient(#fff, #fff0 50%);
+}
+div#stat-last-occurrences > div + div { margin-left: 1px; }
+div#stat-last-occurrences > div.x { background-color: var(--blue); }
+div#stat-last-occurrences > div.a { background-color: var(--green); }
+div#stat-last-occurrences > div.b { background-color: var(--red); }

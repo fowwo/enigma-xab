@@ -11,7 +11,8 @@ const nameFile = fs.readFileSync("./data/name.txt", "utf-8").split(/\r?\n/);
 let data = {};
 let stat = {
 	total: { x: 0, a: 0, b: 0 },
-	streak: { x: 0, a: 0, b: 0 }
+	streak: { x: 0, a: 0, b: 0 },
+	occurrences: []
 };
 
 // Filter
@@ -35,6 +36,7 @@ for (var i in idFile) {
 		// Choose winning option
 		if (char === 'x' || char === 'a' || char === 'b') {
 			stat.total[char]++;
+			stat.occurrences.push(char);
 			if (previous === char) {
 				streak++;
 				if (stat.streak[char] < streak) stat.streak[char] = streak;
