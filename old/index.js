@@ -5,7 +5,7 @@
  */
 
 var scores = {};
-fetch("../data.json")
+fetch("../user.json")
 	.then(r => r.json())
 	.then(data => {
 		let users = [];
@@ -19,10 +19,9 @@ fetch("../data.json")
 			a: 0,
 			b: 0
 		}
-		var userCount = Object.entries(data).length - 1;
+		var userCount = Object.entries(data).length;
 		var accuracy = 0;
 		for (let [key, value] of Object.entries(data)) {
-			if (key == 'stat') continue;
 			users.push(new User(key, value.username, value.guesses, value.wins));
 			guesses.x += value.guesses.x;
 			guesses.a += value.guesses.a;
@@ -32,15 +31,11 @@ fetch("../data.json")
 			wins.b += value.wins.b;
 			accuracy += (value.wins.x + value.wins.a + value.wins.b) / (value.guesses.x + value.guesses.a + value.guesses.b);
 		}
-		document.getElementById("rounds-played").innerHTML = data.stat.x + data.stat.a + data.stat.b;
 		document.getElementById("total-guesses").innerHTML = guesses.x + guesses.a + guesses.b;
 		document.getElementById("x-guesses").innerHTML = guesses.x;
 		document.getElementById("a-guesses").innerHTML = guesses.a;
 		document.getElementById("b-guesses").innerHTML = guesses.b;
 		document.getElementById("total-wins").innerHTML = wins.x + wins.a + wins.b;
-		document.getElementById("x-streak").innerHTML = data.stat.maxx;
-		document.getElementById("a-streak").innerHTML = data.stat.maxa;
-		document.getElementById("b-streak").innerHTML = data.stat.maxb;
 		document.getElementById("unique-users").innerHTML = userCount;
 		let rgb = `rgb(${Math.round(255 * Math.min((2 - 2 * accuracy / userCount), 1))},${Math.round(255 * Math.min((2 * accuracy / userCount), 1))},0)`;
 		document.getElementById("average-accuracy").style = `color: ${rgb}; text-shadow: 0 0 10px ${rgb};`;
@@ -64,7 +59,14 @@ fetch("../data.json")
 		awardBadges(scores.x, User.compareByTotalX);
 		awardBadges(scores.a, User.compareByTotalA);
 		awardBadges(scores.b, User.compareByTotalB);
-		
+	});
+fetch("../stat.json")
+	.then(r => r.json())
+	.then(stat => {
+		document.getElementById("rounds-played").innerHTML = stat.x + stat.a + stat.b;
+		document.getElementById("x-streak").innerHTML = stat.maxx;
+		document.getElementById("a-streak").innerHTML = stat.maxa;
+		document.getElementById("b-streak").innerHTML = stat.maxb;
 	});
 
 /**

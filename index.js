@@ -375,7 +375,7 @@ document.getElementById("search").addEventListener("input", (event) => {
 
 // Fetch user data
 var scores = {};
-fetch("data.json").then(r => r.json()).then(data => {
+fetch("user.json").then(r => r.json()).then(data => {
 	let users = [];
 	var accuracy = 0;
 	var total = {
@@ -395,8 +395,6 @@ fetch("data.json").then(r => r.json()).then(data => {
 			b: 0
 		}
 	}
-	const stat = data.stat;
-	delete data.stat;
 
 	for (let [key, value] of Object.entries(data)) {
 		let user = new User(key, value.username, value.guesses, value.wins);
@@ -415,11 +413,6 @@ fetch("data.json").then(r => r.json()).then(data => {
 	}
 
 	// Stat panel
-	document.getElementById("stat-rounds-played-total").innerHTML = stat.x + stat.a + stat.b;
-	document.getElementById("stat-rounds-played-x").innerHTML = stat.x;
-	document.getElementById("stat-rounds-played-a").innerHTML = stat.a;
-	document.getElementById("stat-rounds-played-b").innerHTML = stat.b;
-
 	document.getElementById("stat-guesses-total").innerHTML = total.guesses.x + total.guesses.a + total.guesses.b;
 	document.getElementById("stat-guesses-x").innerHTML = total.guesses.x;
 	document.getElementById("stat-guesses-a").innerHTML = total.guesses.a;
@@ -448,13 +441,7 @@ fetch("data.json").then(r => r.json()).then(data => {
 	document.getElementById("stat-cumulative-accuracy").innerHTML = `${(100 * (total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b)).toFixed(2)}%`;
 	document.getElementById("stat-cumulative-accuracy").style.color = getAccuracyColor((total.wins.x + total.wins.a + total.wins.b) / (total.guesses.x + total.guesses.a + total.guesses.b));
 
-	document.getElementById("stat-streak-x").innerHTML = stat.maxx;
-	document.getElementById("stat-streak-a").innerHTML = stat.maxa;
-	document.getElementById("stat-streak-b").innerHTML = stat.maxb;
-
 	// Charts
-	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
-	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 	fillPieChart(document.getElementById("pie-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-guesses"), total.guesses.x, total.guesses.a, total.guesses.b, statTab);
 	fillPieChart(document.getElementById("pie-total-wins"), total.wins.x, total.wins.a, total.wins.b, statTab);
@@ -526,4 +513,19 @@ fetch("data.json").then(r => r.json()).then(data => {
 	toLeaderboard(scores.b, User.compareByTotalB, "leaderboard-b");
 
 	users.sort((a, b) => User.compareByName(a, b));
+});
+fetch("stat.json").then(r => r.json()).then(stat => {
+	// Stat panel
+	document.getElementById("stat-rounds-played-total").innerHTML = stat.x + stat.a + stat.b;
+	document.getElementById("stat-rounds-played-x").innerHTML = stat.x;
+	document.getElementById("stat-rounds-played-a").innerHTML = stat.a;
+	document.getElementById("stat-rounds-played-b").innerHTML = stat.b;
+
+	document.getElementById("stat-streak-x").innerHTML = stat.maxx;
+	document.getElementById("stat-streak-a").innerHTML = stat.maxa;
+	document.getElementById("stat-streak-b").innerHTML = stat.maxb;
+
+	// Charts
+	fillPieChart(document.getElementById("pie-total-occurrences"), stat.x, stat.a, stat.b, statTab);
+	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.x, stat.a, stat.b, statTab);
 });
