@@ -1,7 +1,7 @@
 * This document contains every single guess in "X, A, or B?" from April 19th, 2020 to January 4th, 2022.
 * Each user is represented by his or her ID.
 
-April 19th - FOR REAL THIS TIME: Silent Hill Speedrun Mini-Marathon! Downpour, SH4, & Homecoming! No wheels or wildness, just speedruns
+April 19th, 2020 - FOR REAL THIS TIME: Silent Hill Speedrun Mini-Marathon! Downpour, SH4, & Homecoming! No wheels or wildness, just speedruns
 	54270922:b
 	32824754:a
 	235372245:x
@@ -131,7 +131,7 @@ April 19th - FOR REAL THIS TIME: Silent Hill Speedrun Mini-Marathon! Downpour, S
 	172567792:A
 	475874684:B
 		X is the winner
-April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
+April 26th, 2020 - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	96195404:A
 	77617402:x
 	48726344:X
@@ -318,7 +318,7 @@ April 26th - Silent Hill Homecoming speedruns! any+ NG+ WR attempts!
 	49405044:b
 	423831063:b
 		X is the winner
-April 27th - *continuation of last stream after stream maintenance
+April 27th, 2020 - *continuation of last stream after stream maintenance
 	36471665:X
 	103716231:B
 	144550422:B
@@ -415,7 +415,7 @@ April 27th - *continuation of last stream after stream maintenance
 	105191150:A
 	81569155:x
 		B is the winner
-May 1st - SILENT HILL SPEEDRUNNING MINI-MARATHON! (Downpour, SH4, Homecoming
+May 1st, 2020 - SILENT HILL SPEEDRUNNING MINI-MARATHON! (Downpour, SH4, Homecoming
 	26333485:B
 	30321158:X
 	96279269:X
@@ -566,7 +566,7 @@ May 1st - SILENT HILL SPEEDRUNNING MINI-MARATHON! (Downpour, SH4, Homecoming
 	132108113:X
 	149179204:B
 		A is the winner
-May 8th - STREAM DEBUT of Fatal Frame 2 Wii Edition CONTINUES! (stream #5) !blind
+May 8th, 2020 - STREAM DEBUT of Fatal Frame 2 Wii Edition CONTINUES! (stream #5) !blind
 	73133253:X
 	103716231:X
 	25317128:A
@@ -625,7 +625,7 @@ May 8th - STREAM DEBUT of Fatal Frame 2 Wii Edition CONTINUES! (stream #5) !blin
 	437282278:a
 	437005956:X
 		B is the winner
-May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
+May 8th, 2020 - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	19683038:B
 	470208104:X
 	44690546:A
@@ -902,7 +902,7 @@ May 8th - Homecoming any% NG+ speedruns! MERCH 30% off with code SPRING30 !merch
 	523306045:A
 	51198247:X
 		A is the winner
-May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 20 antics, BROTHER
+May 10th, 2020 - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 20 antics, BROTHER
 	44690546:X
 	73133253:X
 	87846335:X
@@ -966,7 +966,7 @@ May 10th - A nice, relaxing, emotional night of BASEBALL! Various MLB The Show 2
 	222815855:A
 	436234538:X
 		A is the winner
-May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
+May 13th, 2020 - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	168568113:x
 	25317128:A
 	36268303:X
@@ -1058,7 +1058,7 @@ May 13th - DEAD SPACE 3 co-op with FhaeLin! I brought my own bread!
 	22740504:A
 	46287653:A
 		X is the winner
-May 22nd - SILENT HILL 4-GAME MINI-MARATHON! SH1, SH4, Homecoming, & Downpour! You pick the order!
+May 22nd, 2020 - SILENT HILL 4-GAME MINI-MARATHON! SH1, SH4, Homecoming, & Downpour! You pick the order!
 	24969575:A
 	32824754:a
 	47988224:b
@@ -1089,7 +1089,7 @@ May 22nd - SILENT HILL 4-GAME MINI-MARATHON! SH1, SH4, Homecoming, & Downpour! Y
 	84991920:b
 	252508169:x
 		X is the winner
-May 29th - SILENT HILL SPEEDRUNNING MINI-MARATHON! Order: Downpour any%, Homecoming any% NG+, Silent Hill 1 NG Easy, and Silent Hill 4 any%
+May 29th, 2020 - SILENT HILL SPEEDRUNNING MINI-MARATHON! Order: Downpour any%, Homecoming any% NG+, Silent Hill 1 NG Easy, and Silent Hill 4 any%
 	239905176:X
 	73261462:X
 	77617402:a
@@ -1192,7 +1192,7 @@ May 29th - SILENT HILL SPEEDRUNNING MINI-MARATHON! Order: Downpour any%, Homecom
 	201939645:b
 	73515322:b
 		X is the winner
-May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
+May 31st, 2020 - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	146318741:X
 	38729470:X
 	470208104:X
@@ -1552,7 +1552,7 @@ May 31st - Silent Hill Homecoming any% NG+ grinding! Maybe some SH1 later
 	118460609:X
 	53118577:b
 		A is the winner
-June 3rd - It's FHAEDAY. Dead Space 3 with FhaeLin! !blind
+June 3rd, 2020 - It's FHAEDAY. Dead Space 3 with FhaeLin! !blind
 	70904868:x
 	7099399:A
 	222815855:A
@@ -1669,7 +1669,7 @@ June 3rd - It's FHAEDAY. Dead Space 3 with FhaeLin! !blind
 	156072538:X
 	423831063:B
 		A is the winner
-June 5th - SILENT HILL SPEEDRUN MARATHON NIGHT! Order: Silent Hill 1 NG Easy, Silent Hill 4 any%, Downpour any%, Homecoming any% NG+
+June 5th, 2020 - SILENT HILL SPEEDRUN MARATHON NIGHT! Order: Silent Hill 1 NG Easy, Silent Hill 4 any%, Downpour any%, Homecoming any% NG+
 	406515343:B
 	7099399:A
 	201274061:x
@@ -1729,7 +1729,7 @@ June 5th - SILENT HILL SPEEDRUN MARATHON NIGHT! Order: Silent Hill 1 NG Easy, Si
 	443466632:b
 	73062001:X
 		B is the winner
-June 12th - SILENT HILL SPEEDRUN MARATHON NIGHT! The order: Homecoming any% NG+, Downpour any%, Silent Hill 4 any%, Silent Hill 1 NG Easy
+June 12th, 2020 - SILENT HILL SPEEDRUN MARATHON NIGHT! The order: Homecoming any% NG+, Downpour any%, Silent Hill 4 any%, Silent Hill 1 NG Easy
 	30321158:X
 	92079096:b
 	44690546:X
@@ -1776,7 +1776,7 @@ June 12th - SILENT HILL SPEEDRUN MARATHON NIGHT! The order: Homecoming any% NG+,
 	108467790:B
 	457837071:b
 		A is the winner
-June 16th - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD BY DAYLIGHT CODES TONIGHT!
+June 16th, 2020 - SH Homecoming any% NG+ WR attempts! GIVING AWAY SILENT HILL DLC DEAD BY DAYLIGHT CODES TONIGHT!
 	209366098:X
 	32829865:A
 	62008957:X
