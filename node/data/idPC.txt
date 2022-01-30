@@ -1,5 +1,6 @@
-* This document contains every single guess in "X, A, or B" from the Silent Hill: Homecoming PC port playthrough.
+* This document contains every single guess in "X, A, or B?" from the Silent Hill: Homecoming PC port playthrough.
 * These guesses do not count towards stats as there was confusion towards what number correlates to what letter.
+* Each user is represented by his or her ID.
 
 December 18th, 2020 - Silent Hill Homecoming casual playthrough on the CURSED PC VERSION [thanks to ManBearParadox]
 *	X, A, or B wasn't played.
@@ -28,7 +29,6 @@ December 19th, 2020 - *continuation of last stream after stream maintenance
 	149179204:B
 	77617402:b
 	117205445:3
-	143652251:4
 	136439142:X
 	242364488:x
 	40530619:2
@@ -46,7 +46,7 @@ December 19th, 2020 - *continuation of last stream after stream maintenance
 	46715231:a
 	170085793:a
 	36268303:1
-	463129187:3x
+	463129187:3
 	42691024:A
 	136079237:B
 	143652251:A

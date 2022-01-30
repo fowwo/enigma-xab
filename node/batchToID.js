@@ -13,8 +13,8 @@ if (process.argv.length !== 3) {
 	process.exit(0);
 }
 
-const fs = require("fs");
-const fetch = require("node-fetch");
+import fs from "fs";
+import fetch from "node-fetch";
 const twitchInfo = JSON.parse(fs.readFileSync("info.json"));
 const manual = fs.readFileSync(process.argv[2], "utf-8").split(/\r?\n/);
 
