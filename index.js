@@ -531,6 +531,9 @@ fetch("stat.json").then(r => r.json()).then(stat => {
 		document.getElementById("stat-last-occurrences").appendChild(div);
 	}
 
+	document.getElementById("stat-most-guesses").innerHTML = stat.mostGuesses.value;
+	document.getElementById("stat-most-guesses-date").innerHTML = `(${stat.mostGuesses.date})`;
+
 	// Charts
 	fillPieChart(document.getElementById("pie-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);
 	fillBarGraph(document.getElementById("bar-total-occurrences"), stat.total.x, stat.total.a, stat.total.b, statTab);

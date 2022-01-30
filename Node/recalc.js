@@ -12,12 +12,13 @@ let data = {};
 let stat = {
 	total: { x: 0, a: 0, b: 0 },
 	streak: { x: 0, a: 0, b: 0 },
+	mostGuesses: { value: 0, date: "" },
 	occurrences: []
 };
 
 // Filter
 for (var i = 0; i < idFile.length; i++) {
-	if (idFile[i][0] !== '\t') {
+	if (idFile[i][0] === '*') {
 		idFile.splice(i, 1);
 		nameFile.splice(i, 1);
 		i--;
@@ -28,9 +29,12 @@ for (var i = 0; i < idFile.length; i++) {
 let round = {};
 let streak = 0;
 let previous = "";
+let date = "";
 for (var i in idFile) {
 	const line = idFile[i];
-	if (line[1] === '\t') {
+	if (line[0] !== '\t') {
+		date = line.split(" - ")[0];
+	} else if (line[1] === '\t') {
 		const char = line.trim()[0].toLowerCase();
 
 		// Choose winning option
@@ -47,6 +51,10 @@ for (var i in idFile) {
 			for (let [key, value] of Object.entries(round)) {
 				if (value === char) data[key].wins[value]++;
 				data[key].guesses[value]++;
+			}
+			if (Object.keys(round).length > stat.mostGuesses.value) {
+				stat.mostGuesses.value = Object.keys(round).length;
+				stat.mostGuesses.date = date;
 			}
 			round = {};
 		} else {
