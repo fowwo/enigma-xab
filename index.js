@@ -11,6 +11,8 @@ var activeLeaderboard = document.getElementById("leaderboard-placeholder");
 var activeLeaderboardTab = document.getElementById("th-wins");
 var activeScreen = document.getElementById("leaderboard-container");
 
+var userAbortController = new AbortController();
+
 function generateCircle(x, y, r, color = "black") {
 	let circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
 	circle.setAttribute("cx", x);
@@ -151,9 +153,11 @@ function fillPieChart(pie, x, a, b, tab) {
 	pie.parentElement.insertBefore(label, null);
 
 	if (tab) {
+		let signal;
+		if (tab.id === "nav-user") signal = userAbortController.signal;
 		tab.addEventListener("click", () => {
 			if (activeScreen.id !== `${tab.id.substring(4)}-container`) animate();
-		});
+		}, { signal: signal });
 	}
 
 	animate();
@@ -188,9 +192,11 @@ function fillBarGraph(bar, x, a, b, tab) {
 	bBar.innerHTML = `${b} <span>(${(total ? 100 * b / total : 0).toFixed(2)}%)</span>`;
 
 	if (tab) {
+		let signal;
+		if (tab.id === "nav-user") signal = userAbortController.signal;
 		tab.addEventListener("click", () => {
 			if (activeScreen.id !== `${tab.id.substring(4)}-container`) animate();
-		});
+		}, { signal: signal });
 	}
 
 	animate();
@@ -328,6 +334,9 @@ function searchUser(name) {
 		document.getElementById("user-b-rank").innerHTML = rank(scores.b, User.compareByTotalB);
 
 		// Charts
+		userAbortController.abort();
+		userAbortController = new AbortController();
+
 		const userTab = document.getElementById("nav-user");
 		[ "guesses", "wins" ].forEach((x) => {
 			let pie = document.getElementById(`pie-user-${x}`);
