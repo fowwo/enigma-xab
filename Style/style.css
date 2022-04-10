@@ -1,6 +1,7 @@
 :root {
 	--text-color: #caf;
 	--enigma: #a4f;
+	--enigma-transparent: #a4f8;
 	--dark-enigma: #528;
 	--dark-enigma-transparent: #5288;
 	--red: #faa;
@@ -84,6 +85,7 @@ nav {
 p {
 	margin: 10px 0;
 }
+span.sneaky { text-decoration: dashed underline var(--enigma-transparent); }
 ul {
 	list-style: none;
 	margin: 0;
