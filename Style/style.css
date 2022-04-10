@@ -30,6 +30,15 @@ body {
 	font-family: 'Merienda', cursive;
 	font-size: 15px;
 }
+a {
+	color: var(--blue);
+	text-decoration: none;
+	transition-property: color, text-shadow;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
+}
+a::before { content: "["; }
+a::after { content: "]"; }
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -98,7 +107,7 @@ div.nav-group > div {
 	transition-duration: 100ms;
 	transition-timing-function: linear;
 }
-div.nav-group > div:hover {
+div.nav-group > div:hover, a:hover {
 	color: #fff;
 	text-shadow:
 		0px 2px 0px var(--enigma),
