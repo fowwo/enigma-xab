@@ -223,6 +223,7 @@ function searchUser(name) {
 	
 	if (user.id !== null) {
 		document.getElementById("search-results").style.display = "initial";
+		document.getElementById("search-tip").style.display = "none";
 
 		// Input
 		input.blur();
