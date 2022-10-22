@@ -1,7 +1,7 @@
 :root {
 	--text-color: #caf;
 	--enigma: #a4f;
-	--enigma-transparent: #a4f8;
+	--enigma-transparent: #a4f6;
 	--dark-enigma: #528;
 	--dark-enigma-transparent: #5288;
 	--red: #faa;
@@ -40,6 +40,37 @@ a {
 }
 a::before { content: "["; }
 a::after { content: "]"; }
+button {
+	display: block;
+	border: none;
+	padding: 10px;
+	background-color: var(--enigma-transparent);
+	color: inherit;
+	font: inherit;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px #0004;
+	transition-property: background-color, color, box-shadow, text-shadow;
+	transition-duration: 75ms;
+	transition-timing-function: linear;
+	cursor: pointer;
+	user-select: none;
+}
+button:hover {
+	background-color: var(--enigma);
+	color: #fff;
+}
+button:active {
+	background-color: transparent;
+	color: #fff;
+	box-shadow:
+		0px 0px 15px var(--enigma-transparent),
+		0px 5px 10px inset #0006;
+	text-shadow:
+		0px 2px 0px var(--enigma),
+		0px 0px 5px var(--enigma),
+		0px 0px 10px var(--enigma);
+}
+button > * { display: block; }
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
