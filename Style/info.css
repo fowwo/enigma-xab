@@ -1,0 +1,14 @@
+div#social-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+div#social-buttons > button { width: 50px; height: 50px; }
+div#social-buttons > a.button { width: 30px; height: 30px; }
+div#social-buttons > a.button#Twitch:hover { background-color: #9146ff; }
+div#social-buttons > a.button#Twitter:hover { background-color: #1d9bf0; }
+div#social-buttons > a.button#Discord:hover { background-color: #5865f2; }
+div#social-buttons > a.button#YouTube:hover { background-color: #f00; }
+div#social-buttons > a.button#Instagram:hover { background-color: #f07; }
+div#social-buttons > a.button#Facebook:hover { background-color: #1877f2; }
+div#social-buttons > a.button:active { background-color: transparent !important; }
