@@ -40,7 +40,9 @@ a {
 }
 a::before { content: "["; }
 a::after { content: "]"; }
-button {
+a.button::before { content: none; }
+a.button::after { content: none; }
+button, a.button {
 	display: block;
 	border: none;
 	padding: 10px;
@@ -55,11 +57,11 @@ button {
 	cursor: pointer;
 	user-select: none;
 }
-button:hover {
+button:hover, a.button:hover {
 	background-color: var(--enigma);
 	color: #fff;
 }
-button:active {
+button:active, a.button:active {
 	background-color: transparent;
 	color: #fff;
 	box-shadow:
@@ -70,7 +72,7 @@ button:active {
 		0px 0px 5px var(--enigma),
 		0px 0px 10px var(--enigma);
 }
-button > * { display: block; }
+button > *, a.button > * { display: block; width: 100%; height: 100%; }
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
