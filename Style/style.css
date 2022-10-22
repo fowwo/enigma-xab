@@ -84,7 +84,7 @@ nav {
 	z-index: 1000;
 }
 p {
-	margin: 10px 0;
+	margin: 0 0 10px 0;
 }
 span.sneaky { text-decoration: dashed underline var(--enigma-transparent); }
 ul {
