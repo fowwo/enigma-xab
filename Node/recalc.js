@@ -4,7 +4,7 @@
  * @author fowwo
  */
 
-import fs from "fs";
+const fs = require("fs");
 const idFile = fs.readFileSync("./data/id.txt", "utf-8").split(/\r?\n/);
 const nameFile = fs.readFileSync("./data/name.txt", "utf-8").split(/\r?\n/);
 
